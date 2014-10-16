@@ -1,0 +1,13 @@
+# Site settings
+title: LW Jekyll/GitHub Pages Sandbox
+email: worden.lee@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is a sandbox test site for Lee Worden's experiments with Jekyll
+  and GitHub Pages
+baseurl: "/github-pages-sandbox" # the subpath of your site, e.g. /blog/
+url: "http://leeworden.net" # the base hostname & protocol for your site
+twitter_username: leeworden
+github_username:  worden-lee
+
+# Build settings
+markdown: kramdown

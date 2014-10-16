@@ -1,0 +1,8 @@
+Wed Oct 15 19:04:58 2014
+/usr/bin/make -C /usr/local/src/jekyll-test/github-pages-sandbox \
+    _posts_wmd/2014-10-15-test-working-markdown-post/test.txt
+make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox'
+make: Nothing to be done for `_posts_wmd/2014-10-15-test-working-markdown-post/test.txt'.
+make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox'
+Make succeeded.
+Wed Oct 15 19:04:58 2014

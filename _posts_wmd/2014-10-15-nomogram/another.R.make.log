@@ -1,0 +1,10 @@
+Fri Oct 17 22:52:26 2014
+/usr/bin/make -C \
+    /usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram \
+    another.R
+Including tex.d files: 
+make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram'
+make: Nothing to be done for `another.R'.
+make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram'
+Make succeeded.
+Fri Oct 17 22:52:26 2014

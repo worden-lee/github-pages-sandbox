@@ -1,0 +1,13 @@
+Fri Oct 17 23:22:51 2014
+/usr/bin/make -C \
+    /usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram \
+    nomogram.Rout.pdf
+Including .mk files: example.mk another.mk 
+Including tex.d files: 
+make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram'
+perl -wf /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/pdfcheck.pl nomogram.Rout.pdf 
+PDF file has no pages
+make: *** [nomogram.Rout.pdf] Error 255
+make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram'
+Make failed with exit code 2.
+Fri Oct 17 23:22:51 2014

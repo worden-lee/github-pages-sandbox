@@ -1,0 +1,107 @@
+---
+layout: post
+title:  "Nomogram"
+date:   2014-10-15 19:00:01
+categories: jekyll update
+---
+<h2> Intro </h2>
+
+On this page, I use the free software environment <a href="http://www.r-project.org/">R</a> to construct a <a href="http://en.wikipedia.org/wiki/Nomogram">nomogram</a> that I read about in a recreational math book when I was a kid.  This nomogram solves quadratic equations.
+
+<h2> Nomogram </h2>
+
+You can <!-- print out <project-file filename="nomogram.Rout.pdf" linktext="the nomogram"/>, and --> use a ruler to read off the solutions to the quadratic equation, where the line from <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="\pm b" display="inline"><mrow><mo>±</mo><mi>b</mi></mrow></math></span> to <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="c" display="inline"><mi>c</mi></math></span> intersects the scale.
+
+<p><img src="{{ site.baseurl }}/images/2014-10-15-nomogram/example.Rout.png" alt="(example.Rout.png)"/></p>
+
+The example above shows the solutions to the equation <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="x^{2}-3x-5=0" display="inline"><mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mrow><mn>3</mn><mo>⁢</mo><mi>x</mi></mrow><mo>-</mo><mn>5</mn></mrow><mo>=</mo><mn>0</mn></mrow></math></span>.  The dashed line connecting <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="b" display="inline"><mi>b</mi></math></span> to <source-file filename="4a8a08f09d37b73795649038408b5f33.tex-math" project="/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/4a8a08f09d37b73795649038408b5f33">c</source-file> shows the positive solution (4.2), and the dotted line connecting <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="-b" display="inline"><mrow><mo>-</mo><mi>b</mi></mrow></math></span> to <source-file filename="4a8a08f09d37b73795649038408b5f33.tex-math" project="/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/4a8a08f09d37b73795649038408b5f33">c</source-file> shows the negative solution (-1.2).
+
+<p><img src="{{ site.baseurl }}/images/2014-10-15-nomogram/another.Rout.png" alt="(another.Rout.png)"/></p>
+
+In this example (<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="x^{2}-5x+1=0" display="inline"><mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mrow><mn>5</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mn>1</mn></mrow><mo>=</mo><mn>0</mn></mrow></math></span>), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
+
+<h2> Math </h2> 
+
+We want to draw lines from (0, b) to (1, c) that will pass through a point labeled with <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="r" display="inline"><mi>r</mi></math></span>, where <source-file filename="4b43b0aee35624cd95b910189b3dc231.tex-math" project="/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/4b43b0aee35624cd95b910189b3dc231">r</source-file> is a root, satisfying <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="r^{2}+br+c=0" display="inline"><mrow><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mrow><mi>b</mi><mo>⁢</mo><mi>r</mi></mrow><mo>+</mo><mi>c</mi></mrow><mo>=</mo><mn>0</mn></mrow></math></span>.  The equation for our line is <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="y=b+(c-b)x" display="inline"><mrow><mi>y</mi><mo>=</mo><mrow><mi>b</mi><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mi>c</mi><mo>-</mo><mi>b</mi></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow></mrow></mrow></math></span>.  Solve the quadratic to obtain <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="c=-r^{2}-br" display="inline"><mrow><mi>c</mi><mo>=</mo><mrow><mo>-</mo><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><mrow><mi>b</mi><mo>⁢</mo><mi>r</mi></mrow></mrow></mrow></math></span>, and substitute into the line equation to get <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="y=b-(r^{2}+br+b)x" display="inline"><mrow><mi>y</mi><mo>=</mo><mrow><mi>b</mi><mo>-</mo><mrow><mrow><mo>(</mo><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mrow><mi>b</mi><mo>⁢</mo><mi>r</mi></mrow><mo>+</mo><mi>b</mi></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow></mrow></mrow></math></span>.
+<p>
+If we want all lines corresponding to <source-file filename="4b43b0aee35624cd95b910189b3dc231.tex-math" project="/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/4b43b0aee35624cd95b910189b3dc231">r</source-file> to go through our point, we must find one independent of <source-file filename="92eb5ffee6ae2fec3ad71c777531578f.tex-math" project="/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/92eb5ffee6ae2fec3ad71c777531578f">b</source-file>.  We do this by setting <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="x=1/(r+1)" display="inline"><mrow><mi>x</mi><mo>=</mo><mrow><mn>1</mn><mo>/</mo><mrow><mo>(</mo><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow><mo>)</mo></mrow></mrow></mrow></math></span>, to yield <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="y=-r^{2}/(r+1)" display="inline"><mrow><mi>y</mi><mo>=</mo><mrow><mo>-</mo><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>/</mo><mrow><mo>(</mo><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow><mo>)</mo></mrow></mrow></mrow></mrow></math></span>.
+
+<h2> Code </h2>
+
+Define and call a nomogram function.
+
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>nomogram.R</span></legend><div class="ww-collapsible-content"><pre>dev.off()
+pdf(height=9.5, width=6.5)
+nomogram &lt;- function(xoff=0.1, asp=1/16){
+	plot(NULL, NULL, asp=asp,
+		main = expression(x**2 %+-% bx + c == 0),
+		xlim=c(-xoff, 1+xoff), ylim=c(-10,10), axes=FALSE,
+		xaxs=&quot;i&quot;, yaxs=&quot;i&quot;,
+		xlab=&quot;&quot;, ylab=&quot;&quot;
+	)
+
+	vertical_axis &lt;- function(pos, side=2){
+		axis(side, pos=pos, at=-10:10)
+		axis(side, pos=pos, at= seq(-10, 10, by=0.5), 
+			labels=FALSE, tcl=-0.4)
+		axis(side, pos=pos, at= seq(-10, 10, by=0.1), 
+			labels=FALSE, tcl=-0.2)
+	}
+
+	vertical_axis(0)
+	vertical_axis(1, 4)
+	text(0.05, 9, &quot;b&quot;)
+	text(0.95, 9, &quot;c&quot;)
+
+	r = seq(0, 10, length.out=1001)
+	lines(1/(r+1), -r^2/(r+1))
+
+	rticks &lt;- function(r, tcl, asp=1, labels=FALSE, ll=0.9){
+		x &lt;- 1/(r+1)
+		y &lt;- -r^2/(r+1)
+		yx &lt;- (r^2+2*r)*asp
+		rad &lt;- sqrt(1+yx^2)
+		xp &lt;- 1/(asp*rad)
+		yp &lt;- yx/rad
+		x0 &lt;- x+yp*tcl/2
+		x1 &lt;- x-yp*tcl/2
+		y0 &lt;- y-xp*tcl/2
+		y1 &lt;- y+xp*tcl/2
+		arrows(x0, y0, x1, y1, length=0)
+		if(labels){
+			text(x-ll*yp*tcl, y+ll*xp*tcl, r)
+		}
+	}
+
+	rticks(seq(1, 10, by=1), 0.08, asp, labels=TRUE)
+	rticks(seq(0, 10, by=0.5), 0.05, asp)
+	rticks(seq(0, 4, by=0.1), 0.03, asp)
+	rticks(seq(4, 10, by=0.25), 0.04, asp)
+}
+
+nomogram()
+</pre></div></fieldset>
+
+Use make to make the example code below depend on the R environment from above (using our <a href="http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules">custom R rules</a>).
+
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>example.mk</span></legend><div class="ww-collapsible-content"><pre>example.Rout: nomogram.RData example.R
+</pre></div></fieldset>
+
+Make a nomogram, then define and make example lines.
+
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>example.R</span></legend><div class="ww-collapsible-content"><pre>eqLines &lt;- function(a, b){
+	abline(a, b-a, lty=2, lwd=1.5)
+	abline(-a, b+a, lty=3, lwd=1.5)
+}
+nomogram()
+eqLines(-3, -5)
+</pre></div></fieldset>
+
+Here's another example.
+
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>another.mk</span></legend><div class="ww-collapsible-content"><pre>another.Rout: example.RData
+</pre></div></fieldset>
+
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>another.R</span></legend><div class="ww-collapsible-content"><pre>nomogram()
+eqLines(-5, 1)
+</pre></div></fieldset>

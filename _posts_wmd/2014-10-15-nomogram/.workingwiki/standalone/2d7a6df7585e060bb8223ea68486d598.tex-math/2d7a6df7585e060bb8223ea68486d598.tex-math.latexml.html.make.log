@@ -1,0 +1,11 @@
+Sun Oct 19 01:16:40 2014
+/usr/bin/make -C \
+    /usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/2d7a6df7585e060bb8223ea68486d598.tex-math \
+    2d7a6df7585e060bb8223ea68486d598.tex-math.latexml.html
+Including .mk files:  
+Including tex.d files: 
+make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/2d7a6df7585e060bb8223ea68486d598.tex-math'
+make: `2d7a6df7585e060bb8223ea68486d598.tex-math.latexml.html' is up to date.
+make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/2d7a6df7585e060bb8223ea68486d598.tex-math'
+Make succeeded.
+Sun Oct 19 01:16:40 2014

@@ -6,42 +6,51 @@ categories: jekyll update
 ---
 <h2> Intro </h2>
 
+[This is <a href="http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram">a page from Jonathan Dushoff's math wiki</a>, adapted for use as a test of my Working Markup blog-post system. -lw]
+<p>
 On this page, I use the free software environment <a href="http://www.r-project.org/">R</a> to construct a <a href="http://en.wikipedia.org/wiki/Nomogram">nomogram</a> that I read about in a recreational math book when I was a kid.  This nomogram solves quadratic equations.
 
 <h2> Nomogram </h2>
 
-You can <!-- print out <project-file filename="nomogram.Rout.pdf" linktext="the nomogram"/>, and --> use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-995613286-QINU to UNIQ-WW-1158777795-QINU intersects the scale.
+You can print out UNIQ-WW-1180946952-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-2105515289-QINU to UNIQ-WW-271463652-QINU intersects the scale.
 
-<p>UNIQ-WW-612687597-QINU</p>
+<p>UNIQ-WW-918873961-QINU</p>
 
-The example above shows the solutions to the equation UNIQ-WW-2125833939-QINU.  The dashed line connecting UNIQ-WW-628232247-QINU to <source-file filename="4a8a08f09d37b73795649038408b5f33.tex-math" project="/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/4a8a08f09d37b73795649038408b5f33">c</source-file> shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-926809355-QINU to <source-file filename="4a8a08f09d37b73795649038408b5f33.tex-math" project="/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/4a8a08f09d37b73795649038408b5f33">c</source-file> shows the negative solution (-1.2).
+The example above shows the solutions to the equation UNIQ-WW-2027933211-QINU.  The dashed line connecting UNIQ-WW-1254507595-QINU to UNIQ-WW-366576356-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-671678574-QINU to UNIQ-WW-1642054979-QINU shows the negative solution (-1.2).
 
-<p>UNIQ-WW-787961084-QINU</p>
+<p>UNIQ-WW-1097740052-QINU</p>
 
-In this example (UNIQ-WW-23356197-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
+In this example (UNIQ-WW-836065568-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
 
 <h2> Math </h2> 
 
-We want to draw lines from (0, b) to (1, c) that will pass through a point labeled with UNIQ-WW-978190269-QINU, where <source-file filename="4b43b0aee35624cd95b910189b3dc231.tex-math" project="/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/4b43b0aee35624cd95b910189b3dc231">r</source-file> is a root, satisfying UNIQ-WW-2022487656-QINU.  The equation for our line is UNIQ-WW-1359390386-QINU.  Solve the quadratic to obtain UNIQ-WW-1021085247-QINU, and substitute into the line equation to get UNIQ-WW-200085297-QINU.
+We want to draw lines from UNIQ-WW-1682210477-QINU to UNIQ-WW-1824659008-QINU that will pass through a point labeled with UNIQ-WW-1777600625-QINU, where UNIQ-WW-522472310-QINU is a root, satisfying UNIQ-WW-73486704-QINU.  The equation for our line is UNIQ-WW-1081182626-QINU.  Solve the quadratic to obtain UNIQ-WW-1960986525-QINU, and substitute into the line equation to get UNIQ-WW-391288371-QINU.
 <p>
-If we want all lines corresponding to <source-file filename="4b43b0aee35624cd95b910189b3dc231.tex-math" project="/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/4b43b0aee35624cd95b910189b3dc231">r</source-file> to go through our point, we must find one independent of <source-file filename="92eb5ffee6ae2fec3ad71c777531578f.tex-math" project="/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram/.workingwiki/standalone/92eb5ffee6ae2fec3ad71c777531578f">b</source-file>.  We do this by setting UNIQ-WW-2117545492-QINU, to yield UNIQ-WW-1792172027-QINU.
+If we want all lines corresponding to UNIQ-WW-1902076983-QINU to go through our point, we must find one independent of UNIQ-WW-743120679-QINU.  We do this by setting UNIQ-WW-2100739416-QINU, to yield UNIQ-WW-1893358500-QINU.
 
 <h2> Code </h2>
 
 Define and call a nomogram function.
 
-UNIQ-WW-1225691940-QINU
+UNIQ-WW-1315399729-QINU
 
 Use make to make the example code below depend on the R environment from above (using our <a href="http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules">custom R rules</a>).
 
-UNIQ-WW-2011709553-QINU
+UNIQ-WW-1692029667-QINU
 
 Make a nomogram, then define and make example lines.
 
-UNIQ-WW-863290888-QINU
+UNIQ-WW-674645548-QINU
 
 Here's another example.
 
-UNIQ-WW-2119796862-QINU
+UNIQ-WW-41995462-QINU
 
-UNIQ-WW-922740516-QINU
+UNIQ-WW-1753603918-QINU
+
+<h2> Printable </h2>
+
+UNIQ-WW-464854308-QINU
+
+UNIQ-WW-1881556024-QINU
+

@@ -6,11 +6,13 @@ categories: jekyll update
 ---
 <h2> Intro </h2>
 
+[This is <a href="http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram">a page from Jonathan Dushoff's math wiki</a>, adapted for use as a test of my Working Markup blog-post system. -lw]
+<p>
 On this page, I use the free software environment <a href="http://www.r-project.org/">R</a> to construct a <a href="http://en.wikipedia.org/wiki/Nomogram">nomogram</a> that I read about in a recreational math book when I was a kid.  This nomogram solves quadratic equations.
 
 <h2> Nomogram </h2>
 
-You can <!-- print out <project-file filename="nomogram.Rout.pdf" linktext="the nomogram"/>, and --> use a ruler to read off the solutions to the quadratic equation, where the line from $$\pm b$$ to $$c$$ intersects the scale.
+You can print out <project-file filename="printable.Rout.pdf" linktext="the nomogram"/>, and use a ruler to read off the solutions to the quadratic equation, where the line from $$\pm b$$ to $$c$$ intersects the scale.
 
 <p><project-file filename="example.Rout.png"/></p>
 
@@ -22,7 +24,7 @@ In this example ($$x^2-5x+1 = 0$$), both solutions are positive (0.2 and 4.8), t
 
 <h2> Math </h2> 
 
-We want to draw lines from (0, b) to (1, c) that will pass through a point labeled with $$r$$, where $$r$$ is a root, satisfying $$r^2+br+c=0$$.  The equation for our line is $$y=b+(c-b)x$$.  Solve the quadratic to obtain $$c=-r^2-br$$, and substitute into the line equation to get $$y=b-(r^2+br+b)x$$.
+We want to draw lines from $$(0, b)$$ to $$(1, c)$$ that will pass through a point labeled with $$r$$, where $$r$$ is a root, satisfying $$r^2+br+c=0$$.  The equation for our line is $$y=b+(c-b)x$$.  Solve the quadratic to obtain $$c=-r^2-br$$, and substitute into the line equation to get $$y=b-(r^2+br+b)x$$.
 <p>
 If we want all lines corresponding to $$r$$ to go through our point, we must find one independent of $$b$$.  We do this by setting $$x=1/(r+1)$$, to yield $$y=-r^2/(r+1)$$.
 
@@ -110,3 +112,15 @@ another.Rout: example.RData
 nomogram()
 eqLines(-5, 1)
 </source-file>
+
+<h2> Printable </h2>
+
+<source-file filename="printable.mk" display="source">
+printable.Rout: nomogram.Rout
+</source-file>
+
+<source-file filename="printable.R" display="source">
+# setpdf(height=9.5, width=6.5) # This is a theobio/Rprep magic command
+nomogram()
+</source-file>
+

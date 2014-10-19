@@ -1,0 +1,20 @@
+Sun Oct 19 01:16:38 2014
+/usr/bin/make -C \
+    /usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram \
+    printable.Rout.pdf
+Including .mk files: example.mk another.mk printable.mk 
+Including tex.d files: 
+make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram'
+perl -f /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/Rprep.pl printable.Rout printable.R nomogram.Rout > printable.RR
+/bin/mv -f printable.RData printable.old.RData
+/bin/mv: cannot stat ‘printable.RData’: No such file or directory
+make: [printable.Rout] Error 1 (ignored)
+( (R --vanilla --args  < printable.RR > printable.dmp) 2> printable.Rlog && cat printable.Rlog ) || ! cat printable.Rlog
+perl -wf /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/Rtrim.pl printable.dmp > printable.Rout
+# /bin/mv -f Rplots.pdf printable.Rout.pdf
+rm -f printable.dmp
+rm -f printable.old.RData
+perl -wf /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/pdfcheck.pl printable.Rout.pdf 
+make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/_posts_wmd/2014-10-15-nomogram'
+Make succeeded.
+Sun Oct 19 01:16:39 2014

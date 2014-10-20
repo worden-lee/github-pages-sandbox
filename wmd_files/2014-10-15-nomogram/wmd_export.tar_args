@@ -1,0 +1,11 @@
+--transform=s|usr/local/src/workingwiki-trunk/ProjectEngine/resources|wmd_export/.workingwiki/resources|
+/usr/local/src/workingwiki-trunk/ProjectEngine/resources/
+--transform=s|.|wmd_export|
+./GNUmakefile
+./nomogram.R
+./example.mk
+./example.R
+./another.mk
+./another.R
+./printable.mk
+./printable.R

@@ -12,47 +12,47 @@ On this page, I use the free software environment <a href="http://www.r-project.
 
 <h2> Nomogram </h2>
 
-You can print out UNIQ-WW-1446114621-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-1748717347-QINU to UNIQ-WW-1612027863-QINU intersects the scale.
+You can print out UNIQ-WW-947887753-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-1657805313-QINU to UNIQ-WW-1527785855-QINU intersects the scale.
 
-<p>UNIQ-WW-650846792-QINU</p>
+<p>UNIQ-WW-1910065918-QINU</p>
 
-The example above shows the solutions to the equation UNIQ-WW-1326891665-QINU.  The dashed line connecting UNIQ-WW-1308474007-QINU to UNIQ-WW-1143784039-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-2019925379-QINU to UNIQ-WW-2128837664-QINU shows the negative solution (-1.2).
+The example above shows the solutions to the equation UNIQ-WW-340380015-QINU.  The dashed line connecting UNIQ-WW-789317271-QINU to UNIQ-WW-1653002671-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-59666685-QINU to UNIQ-WW-1267180961-QINU shows the negative solution (-1.2).
 
-<p>UNIQ-WW-1081461179-QINU</p>
+<p>UNIQ-WW-1577677278-QINU</p>
 
-In this example (UNIQ-WW-467144863-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
+In this example (UNIQ-WW-1971903508-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
 
 <h2> Math </h2> 
 
-We want to draw lines from UNIQ-WW-927082283-QINU to UNIQ-WW-1986568950-QINU that will pass through a point labeled with UNIQ-WW-380286393-QINU, where UNIQ-WW-618551682-QINU is a root, satisfying UNIQ-WW-622956370-QINU.  The equation for our line is UNIQ-WW-1522952035-QINU.  Solve the quadratic to obtain UNIQ-WW-2035004877-QINU, and substitute into the line equation to get UNIQ-WW-119378154-QINU.
+We want to draw lines from UNIQ-WW-1660091925-QINU to UNIQ-WW-2096003312-QINU that will pass through a point labeled with UNIQ-WW-472308973-QINU, where UNIQ-WW-2038513123-QINU is a root, satisfying UNIQ-WW-1860871209-QINU.  The equation for our line is UNIQ-WW-796923339-QINU.  Solve the quadratic to obtain UNIQ-WW-446218975-QINU, and substitute into the line equation to get UNIQ-WW-786776932-QINU.
 <p>
-If we want all lines corresponding to UNIQ-WW-1696599816-QINU to go through our point, we must find one independent of UNIQ-WW-432116303-QINU.  We do this by setting UNIQ-WW-420524321-QINU, to yield UNIQ-WW-1587709590-QINU.
+If we want all lines corresponding to UNIQ-WW-103961349-QINU to go through our point, we must find one independent of UNIQ-WW-900194139-QINU.  We do this by setting UNIQ-WW-1874407058-QINU, to yield UNIQ-WW-1226117516-QINU.
 
 <h2> Code </h2>
 
 Define and call a nomogram function.
 
-UNIQ-WW-822497804-QINU
+UNIQ-WW-2009580320-QINU
 
 Use make to make the example code below depend on the R environment from above (using our <a href="http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules">custom R rules</a>).
 
-UNIQ-WW-419568419-QINU
+UNIQ-WW-2134596887-QINU
 
 Make a nomogram, then define and make example lines.
 
-UNIQ-WW-1095536710-QINU
+UNIQ-WW-205155874-QINU
 
 Here's another example.
 
-UNIQ-WW-1885707578-QINU
+UNIQ-WW-813225036-QINU
 
-UNIQ-WW-337688257-QINU
+UNIQ-WW-1593234046-QINU
 
 <h2> Printable </h2>
 
-UNIQ-WW-513896343-QINU
+UNIQ-WW-1501474493-QINU
 
-UNIQ-WW-556861144-QINU
+UNIQ-WW-1414887552-QINU
 
 <h2> Export source code </h2>
 
@@ -60,6 +60,6 @@ This project is designed for reproducible research.
 <ul>
 <li> This entire website (including the source text of this blog post, with all the source code included) is available for cloning at https://github.com/worden-lee/github-pages-sandbox.  I'm planning to write instructions for processing it soon.
 <li> To reproduce the full blog post you'll need to have the following installed: Jekyll, git, R, latexml, GNU make, perl (and maybe other things - bug reports welcome).
-<li> Here is an automatically-generated tar file of the source file contents: UNIQ-WW-812409861-QINU.  You should be able to unpack this directory and simply run 'make example.Rout.png' to build the first image above, and similar commands to build the other output files.
+<li> Here is an automatically-generated tar file of the source file contents: UNIQ-WW-1253495802-QINU.  You should be able to unpack this directory and simply run 'make example.Rout.png' to build the first image above, and similar commands to build the other output files.
 <li> To reproduce these outputs you will need GNU make, perl, and R installed.
 </ul>

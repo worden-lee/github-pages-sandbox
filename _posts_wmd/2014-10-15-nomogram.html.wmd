@@ -124,3 +124,12 @@ printable.Rout: nomogram.Rout
 nomogram()
 </source-file>
 
+<h2> Export source code </h2>
+
+This project is designed for reproducible research. 
+<ul>
+<li> This entire website (including the source text of this blog post, with all the source code included) is available for cloning at https://github.com/worden-lee/github-pages-sandbox.  I'm planning to write instructions for processing it soon.
+<li> To reproduce the full blog post you'll need to have the following installed: Jekyll, git, R, latexml, GNU make, perl (and maybe other things - bug reports welcome).
+<li> Here is an automatically-generated tar file of the source file contents: <project-file filename="wmd_export.tgz"/>.  You should be able to unpack this directory and simply run 'make example.Rout.png' to build the first image above, and similar commands to build the other output files.
+<li> To reproduce these outputs you will need GNU make, perl, and R installed.
+</ul>

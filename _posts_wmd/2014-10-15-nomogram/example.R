@@ -1,6 +1,0 @@
-eqLines <- function(a, b){
-	abline(a, b-a, lty=2, lwd=1.5)
-	abline(-a, b+a, lty=3, lwd=1.5)
-}
-nomogram()
-eqLines(-3, -5)

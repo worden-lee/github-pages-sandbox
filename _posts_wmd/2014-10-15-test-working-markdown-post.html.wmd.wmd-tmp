@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Working Markdown test"
+date:   2014-10-15 18:33:50
+categories: jekyll update
+---
+This is a test of our Working-Markdown processing.
+
+Here is an interpolated project file:
+UNIQ-WW-1907624060-QINU
+
+And here is some more markdown text.

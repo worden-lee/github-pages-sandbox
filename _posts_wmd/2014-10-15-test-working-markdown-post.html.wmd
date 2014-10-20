@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Working Markdown test"
+date:   2014-10-15 18:33:50
+categories: jekyll update
+---
+This is a test of our Working-Markdown processing.
+
+Here is an interpolated project file:
+<project-file filename="test.txt"/>
+
+And here is some more markdown text.

@@ -15,65 +15,65 @@ On this page, I use the free software environment <a href="http://www.r-project.
 <h2> Nomogram </h2>
 
 You can print out 
-token: UNIQ-WW-1180946952-QINU
+token: UNIQ-WW-1390576362-QINU
 keep text: , and use a ruler to read off the solutions to the quadratic equation, where the line from 
-token: UNIQ-WW-2105515289-QINU
+token: UNIQ-WW-1255870046-QINU
 keep text:  to 
-token: UNIQ-WW-271463652-QINU
+token: UNIQ-WW-394376131-QINU
 keep text:  intersects the scale.
 
 <p>
-token: UNIQ-WW-918873961-QINU
+token: UNIQ-WW-1118166658-QINU
 keep text: </p>
 
 The example above shows the solutions to the equation 
-token: UNIQ-WW-2027933211-QINU
+token: UNIQ-WW-1689241167-QINU
 keep text: .  The dashed line connecting 
-token: UNIQ-WW-1254507595-QINU
+token: UNIQ-WW-632298223-QINU
 keep text:  to 
-token: UNIQ-WW-366576356-QINU
+token: UNIQ-WW-1624641653-QINU
 keep text:  shows the positive solution (4.2), and the dotted line connecting 
-token: UNIQ-WW-671678574-QINU
+token: UNIQ-WW-2131291241-QINU
 keep text:  to 
-token: UNIQ-WW-1642054979-QINU
+token: UNIQ-WW-286595480-QINU
 keep text:  shows the negative solution (-1.2).
 
 <p>
-token: UNIQ-WW-1097740052-QINU
+token: UNIQ-WW-1352569680-QINU
 keep text: </p>
 
 In this example (
-token: UNIQ-WW-836065568-QINU
+token: UNIQ-WW-954366656-QINU
 keep text: ), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
 
 <h2> Math </h2> 
 
 We want to draw lines from 
-token: UNIQ-WW-1682210477-QINU
+token: UNIQ-WW-190825932-QINU
 keep text:  to 
-token: UNIQ-WW-1824659008-QINU
+token: UNIQ-WW-564574905-QINU
 keep text:  that will pass through a point labeled with 
-token: UNIQ-WW-1777600625-QINU
+token: UNIQ-WW-423410937-QINU
 keep text: , where 
-token: UNIQ-WW-522472310-QINU
+token: UNIQ-WW-765372704-QINU
 keep text:  is a root, satisfying 
-token: UNIQ-WW-73486704-QINU
+token: UNIQ-WW-1103865806-QINU
 keep text: .  The equation for our line is 
-token: UNIQ-WW-1081182626-QINU
+token: UNIQ-WW-1144268039-QINU
 keep text: .  Solve the quadratic to obtain 
-token: UNIQ-WW-1960986525-QINU
+token: UNIQ-WW-1024595569-QINU
 keep text: , and substitute into the line equation to get 
-token: UNIQ-WW-391288371-QINU
+token: UNIQ-WW-1765660722-QINU
 keep text: .
 <p>
 If we want all lines corresponding to 
-token: UNIQ-WW-1902076983-QINU
+token: UNIQ-WW-306749827-QINU
 keep text:  to go through our point, we must find one independent of 
-token: UNIQ-WW-743120679-QINU
+token: UNIQ-WW-1390764285-QINU
 keep text: .  We do this by setting 
-token: UNIQ-WW-2100739416-QINU
+token: UNIQ-WW-1215572465-QINU
 keep text: , to yield 
-token: UNIQ-WW-1893358500-QINU
+token: UNIQ-WW-912021092-QINU
 keep text: .
 
 <h2> Code </h2>
@@ -81,36 +81,36 @@ keep text: .
 Define and call a nomogram function.
 
 
-token: UNIQ-WW-1315399729-QINU
+token: UNIQ-WW-2042921850-QINU
 keep text: 
 
 Use make to make the example code below depend on the R environment from above (using our <a href="http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules">custom R rules</a>).
 
 
-token: UNIQ-WW-1692029667-QINU
+token: UNIQ-WW-1811481044-QINU
 keep text: 
 
 Make a nomogram, then define and make example lines.
 
 
-token: UNIQ-WW-674645548-QINU
+token: UNIQ-WW-1525491174-QINU
 keep text: 
 
 Here's another example.
 
 
-token: UNIQ-WW-41995462-QINU
+token: UNIQ-WW-1491372562-QINU
 keep text: 
 
 
-token: UNIQ-WW-1753603918-QINU
+token: UNIQ-WW-797614014-QINU
 keep text: 
 
 <h2> Printable </h2>
 
 
-token: UNIQ-WW-464854308-QINU
+token: UNIQ-WW-1992056203-QINU
 keep text: 
 
 
-token: UNIQ-WW-1881556024-QINU
+token: UNIQ-WW-107881922-QINU

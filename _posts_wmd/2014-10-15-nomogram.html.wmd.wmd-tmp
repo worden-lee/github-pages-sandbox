@@ -12,45 +12,45 @@ On this page, I use the free software environment <a href="http://www.r-project.
 
 <h2> Nomogram </h2>
 
-You can print out UNIQ-WW-1180946952-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-2105515289-QINU to UNIQ-WW-271463652-QINU intersects the scale.
+You can print out UNIQ-WW-1390576362-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-1255870046-QINU to UNIQ-WW-394376131-QINU intersects the scale.
 
-<p>UNIQ-WW-918873961-QINU</p>
+<p>UNIQ-WW-1118166658-QINU</p>
 
-The example above shows the solutions to the equation UNIQ-WW-2027933211-QINU.  The dashed line connecting UNIQ-WW-1254507595-QINU to UNIQ-WW-366576356-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-671678574-QINU to UNIQ-WW-1642054979-QINU shows the negative solution (-1.2).
+The example above shows the solutions to the equation UNIQ-WW-1689241167-QINU.  The dashed line connecting UNIQ-WW-632298223-QINU to UNIQ-WW-1624641653-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-2131291241-QINU to UNIQ-WW-286595480-QINU shows the negative solution (-1.2).
 
-<p>UNIQ-WW-1097740052-QINU</p>
+<p>UNIQ-WW-1352569680-QINU</p>
 
-In this example (UNIQ-WW-836065568-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
+In this example (UNIQ-WW-954366656-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
 
 <h2> Math </h2> 
 
-We want to draw lines from UNIQ-WW-1682210477-QINU to UNIQ-WW-1824659008-QINU that will pass through a point labeled with UNIQ-WW-1777600625-QINU, where UNIQ-WW-522472310-QINU is a root, satisfying UNIQ-WW-73486704-QINU.  The equation for our line is UNIQ-WW-1081182626-QINU.  Solve the quadratic to obtain UNIQ-WW-1960986525-QINU, and substitute into the line equation to get UNIQ-WW-391288371-QINU.
+We want to draw lines from UNIQ-WW-190825932-QINU to UNIQ-WW-564574905-QINU that will pass through a point labeled with UNIQ-WW-423410937-QINU, where UNIQ-WW-765372704-QINU is a root, satisfying UNIQ-WW-1103865806-QINU.  The equation for our line is UNIQ-WW-1144268039-QINU.  Solve the quadratic to obtain UNIQ-WW-1024595569-QINU, and substitute into the line equation to get UNIQ-WW-1765660722-QINU.
 <p>
-If we want all lines corresponding to UNIQ-WW-1902076983-QINU to go through our point, we must find one independent of UNIQ-WW-743120679-QINU.  We do this by setting UNIQ-WW-2100739416-QINU, to yield UNIQ-WW-1893358500-QINU.
+If we want all lines corresponding to UNIQ-WW-306749827-QINU to go through our point, we must find one independent of UNIQ-WW-1390764285-QINU.  We do this by setting UNIQ-WW-1215572465-QINU, to yield UNIQ-WW-912021092-QINU.
 
 <h2> Code </h2>
 
 Define and call a nomogram function.
 
-UNIQ-WW-1315399729-QINU
+UNIQ-WW-2042921850-QINU
 
 Use make to make the example code below depend on the R environment from above (using our <a href="http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules">custom R rules</a>).
 
-UNIQ-WW-1692029667-QINU
+UNIQ-WW-1811481044-QINU
 
 Make a nomogram, then define and make example lines.
 
-UNIQ-WW-674645548-QINU
+UNIQ-WW-1525491174-QINU
 
 Here's another example.
 
-UNIQ-WW-41995462-QINU
+UNIQ-WW-1491372562-QINU
 
-UNIQ-WW-1753603918-QINU
+UNIQ-WW-797614014-QINU
 
 <h2> Printable </h2>
 
-UNIQ-WW-464854308-QINU
+UNIQ-WW-1992056203-QINU
 
-UNIQ-WW-1881556024-QINU
+UNIQ-WW-107881922-QINU
 

@@ -1,0 +1,6 @@
+--transform=s|usr/local/src/workingwiki-trunk/ProjectEngine/resources|wmd_export/.workingwiki/resources|
+/usr/local/src/workingwiki-trunk/ProjectEngine/resources/
+--transform=s|.|wmd_export|
+./GNUmakefile
+./ode-system-demo.sage.step
+./libraries.mk

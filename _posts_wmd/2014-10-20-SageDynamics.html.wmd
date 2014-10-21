@@ -131,7 +131,7 @@ $(SageUtils)/% :
 Here are instructions to run this Sage code yourself.  You will need Sage, GNU make, git, perl, and maybe some other utilities installed.
 <ul>
 <li> Download and unpack the source code from this page: <project-file filename="wmd_export.tgz"/>
-<li> Clone the Sage code from Git: <a href="https://github.com/worden-lee/SageDynamics">https://github.com/worden-lee/SageDynamics</a>
+<li> Clone the Sage library code from Git: <a href="https://github.com/worden-lee/SageDynamics">https://github.com/worden-lee/SageDynamics</a>
 <li> In the code directory from this page, edit the makefile "<tt>libraries.mk</tt>" so that it has the correct locations for the SageUtils and SageDynamics directories that you checked out from Git.
 <li> In the code directory, run "<tt>make ode-system-demo.sage.out.tex</tt>"
 </ul>

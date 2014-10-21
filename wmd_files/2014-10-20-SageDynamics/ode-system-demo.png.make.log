@@ -1,0 +1,12 @@
+Mon Oct 20 20:18:30 2014
+/usr/bin/make -C \
+    /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics \
+    ode-system-demo.png
+Including .mk files: libraries.mk 
+Including .mk files from .step files: ode-system-demo.sage.mk
+Including tex.d files: ode-system-demo.sage.out.tex.d
+make[1]: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics'
+make[1]: `ode-system-demo.png' is up to date.
+make[1]: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics'
+Make succeeded.
+Mon Oct 20 20:18:30 2014

@@ -1,0 +1,250 @@
+---
+layout: post
+title:  "Sage Dynamics Demo"
+date:   2014-10-20 19:00:01
+categories: jekyll update
+---
+<h2> Intro </h2>
+<p>
+[This is an adaptation of <a href="http://lalashan.mcmaster.ca/theobio/worden/index.php/SageDynamics/Demo">a page from my open lab notebook wiki</a>, as a demo of my Working Markup blog-post system. -lw]
+<p>
+This post demonstrates a set of <a href="http://www.sagemath.org/">Sage</a> classes I wrote to work with continuous-time dynamical systems, the kind of system my colleagues and I use a lot as mathematical models.
+<p>
+The computations in this blog post are implemented in two parts.  The Sage class library is kept in a <a href="https://github.com/worden-lee/SageDynamics">GitHub repository by itself</a>, and the Sage scripts that use the library to implement a simple demo system on this page are stored as part of this page.
+<p>
+On this page I use those Sage classes to construct a <a href="http://www.tiem.utk.edu/~gross/bioed/bealsmodules/competition.html">simple population biology model</a> of two populations, and analyze and evaluate it.
+<p>
+Here's what the Sage program prints out, in LaTeX format:
+<p>
+{% raw %}
+<div class="latexml">
+
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<section class="ltx_document">
+<div id="p1" class="ltx_para">
+<p class="ltx_p">The generic competition model:</p>
+<table id="S0.Ex1" class="ltx_equationgroup">
+
+<tr id="S0.Ex1X" class="ltx_equation ltx_align_baseline">
+<td class="ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1X.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{1}}{dt}" display="inline"><semantics><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle><annotation encoding="application/x-tex">\displaystyle\frac{dN_{1}}{dt}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1X.m3" class="ltx_Math" alttext="\displaystyle=-\frac{{\left(N_{2}\alpha_{12}-K_{1}+N_{1}\right)}N_{1}r_{1}}{K_%
+{1}}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mo>(</mo><mrow><mrow><msub><mi>N</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>12</mn></msub></mrow><mo>-</mo><msub><mi>K</mi><mn>1</mn></msub><mo>+</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>r</mi><mn>1</mn></msub></mrow><msub><mi>K</mi><mn>1</mn></msub></mfrac></mstyle></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=-\frac{{\left(N_{2}\alpha_{12}-K_{1}+N_{1}\right)}N_{1}r_{1}}{K_%
+{1}}</annotation></semantics></math></td>
+<td class="ltx_eqn_center_padright"></td>
+</tr>
+<tr id="S0.Ex1Xa" class="ltx_equation ltx_align_baseline">
+<td class="ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1Xa.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{2}}{dt}" display="inline"><semantics><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle><annotation encoding="application/x-tex">\displaystyle\frac{dN_{2}}{dt}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex1Xa.m3" class="ltx_Math" alttext="\displaystyle=-\frac{{\left(N_{1}\alpha_{21}-K_{2}+N_{2}\right)}N_{2}r_{2}}{K_%
+{2}}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mo>(</mo><mrow><mrow><msub><mi>N</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>21</mn></msub></mrow><mo>-</mo><msub><mi>K</mi><mn>2</mn></msub><mo>+</mo><msub><mi>N</mi><mn>2</mn></msub></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>r</mi><mn>2</mn></msub></mrow><msub><mi>K</mi><mn>2</mn></msub></mfrac></mstyle></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=-\frac{{\left(N_{1}\alpha_{21}-K_{2}+N_{2}\right)}N_{2}r_{2}}{K_%
+{2}}</annotation></semantics></math></td>
+<td class="ltx_eqn_center_padright"></td>
+</tr>
+</table>
+<p class="ltx_p">The competition model with parameters bound to specific values:</p>
+<table id="S0.Ex2" class="ltx_equationgroup">
+
+<tr id="S0.Ex2X" class="ltx_equation ltx_align_baseline">
+<td class="ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex2X.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{1}}{dt}" display="inline"><semantics><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle><annotation encoding="application/x-tex">\displaystyle\frac{dN_{1}}{dt}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex2X.m3" class="ltx_Math" alttext="\displaystyle=-\frac{1}{2}\,{\left(2\,N_{1}+N_{2}-2\right)}N_{1}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mrow><mpadded width="+1.7pt"><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mpadded><mo>⁢</mo><mrow><mo>(</mo><mrow><mrow><mpadded width="+1.7pt"><mn>2</mn></mpadded><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mo>+</mo><msub><mi>N</mi><mn>2</mn></msub><mo>-</mo><mn>2</mn></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=-\frac{1}{2}\,{\left(2\,N_{1}+N_{2}-2\right)}N_{1}</annotation></semantics></math></td>
+<td class="ltx_eqn_center_padright"></td>
+</tr>
+<tr id="S0.Ex2Xa" class="ltx_equation ltx_align_baseline">
+<td class="ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex2Xa.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{2}}{dt}" display="inline"><semantics><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle><annotation encoding="application/x-tex">\displaystyle\frac{dN_{2}}{dt}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex2Xa.m3" class="ltx_Math" alttext="\displaystyle=-\frac{1}{5}\,{\left(2\,N_{1}+4\,N_{2}-5\right)}N_{2}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mrow><mpadded width="+1.7pt"><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>5</mn></mfrac></mstyle></mpadded><mo>⁢</mo><mrow><mo>(</mo><mrow><mrow><mpadded width="+1.7pt"><mn>2</mn></mpadded><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mo>+</mo><mrow><mpadded width="+1.7pt"><mn>4</mn></mpadded><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow><mo>-</mo><mn>5</mn></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=-\frac{1}{5}\,{\left(2\,N_{1}+4\,N_{2}-5\right)}N_{2}</annotation></semantics></math></td>
+<td class="ltx_eqn_center_padright"></td>
+</tr>
+</table>
+<p class="ltx_p">Equilibria of the generic model:</p>
+<table id="S0.Ex3" class="ltx_equation">
+
+<tr class="ltx_equation ltx_align_baseline">
+<td class="ltx_eqn_center_padleft"></td>
+<td class="ltx_align_center"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex3.m1" class="ltx_Math" alttext="\left(\begin{array}[]{c}0\\
+0\end{array}\right)" display="block"><semantics><mrow><mo>(</mo><mtable align="center" columnspacing="0.4em" rowspacing="0.2ex"><mtr><mtd columnalign="center"><mn>0</mn></mtd></mtr><mtr><mtd columnalign="center"><mn>0</mn></mtd></mtr></mtable><mo>)</mo></mrow><annotation encoding="application/x-tex">\left(\begin{array}[]{c}0\\
+0\end{array}\right)</annotation></semantics></math></td>
+<td class="ltx_eqn_center_padright"></td>
+</tr>
+</table>
+</div>
+<div id="p2" class="ltx_para">
+<table id="S0.Ex4" class="ltx_equation">
+
+<tr class="ltx_equation ltx_align_baseline">
+<td class="ltx_eqn_center_padleft"></td>
+<td class="ltx_align_center"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex4.m1" class="ltx_Math" alttext="\left(\begin{array}[]{c}K_{1}\\
+0\end{array}\right)" display="block"><semantics><mrow><mo>(</mo><mtable align="center" columnspacing="0.4em" rowspacing="0.2ex"><mtr><mtd columnalign="center"><msub><mi>K</mi><mn>1</mn></msub></mtd></mtr><mtr><mtd columnalign="center"><mn>0</mn></mtd></mtr></mtable><mo>)</mo></mrow><annotation encoding="application/x-tex">\left(\begin{array}[]{c}K_{1}\\
+0\end{array}\right)</annotation></semantics></math></td>
+<td class="ltx_eqn_center_padright"></td>
+</tr>
+</table>
+</div>
+<div id="p3" class="ltx_para">
+<table id="S0.Ex5" class="ltx_equation">
+
+<tr class="ltx_equation ltx_align_baseline">
+<td class="ltx_eqn_center_padleft"></td>
+<td class="ltx_align_center"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex5.m1" class="ltx_Math" alttext="\left(\begin{array}[]{c}0\\
+K_{2}\end{array}\right)" display="block"><semantics><mrow><mo>(</mo><mtable align="center" columnspacing="0.4em" rowspacing="0.2ex"><mtr><mtd columnalign="center"><mn>0</mn></mtd></mtr><mtr><mtd columnalign="center"><msub><mi>K</mi><mn>2</mn></msub></mtd></mtr></mtable><mo>)</mo></mrow><annotation encoding="application/x-tex">\left(\begin{array}[]{c}0\\
+K_{2}\end{array}\right)</annotation></semantics></math></td>
+<td class="ltx_eqn_center_padright"></td>
+</tr>
+</table>
+</div>
+<div id="p4" class="ltx_para">
+<table id="S0.Ex6" class="ltx_equation">
+
+<tr class="ltx_equation ltx_align_baseline">
+<td class="ltx_eqn_center_padleft"></td>
+<td class="ltx_align_center"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex6.m1" class="ltx_Math" alttext="\left(\begin{array}[]{c}\frac{K_{2}\alpha_{12}-K_{1}}{\alpha_{12}\alpha_{21}-1%
+}\\
+\frac{K_{1}\alpha_{21}-K_{2}}{\alpha_{12}\alpha_{21}-1}\end{array}\right)" display="block"><semantics><mrow><mo>(</mo><mtable align="center" columnspacing="0.4em" rowspacing="0.2ex"><mtr><mtd columnalign="center"><mfrac><mrow><mrow><msub><mi>K</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>12</mn></msub></mrow><mo>-</mo><msub><mi>K</mi><mn>1</mn></msub></mrow><mrow><mrow><msub><mi>α</mi><mn>12</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>21</mn></msub></mrow><mo>-</mo><mn>1</mn></mrow></mfrac></mtd></mtr><mtr><mtd columnalign="center"><mfrac><mrow><mrow><msub><mi>K</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>21</mn></msub></mrow><mo>-</mo><msub><mi>K</mi><mn>2</mn></msub></mrow><mrow><mrow><msub><mi>α</mi><mn>12</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>21</mn></msub></mrow><mo>-</mo><mn>1</mn></mrow></mfrac></mtd></mtr></mtable><mo>)</mo></mrow><annotation encoding="application/x-tex">\left(\begin{array}[]{c}\frac{K_{2}\alpha_{12}-K_{1}}{\alpha_{12}\alpha_{21}-1%
+}\\
+\frac{K_{1}\alpha_{21}-K_{2}}{\alpha_{12}\alpha_{21}-1}\end{array}\right)</annotation></semantics></math></td>
+<td class="ltx_eqn_center_padright"></td>
+</tr>
+</table>
+<p class="ltx_p">Stable equilibria of the bound model:</p>
+<table id="S0.Ex7" class="ltx_equation">
+
+<tr class="ltx_equation ltx_align_baseline">
+<td class="ltx_eqn_center_padleft"></td>
+<td class="ltx_align_center"><math xmlns="http://www.w3.org/1998/Math/MathML" id="S0.Ex7.m1" class="ltx_Math" alttext="\left(\begin{array}[]{c}\frac{1}{2}\\
+1\end{array}\right)" display="block"><semantics><mrow><mo>(</mo><mtable align="center" columnspacing="0.4em" rowspacing="0.2ex"><mtr><mtd columnalign="center"><mfrac><mn>1</mn><mn>2</mn></mfrac></mtd></mtr><mtr><mtd columnalign="center"><mn>1</mn></mtd></mtr></mtable><mo>)</mo></mrow><annotation encoding="application/x-tex">\left(\begin{array}[]{c}\frac{1}{2}\\
+1\end{array}\right)</annotation></semantics></math></td>
+<td class="ltx_eqn_center_padright"></td>
+</tr>
+</table>
+</div>
+</section>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Mon Oct 20 20:18:30 2014 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+</div></footer>
+</div>
+
+
+<br clear='all'/>
+</div>
+
+{% endraw %}
+
+<p>
+Here's the state space plot that the program creates, showing a representative trajectory of the model's dynamics, with flow vector field and zero-net-growth isoclines:
+<p>
+<img src="{{ site.baseurl }}/wmd_files/2014-10-20-SageDynamics/ode-system-demo.png" alt="(ode-system-demo.png)"/>
+<p>
+And a bifurcation diagram of total population vs. {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="\alpha_{12}" display="inline"><msub><mi>α</mi><mn>12</mn></msub></math></span>
+{% endraw %}
+ (black=stable, red=repelling point, blue=saddle):
+<p>
+<img src="{{ site.baseurl }}/wmd_files/2014-10-20-SageDynamics/bifurcation-diagram.png" alt="(bifurcation-diagram.png)"/>
+<p>
+<h2> Source code </h2>
+
+Here is the source code for this page's demo:
+<p>
+{% raw %}
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>ode-system-demo.sage.step</span></legend><div class="ww-collapsible-content"><pre># requires: $(SageDynamics)/dynamicalsystems.py $(SageUtils)/latex_output.py
+# produces: ode-system-demo.sage.out.tex ode-system-demo.png bifurcation-diagram.png
+
+# use the dynamicalsystems module from SageDynamics
+sys.path.append( os.environ['SageDynamics'] )
+from dynamicalsystems import *
+# use the latex_output module from SageUtils
+sys.path.append( os.environ['SageUtils'] )
+from latex_output import *
+
+# I'll use a simple competition model borrowed from 
+# http://www.tiem.utk.edu/~gross/bioed/bealsmodules/competition.html
+
+# make variables for easy use
+N_1, N_2, r_1, r_2, K_1, K_2 = SR.var( 'N_1, N_2, r_1, r_2, K_1, K_2' )
+# alpha variables have special latex formatting for the double subscripts
+alpha_12 = SR.var( 'alpha_12', latex_name='\\alpha_{12}' )
+alpha_21 = SR.var( 'alpha_21', latex_name='\\alpha_{21}' )
+
+# create the competition model by providing flow equations and state variables
+comp_system_generic = ODE_system(
+    { N_1: r_1 * N_1 * (K_1 - N_1 - alpha_12 * N_2) / K_1,
+      N_2: r_2 * N_2 * (K_2 - alpha_21 * N_1 - N_2) / K_2 },
+    [ N_1, N_2 ] )
+
+# write output into a tex file
+ltx = latex_output( 'ode-system-demo.sage.out.tex' )
+
+ltx.write( 'The generic competition model:' )
+ltx.write_block( comp_system_generic )
+
+# and create a specific instantiation of the model by binding parameters
+# it has a nontrivial solution if K_1/alpha_12 &gt; K_2 and K_2/alpha_21 &gt; K_1
+comp_system_stable = comp_system_generic.bind( {
+  K_1 : 1, K_2 : 5/4, alpha_12 : 1/2, alpha_21 : 1/2,
+  r_1 : 1, r_2 : 1 } )
+
+ltx.write( 'The competition model with parameters bound to specific values:' )
+ltx.write_block( comp_system_stable )
+
+# find the equilibria
+ltx.write( 'Equilibria of the generic model: ' )
+for eq in comp_system_generic.equilibria():
+  ltx.write_block( column_vector( [ eq[N_1], eq[N_2] ] ) )
+
+# and check stability of the bound ones
+ltx.write( 'Stable equilibria of the bound model: ' )
+for eq in comp_system_stable.stable_equilibria():
+  ltx.write_block( column_vector( [ eq[N_1], eq[N_2] ] ) )
+
+# solve numerically given starting time and initial conditions
+s = comp_system_stable.solve( [0, 0.05, 0.02] )
+
+# plot the system as a vector field on the x-y plane
+p = comp_system_stable.plot_vector_field( (N_1,0,1.3), (N_2,0,1.3), color='gray', figsize=(5,5) )
+# plot population nullclines
+# (there is a plot_ZNGIs method for this, but to use it I'd need to
+# be using the PopulationDynamicsSystem subclass)
+p += comp_system_stable.plot_isoclines( (N_1,0,1.3), (N_2,0,1.3), [(N_1,0),(N_2,0)], color='gray' )
+# superimpose the numerically-solved trajectory onto the same plot
+p += s.plot( N_1, N_2, color='red' )
+p.axes_labels( [ '$N_1$', '$N_2$' ] )
+# render the plot into a png file
+p.save( 'ode-system-demo.png' )
+
+# and now do bifurcation diagram
+
+# bind all parameters except the bifurcation parameter
+comp_system_b = comp_system_generic.bind( {
+  K_1 : 1, K_2 : 5/4, alpha_21 : 1/2, # bind everything except alpha_12
+  r_1 : 1, r_2 : 1 } )
+# and do plot of equilibrium population as a function of varying parameter
+# alpha_12, color coded by whether the equilibrium is stable
+comp_system_b.plot_bifurcation_diagram( (alpha_12, -5, 5), (N_1 + N_2, -5, 5), filename='bifurcation-diagram.png', figsize=(5,5) )
+
+# and close the latex output
+ltx.close()
+</pre></div></fieldset>
+{% endraw %}
+
+
+And a small makefile to get the above Sage code to connect with the libraries pulled from GitHub into a separate directory:
+{% raw %}
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>libraries.mk</span></legend><div class="ww-collapsible-content"><pre>export SageUtils=../SageDynamics/SageUtils
+export SageDynamics=../SageDynamics/SageDynamics
+
+$(SageDynamics)/* :
+	$(MAKE) -C $(SageDynamics) $*
+ 
+$(SageUtils)/% :
+	$(MAKE) -C $(SageUtils) $*
+ 
+# The good makefile stuff is upstream, just reuse it
+-include $(SageUtils)/sage.mk
+-include $(SageUtils)/step.mk
+</pre></div></fieldset>
+{% endraw %}
+

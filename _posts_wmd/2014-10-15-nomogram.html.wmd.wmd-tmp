@@ -5,54 +5,54 @@ date:   2014-10-15 19:00:01
 categories: jekyll update
 ---
 <h2> Intro </h2>
-
+<p>
 [This is <a href="http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram">a page from Jonathan Dushoff's math wiki</a>, adapted for use as a test of my Working Markup blog-post system. -lw]
 <p>
 On this page, I use the free software environment <a href="http://www.r-project.org/">R</a> to construct a <a href="http://en.wikipedia.org/wiki/Nomogram">nomogram</a> that I read about in a recreational math book when I was a kid.  This nomogram solves quadratic equations.
 
 <h2> Nomogram </h2>
 
-You can print out UNIQ-WW-947887753-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-1657805313-QINU to UNIQ-WW-1527785855-QINU intersects the scale.
+You can print out UNIQ-WW-1204585808-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-1624310874-QINU to UNIQ-WW-1169726343-QINU intersects the scale.
 
-<p>UNIQ-WW-1910065918-QINU</p>
+<p>UNIQ-WW-2127555844-QINU</p>
 
-The example above shows the solutions to the equation UNIQ-WW-340380015-QINU.  The dashed line connecting UNIQ-WW-789317271-QINU to UNIQ-WW-1653002671-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-59666685-QINU to UNIQ-WW-1267180961-QINU shows the negative solution (-1.2).
+The example above shows the solutions to the equation UNIQ-WW-1655513580-QINU.  The dashed line connecting UNIQ-WW-747702070-QINU to UNIQ-WW-972106018-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-601027965-QINU to UNIQ-WW-1067606475-QINU shows the negative solution (-1.2).
 
-<p>UNIQ-WW-1577677278-QINU</p>
+<p>UNIQ-WW-816098087-QINU</p>
 
-In this example (UNIQ-WW-1971903508-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
+In this example (UNIQ-WW-1575865537-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
 
 <h2> Math </h2> 
-
-We want to draw lines from UNIQ-WW-1660091925-QINU to UNIQ-WW-2096003312-QINU that will pass through a point labeled with UNIQ-WW-472308973-QINU, where UNIQ-WW-2038513123-QINU is a root, satisfying UNIQ-WW-1860871209-QINU.  The equation for our line is UNIQ-WW-796923339-QINU.  Solve the quadratic to obtain UNIQ-WW-446218975-QINU, and substitute into the line equation to get UNIQ-WW-786776932-QINU.
 <p>
-If we want all lines corresponding to UNIQ-WW-103961349-QINU to go through our point, we must find one independent of UNIQ-WW-900194139-QINU.  We do this by setting UNIQ-WW-1874407058-QINU, to yield UNIQ-WW-1226117516-QINU.
+We want to draw lines from UNIQ-WW-355786873-QINU to UNIQ-WW-1165471055-QINU that will pass through a point labeled with UNIQ-WW-1731379012-QINU, where UNIQ-WW-901188220-QINU is a root, satisfying UNIQ-WW-2110519188-QINU.  The equation for our line is UNIQ-WW-361380842-QINU.  Solve the quadratic to obtain UNIQ-WW-278995880-QINU, and substitute into the line equation to get UNIQ-WW-1571370788-QINU.
+<p>
+If we want all lines corresponding to UNIQ-WW-1974548826-QINU to go through our point, we must find one independent of UNIQ-WW-1574369486-QINU.  We do this by setting UNIQ-WW-1388840060-QINU, to yield UNIQ-WW-87971082-QINU.
 
 <h2> Code </h2>
-
+<p>
 Define and call a nomogram function.
 
-UNIQ-WW-2009580320-QINU
+UNIQ-WW-855800763-QINU
 
 Use make to make the example code below depend on the R environment from above (using our <a href="http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules">custom R rules</a>).
 
-UNIQ-WW-2134596887-QINU
+UNIQ-WW-1095099074-QINU
 
 Make a nomogram, then define and make example lines.
 
-UNIQ-WW-205155874-QINU
+UNIQ-WW-840657932-QINU
 
 Here's another example.
 
-UNIQ-WW-813225036-QINU
+UNIQ-WW-1187943751-QINU
 
-UNIQ-WW-1593234046-QINU
+UNIQ-WW-1414778423-QINU
 
 <h2> Printable </h2>
 
-UNIQ-WW-1501474493-QINU
+UNIQ-WW-1709984804-QINU
 
-UNIQ-WW-1414887552-QINU
+UNIQ-WW-1581627228-QINU
 
 <h2> Export source code </h2>
 
@@ -60,6 +60,6 @@ This project is designed for reproducible research.
 <ul>
 <li> This entire website (including the source text of this blog post, with all the source code included) is available for cloning at https://github.com/worden-lee/github-pages-sandbox.  I'm planning to write instructions for processing it soon.
 <li> To reproduce the full blog post you'll need to have the following installed: Jekyll, git, R, latexml, GNU make, perl (and maybe other things - bug reports welcome).
-<li> Here is an automatically-generated tar file of the source file contents: UNIQ-WW-1253495802-QINU.  You should be able to unpack this directory and simply run 'make example.Rout.png' to build the first image above, and similar commands to build the other output files.
+<li> Here is an automatically-generated tar file of the source file contents: UNIQ-WW-562056164-QINU.  You should be able to unpack this directory and simply run 'make example.Rout.png' to build the first image above, and similar commands to build the other output files.
 <li> To reproduce these outputs you will need GNU make, perl, and R installed.
 </ul>

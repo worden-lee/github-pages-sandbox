@@ -14,23 +14,23 @@ The computations in this blog post are implemented in two parts.  The Sage class
 <p>
 On this page I use those Sage classes to construct a <a href="http://www.tiem.utk.edu/~gross/bioed/bealsmodules/competition.html">simple population biology model</a> of two populations, and analyze and evaluate it.
 <p>
-Here's what the Sage program prints out, in LaTeX format:
+The Sage code for this model is below.  Here's its output, in LaTeX format:
 <p>
-UNIQ-WW-1200497560-QINU
+UNIQ-WW-977012652-QINU
 <p>
 Here's the state space plot that the program creates, showing a representative trajectory of the model's dynamics, with flow vector field and zero-net-growth isoclines:
 <p>
-UNIQ-WW-1120418008-QINU
+UNIQ-WW-1913410935-QINU
 <p>
-And a bifurcation diagram of total population vs. UNIQ-WW-704042998-QINU (black=stable, red=repelling point, blue=saddle):
+And a bifurcation diagram of total population vs. UNIQ-WW-386505928-QINU (black=stable, red=repelling point, blue=saddle):
 <p>
-UNIQ-WW-229363562-QINU
+UNIQ-WW-1744812131-QINU
 <p>
 <h2> Source code </h2>
 
 Here is the source code for this page's demo:
 <p>
-UNIQ-WW-989406540-QINU
+UNIQ-WW-1318130787-QINU
 
 And a small makefile to get the above Sage code to connect with the libraries pulled from GitHub into a separate directory:
-UNIQ-WW-1362844367-QINU
+UNIQ-WW-2077788289-QINU

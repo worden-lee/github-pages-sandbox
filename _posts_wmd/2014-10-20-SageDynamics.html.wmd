@@ -14,7 +14,7 @@ The computations in this blog post are implemented in two parts.  The Sage class
 <p>
 On this page I use those Sage classes to construct a <a href="http://www.tiem.utk.edu/~gross/bioed/bealsmodules/competition.html">simple population biology model</a> of two populations, and analyze and evaluate it.
 <p>
-Here's what the Sage program prints out, in LaTeX format:
+The Sage code for this model is below.  Here's its output, in LaTeX format:
 <p>
 <project-file filename="ode-system-demo.sage.out.latexml.html"/>
 <p>

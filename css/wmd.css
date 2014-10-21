@@ -2,7 +2,7 @@
 
 /* source listings with filename attached as legend */
 fieldset.ww-project-file-source
-  { border:1px dashed #2f6fab; margin:0; }
+  { border:1px dashed #2f6fab; }
 fieldset.ww-project-file-source legend
   { font-size:85%; padding:5px 2px 5px 2px; }
 

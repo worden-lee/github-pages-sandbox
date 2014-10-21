@@ -16,30 +16,30 @@ On this page I use those Sage classes to construct a <a href="http://www.tiem.ut
 <p>
 The Sage code for this model is below.  Here's its output, in LaTeX format:
 <p>
-UNIQ-WW-1303830276-QINU
+UNIQ-WW-170633418-QINU
 <p>
 Here's the state space plot that the program creates, showing a representative trajectory of the model's dynamics, with flow vector field and zero-net-growth isoclines:
 <p>
-UNIQ-WW-1809796482-QINU
+UNIQ-WW-444263248-QINU
 <p>
-And a bifurcation diagram of total population vs. UNIQ-WW-962580228-QINU (black=stable, red=repelling point, blue=saddle):
+And a bifurcation diagram of total population vs. UNIQ-WW-609268676-QINU (black=stable, red=repelling point, blue=saddle):
 <p>
-UNIQ-WW-1938553180-QINU
+UNIQ-WW-601747296-QINU
 <p>
 <h2> Source code </h2>
 
 Here is the source code for this page's demo:
 <p>
-UNIQ-WW-1172097274-QINU
+UNIQ-WW-1865558777-QINU
 
 And a small makefile to get the above Sage code to connect with the libraries pulled from GitHub into a separate directory:
-UNIQ-WW-99786491-QINU
+UNIQ-WW-973354030-QINU
 
 <h2> Reproducibility </h2>
 <p>
 Here are instructions to run this Sage code yourself.  You will need Sage, GNU make, git, perl, and maybe some other utilities installed.
 <ul>
-<li> Download and unpack the source code from this page: UNIQ-WW-1034699348-QINU
+<li> Download and unpack the source code from this page: UNIQ-WW-2024003530-QINU
 <li> Clone the Sage library code from Git: <a href="https://github.com/worden-lee/SageDynamics">https://github.com/worden-lee/SageDynamics</a>
 <li> In the code directory from this page, edit the makefile "<tt>libraries.mk</tt>" so that it has the correct locations for the SageUtils and SageDynamics directories that you checked out from Git.
 <li> In the code directory, run "<tt>make ode-system-demo.sage.out.tex</tt>"

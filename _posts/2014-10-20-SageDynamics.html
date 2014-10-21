@@ -236,13 +236,13 @@ And a small makefile to get the above Sage code to connect with the libraries pu
 <fieldset class="ww-project-file-source ww-collapsible"><legend><span>libraries.mk</span></legend><div class="ww-collapsible-content"><pre>export SageUtils=../SageDynamics/SageUtils
 export SageDynamics=../SageDynamics/SageDynamics
 
-$(SageDynamics)/* :
+$(SageDynamics)/% :
 	$(MAKE) -C $(SageDynamics) $*
  
 $(SageUtils)/% :
 	$(MAKE) -C $(SageUtils) $*
  
-# The good makefile stuff is upstream, just reuse it
+# Use the general rules from the utility project's makefiles
 -include $(SageUtils)/sage.mk
 -include $(SageUtils)/step.mk
 </pre></div></fieldset>

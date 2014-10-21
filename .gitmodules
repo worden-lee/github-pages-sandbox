@@ -1,0 +1,3 @@
+[submodule "wmd_files/SageDynamics"]
+	path = wmd_files/SageDynamics
+	url = git@github.com:worden-lee/SageDynamics.git

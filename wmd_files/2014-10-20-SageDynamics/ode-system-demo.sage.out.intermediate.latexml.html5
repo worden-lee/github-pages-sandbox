@@ -1,7 +1,7 @@
 <!DOCTYPE html><html>
 <head>
 <title></title>
-<!--Generated on Tue Oct 21 10:11:24 2014 by LaTeXML (version 0.8.0) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Generated on Tue Oct 21 12:25:26 2014 by LaTeXML (version v0.8.0) http://dlmf.nist.gov/LaTeXML/.-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="LaTeXML.css" type="text/css">
@@ -17,18 +17,24 @@
 
 <tr id="S0.Ex1X" class="ltx_equation ltx_align_baseline">
 <td class="ltx_eqn_center_padleft"></td>
-<td class="ltx_td ltx_align_right"><math id="S0.Ex1X.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{1}}{dt}" display="inline"><semantics><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle><annotation encoding="application/x-tex">\displaystyle\frac{dN_{1}}{dt}</annotation></semantics></math></td>
-<td class="ltx_td ltx_align_left"><math id="S0.Ex1X.m3" class="ltx_Math" alttext="\displaystyle=-\frac{{\left(N_{2}\alpha_{12}-K_{1}+N_{1}\right)}N_{1}r_{1}}{K_%
-{1}}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mo>(</mo><mrow><mrow><msub><mi>N</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>12</mn></msub></mrow><mo>-</mo><msub><mi>K</mi><mn>1</mn></msub><mo>+</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>r</mi><mn>1</mn></msub></mrow><msub><mi>K</mi><mn>1</mn></msub></mfrac></mstyle></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=-\frac{{\left(N_{2}\alpha_{12}-K_{1}+N_{1}\right)}N_{1}r_{1}}{K_%
-{1}}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_right">
+              <math id="S0.Ex1X.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{1}}{dt}" display="inline"><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle></math>
+            </td>
+<td class="ltx_td ltx_align_left">
+              <math id="S0.Ex1X.m3" class="ltx_Math" alttext="\displaystyle=-\frac{{\left(N_{2}\alpha_{12}-K_{1}+N_{1}\right)}N_{1}r_{1}}{K_%
+{1}}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mo>(</mo><mrow id="XM2q"><mrow id="XM2l"><mrow id="XM2g"><msub id="XM2b"><mi id="XM2">N</mi><mn id="XM2a">2</mn></msub><mo id="XM2c">⁢</mo><msub id="XM2f"><mi id="XM2d">α</mi><mn id="XM2e">12</mn></msub></mrow><mo id="XM2h">-</mo><msub id="XM2k"><mi id="XM2i">K</mi><mn id="XM2j">1</mn></msub></mrow><mo id="XM2m">+</mo><msub id="XM2p"><mi id="XM2n">N</mi><mn id="XM2o">1</mn></msub></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>r</mi><mn>1</mn></msub></mrow><msub><mi>K</mi><mn>1</mn></msub></mfrac></mstyle></mrow></mrow></math>
+            </td>
 <td class="ltx_eqn_center_padright"></td>
 </tr>
 <tr id="S0.Ex1Xa" class="ltx_equation ltx_align_baseline">
 <td class="ltx_eqn_center_padleft"></td>
-<td class="ltx_td ltx_align_right"><math id="S0.Ex1Xa.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{2}}{dt}" display="inline"><semantics><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle><annotation encoding="application/x-tex">\displaystyle\frac{dN_{2}}{dt}</annotation></semantics></math></td>
-<td class="ltx_td ltx_align_left"><math id="S0.Ex1Xa.m3" class="ltx_Math" alttext="\displaystyle=-\frac{{\left(N_{1}\alpha_{21}-K_{2}+N_{2}\right)}N_{2}r_{2}}{K_%
-{2}}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mo>(</mo><mrow><mrow><msub><mi>N</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>21</mn></msub></mrow><mo>-</mo><msub><mi>K</mi><mn>2</mn></msub><mo>+</mo><msub><mi>N</mi><mn>2</mn></msub></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>r</mi><mn>2</mn></msub></mrow><msub><mi>K</mi><mn>2</mn></msub></mfrac></mstyle></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=-\frac{{\left(N_{1}\alpha_{21}-K_{2}+N_{2}\right)}N_{2}r_{2}}{K_%
-{2}}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_right">
+              <math id="S0.Ex1Xa.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{2}}{dt}" display="inline"><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle></math>
+            </td>
+<td class="ltx_td ltx_align_left">
+              <math id="S0.Ex1Xa.m3" class="ltx_Math" alttext="\displaystyle=-\frac{{\left(N_{1}\alpha_{21}-K_{2}+N_{2}\right)}N_{2}r_{2}}{K_%
+{2}}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mo>(</mo><mrow id="XM4q"><mrow id="XM4l"><mrow id="XM4g"><msub id="XM4b"><mi id="XM4">N</mi><mn id="XM4a">1</mn></msub><mo id="XM4c">⁢</mo><msub id="XM4f"><mi id="XM4d">α</mi><mn id="XM4e">21</mn></msub></mrow><mo id="XM4h">-</mo><msub id="XM4k"><mi id="XM4i">K</mi><mn id="XM4j">2</mn></msub></mrow><mo id="XM4m">+</mo><msub id="XM4p"><mi id="XM4n">N</mi><mn id="XM4o">2</mn></msub></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>r</mi><mn>2</mn></msub></mrow><msub><mi>K</mi><mn>2</mn></msub></mfrac></mstyle></mrow></mrow></math>
+            </td>
 <td class="ltx_eqn_center_padright"></td>
 </tr>
 </table>
@@ -37,14 +43,22 @@
 
 <tr id="S0.Ex2X" class="ltx_equation ltx_align_baseline">
 <td class="ltx_eqn_center_padleft"></td>
-<td class="ltx_td ltx_align_right"><math id="S0.Ex2X.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{1}}{dt}" display="inline"><semantics><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle><annotation encoding="application/x-tex">\displaystyle\frac{dN_{1}}{dt}</annotation></semantics></math></td>
-<td class="ltx_td ltx_align_left"><math id="S0.Ex2X.m3" class="ltx_Math" alttext="\displaystyle=-\frac{1}{2}\,{\left(2\,N_{1}+N_{2}-2\right)}N_{1}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mrow><mpadded width="+1.7pt"><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mpadded><mo>⁢</mo><mrow><mo>(</mo><mrow><mrow><mpadded width="+1.7pt"><mn>2</mn></mpadded><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mo>+</mo><msub><mi>N</mi><mn>2</mn></msub><mo>-</mo><mn>2</mn></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=-\frac{1}{2}\,{\left(2\,N_{1}+N_{2}-2\right)}N_{1}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_right">
+              <math id="S0.Ex2X.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{1}}{dt}" display="inline"><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle></math>
+            </td>
+<td class="ltx_td ltx_align_left">
+              <math id="S0.Ex2X.m3" class="ltx_Math" alttext="\displaystyle=-\frac{1}{2}\,{\left(2\,N_{1}+N_{2}-2\right)}N_{1}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mrow><mpadded width="+1.7pt"><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mpadded><mo>⁢</mo><mrow><mo>(</mo><mrow id="XM6n"><mrow id="XM6k"><mrow id="XM6f"><mpadded width="+1.7pt" id="XM6"><mn id="XM6a">2</mn></mpadded><mo id="XM6b">⁢</mo><msub id="XM6e"><mi id="XM6c">N</mi><mn id="XM6d">1</mn></msub></mrow><mo id="XM6g">+</mo><msub id="XM6j"><mi id="XM6h">N</mi><mn id="XM6i">2</mn></msub></mrow><mo id="XM6l">-</mo><mn id="XM6m">2</mn></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow></mrow></mrow></math>
+            </td>
 <td class="ltx_eqn_center_padright"></td>
 </tr>
 <tr id="S0.Ex2Xa" class="ltx_equation ltx_align_baseline">
 <td class="ltx_eqn_center_padleft"></td>
-<td class="ltx_td ltx_align_right"><math id="S0.Ex2Xa.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{2}}{dt}" display="inline"><semantics><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle><annotation encoding="application/x-tex">\displaystyle\frac{dN_{2}}{dt}</annotation></semantics></math></td>
-<td class="ltx_td ltx_align_left"><math id="S0.Ex2Xa.m3" class="ltx_Math" alttext="\displaystyle=-\frac{1}{5}\,{\left(2\,N_{1}+4\,N_{2}-5\right)}N_{2}" display="inline"><semantics><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mrow><mpadded width="+1.7pt"><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>5</mn></mfrac></mstyle></mpadded><mo>⁢</mo><mrow><mo>(</mo><mrow><mrow><mpadded width="+1.7pt"><mn>2</mn></mpadded><mo>⁢</mo><msub><mi>N</mi><mn>1</mn></msub></mrow><mo>+</mo><mrow><mpadded width="+1.7pt"><mn>4</mn></mpadded><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow><mo>-</mo><mn>5</mn></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=-\frac{1}{5}\,{\left(2\,N_{1}+4\,N_{2}-5\right)}N_{2}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_right">
+              <math id="S0.Ex2Xa.m2" class="ltx_Math" alttext="\displaystyle\frac{dN_{2}}{dt}" display="inline"><mstyle displaystyle="true"><mfrac><mrow><mi>d</mi><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow><mrow><mi>d</mi><mo>⁢</mo><mi>t</mi></mrow></mfrac></mstyle></math>
+            </td>
+<td class="ltx_td ltx_align_left">
+              <math id="S0.Ex2Xa.m3" class="ltx_Math" alttext="\displaystyle=-\frac{1}{5}\,{\left(2\,N_{1}+4\,N_{2}-5\right)}N_{2}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mrow><mpadded width="+1.7pt"><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>5</mn></mfrac></mstyle></mpadded><mo>⁢</mo><mrow><mo>(</mo><mrow id="XM8r"><mrow id="XM8o"><mrow id="XM8f"><mpadded width="+1.7pt" id="XM8"><mn id="XM8a">2</mn></mpadded><mo id="XM8b">⁢</mo><msub id="XM8e"><mi id="XM8c">N</mi><mn id="XM8d">1</mn></msub></mrow><mo id="XM8g">+</mo><mrow id="XM8n"><mpadded width="+1.7pt" id="XM8h"><mn id="XM8i">4</mn></mpadded><mo id="XM8j">⁢</mo><msub id="XM8m"><mi id="XM8k">N</mi><mn id="XM8l">2</mn></msub></mrow></mrow><mo id="XM8p">-</mo><mn id="XM8q">5</mn></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>N</mi><mn>2</mn></msub></mrow></mrow></mrow></math>
+            </td>
 <td class="ltx_eqn_center_padright"></td>
 </tr>
 </table>
@@ -58,12 +72,7 @@
 0\end{array}\right),\left(\begin{array}[]{c}0\\
 K_{2}\end{array}\right),\left(\begin{array}[]{c}\frac{K_{2}\alpha_{12}-K_{1}}{%
 \alpha_{12}\alpha_{21}-1}\\
-\frac{K_{1}\alpha_{21}-K_{2}}{\alpha_{12}\alpha_{21}-1}\end{array}\right)" display="block"><semantics><mrow><mrow><mo>(</mo><mtable align="center" columnspacing="0.4em" rowspacing="0.2ex"><mtr><mtd columnalign="center"><mn>0</mn></mtd></mtr><mtr><mtd columnalign="center"><mn>0</mn></mtd></mtr></mtable><mo>)</mo></mrow><mo>,</mo><mrow><mo>(</mo><mtable align="center" columnspacing="0.4em" rowspacing="0.2ex"><mtr><mtd columnalign="center"><msub><mi>K</mi><mn>1</mn></msub></mtd></mtr><mtr><mtd columnalign="center"><mn>0</mn></mtd></mtr></mtable><mo>)</mo></mrow><mo>,</mo><mrow><mo>(</mo><mtable align="center" columnspacing="0.4em" rowspacing="0.2ex"><mtr><mtd columnalign="center"><mn>0</mn></mtd></mtr><mtr><mtd columnalign="center"><msub><mi>K</mi><mn>2</mn></msub></mtd></mtr></mtable><mo>)</mo></mrow><mo>,</mo><mrow><mo>(</mo><mtable align="center" columnspacing="0.4em" rowspacing="0.2ex"><mtr><mtd columnalign="center"><mfrac><mrow><mrow><msub><mi>K</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>12</mn></msub></mrow><mo>-</mo><msub><mi>K</mi><mn>1</mn></msub></mrow><mrow><mrow><msub><mi>α</mi><mn>12</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>21</mn></msub></mrow><mo>-</mo><mn>1</mn></mrow></mfrac></mtd></mtr><mtr><mtd columnalign="center"><mfrac><mrow><mrow><msub><mi>K</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>21</mn></msub></mrow><mo>-</mo><msub><mi>K</mi><mn>2</mn></msub></mrow><mrow><mrow><msub><mi>α</mi><mn>12</mn></msub><mo>⁢</mo><msub><mi>α</mi><mn>21</mn></msub></mrow><mo>-</mo><mn>1</mn></mrow></mfrac></mtd></mtr></mtable><mo>)</mo></mrow></mrow><annotation encoding="application/x-tex">\left(\begin{array}[]{c}0\\
-0\end{array}\right),\left(\begin{array}[]{c}K_{1}\\
-0\end{array}\right),\left(\begin{array}[]{c}0\\
-K_{2}\end{array}\right),\left(\begin{array}[]{c}\frac{K_{2}\alpha_{12}-K_{1}}{%
-\alpha_{12}\alpha_{21}-1}\\
-\frac{K_{1}\alpha_{21}-K_{2}}{\alpha_{12}\alpha_{21}-1}\end{array}\right)</annotation></semantics></math></td>
+\frac{K_{1}\alpha_{21}-K_{2}}{\alpha_{12}\alpha_{21}-1}\end{array}\right)" display="block"><mrow><mrow id="XM13b"><mo id="XM13">(</mo><mtable displaystyle="true" id="XM9b"><mtr id="XM9c"><mtd columnalign="center" id="XM9d"><mn id="XM9">0</mn></mtd></mtr><mtr id="XM9e"><mtd columnalign="center" id="XM9f"><mn id="XM9a">0</mn></mtd></mtr></mtable><mo id="XM13a">)</mo></mrow><mo>,</mo><mrow id="XM14b"><mo id="XM14">(</mo><mtable displaystyle="true" id="XM10d"><mtr id="XM10e"><mtd columnalign="center" id="XM10f"><msub id="XM10b"><mi id="XM10">K</mi><mn id="XM10a">1</mn></msub></mtd></mtr><mtr id="XM10g"><mtd columnalign="center" id="XM10h"><mn id="XM10c">0</mn></mtd></mtr></mtable><mo id="XM14a">)</mo></mrow><mo>,</mo><mrow id="XM15b"><mo id="XM15">(</mo><mtable displaystyle="true" id="XM11d"><mtr id="XM11e"><mtd columnalign="center" id="XM11f"><mn id="XM11">0</mn></mtd></mtr><mtr id="XM11g"><mtd columnalign="center" id="XM11h"><msub id="XM11c"><mi id="XM11a">K</mi><mn id="XM11b">2</mn></msub></mtd></mtr></mtable><mo id="XM15a">)</mo></mrow><mo>,</mo><mrow id="XM16b"><mo id="XM16">(</mo><mtable displaystyle="true" id="XM12ax"><mtr id="XM12ay"><mtd columnalign="center" id="XM12az"><mfrac id="XM12x"><mrow id="XM12l"><mrow id="XM12g"><msub id="XM12b"><mi id="XM12">K</mi><mn id="XM12a">2</mn></msub><mo id="XM12c">⁢</mo><msub id="XM12f"><mi id="XM12d">α</mi><mn id="XM12e">12</mn></msub></mrow><mo id="XM12h">-</mo><msub id="XM12k"><mi id="XM12i">K</mi><mn id="XM12j">1</mn></msub></mrow><mrow id="XM12w"><mrow id="XM12t"><msub id="XM12o"><mi id="XM12m">α</mi><mn id="XM12n">12</mn></msub><mo id="XM12p">⁢</mo><msub id="XM12s"><mi id="XM12q">α</mi><mn id="XM12r">21</mn></msub></mrow><mo id="XM12u">-</mo><mn id="XM12v">1</mn></mrow></mfrac></mtd></mtr><mtr id="XM12ba"><mtd columnalign="center" id="XM12bb"><mfrac id="XM12aw"><mrow id="XM12ak"><mrow id="XM12af"><msub id="XM12aa"><mi id="XM12y">K</mi><mn id="XM12z">1</mn></msub><mo id="XM12ab">⁢</mo><msub id="XM12ae"><mi id="XM12ac">α</mi><mn id="XM12ad">21</mn></msub></mrow><mo id="XM12ag">-</mo><msub id="XM12aj"><mi id="XM12ah">K</mi><mn id="XM12ai">2</mn></msub></mrow><mrow id="XM12av"><mrow id="XM12as"><msub id="XM12an"><mi id="XM12al">α</mi><mn id="XM12am">12</mn></msub><mo id="XM12ao">⁢</mo><msub id="XM12ar"><mi id="XM12ap">α</mi><mn id="XM12aq">21</mn></msub></mrow><mo id="XM12at">-</mo><mn id="XM12au">1</mn></mrow></mfrac></mtd></mtr></mtable><mo id="XM16a">)</mo></mrow></mrow></math></td>
 <td class="ltx_eqn_center_padright"></td>
 </tr>
 </table>
@@ -73,8 +82,7 @@ K_{2}\end{array}\right),\left(\begin{array}[]{c}\frac{K_{2}\alpha_{12}-K_{1}}{%
 <tr class="ltx_equation ltx_align_baseline">
 <td class="ltx_eqn_center_padleft"></td>
 <td class="ltx_align_center"><math id="S0.Ex4.m1" class="ltx_Math" alttext="\left(\begin{array}[]{c}\frac{1}{2}\\
-1\end{array}\right)" display="block"><semantics><mrow><mo>(</mo><mtable align="center" columnspacing="0.4em" rowspacing="0.2ex"><mtr><mtd columnalign="center"><mfrac><mn>1</mn><mn>2</mn></mfrac></mtd></mtr><mtr><mtd columnalign="center"><mn>1</mn></mtd></mtr></mtable><mo>)</mo></mrow><annotation encoding="application/x-tex">\left(\begin{array}[]{c}\frac{1}{2}\\
-1\end{array}\right)</annotation></semantics></math></td>
+1\end{array}\right)" display="block"><mrow><mo>(</mo><mtable displaystyle="true" id="XM17d"><mtr id="XM17e"><mtd columnalign="center" id="XM17f"><mfrac id="XM17b"><mn id="XM17">1</mn><mn id="XM17a">2</mn></mfrac></mtd></mtr><mtr id="XM17g"><mtd columnalign="center" id="XM17h"><mn id="XM17c">1</mn></mtd></mtr></mtable><mo>)</mo></mrow></math></td>
 <td class="ltx_eqn_center_padright"></td>
 </tr>
 </table>
@@ -82,7 +90,7 @@ K_{2}\end{array}\right),\left(\begin{array}[]{c}\frac{K_{2}\alpha_{12}-K_{1}}{%
 </section>
 </div>
 <footer class="ltx_page_footer">
-<div class="ltx_page_logo">Generated  on Tue Oct 21 10:11:24 2014 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+<div class="ltx_page_logo">Generated  on Tue Oct 21 12:25:26 2014 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
 </div></footer>
 </div>
 </body>

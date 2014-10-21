@@ -42,8 +42,6 @@ ltx.write_block( comp_system_stable )
 
 # find the equilibria
 ltx.write( 'Equilibria of the generic model: ' )
-#for eq in comp_system_generic.equilibria():
-#  ltx.write_block( column_vector( [ eq[N_1], eq[N_2] ] ) )
 ltx.write( '\n\\[ ',
 	', '.join( latex( column_vector( [ eq[N_1], eq[N_2] ] ) )
 		for eq in comp_system_generic.equilibria() ),
@@ -51,8 +49,6 @@ ltx.write( '\n\\[ ',
 
 # and check stability of the bound ones
 ltx.write( 'Stable equilibria of the bound model: ' )
-#for eq in comp_system_stable.stable_equilibria():
-#  ltx.write_block( column_vector( [ eq[N_1], eq[N_2] ] ) )
 ltx.write( '\n\\[',
 	', '.join( latex( column_vector( [ eq[N_1], eq[N_2] ] ) )
 		for eq in comp_system_stable.stable_equilibria() ),

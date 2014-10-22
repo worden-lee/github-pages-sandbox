@@ -1,0 +1,11 @@
+Tue Oct 21 22:59:45 2014
+/usr/bin/make -C \
+    /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-21-nomogram \
+    printable.Rout.pdf
+Including .mk files: example.mk another.mk printable.mk 
+Including tex.d files: 
+make[1]: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-21-nomogram'
+perl -wf /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/pdfcheck.pl printable.Rout.pdf 
+make[1]: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-21-nomogram'
+Make succeeded.
+Tue Oct 21 22:59:45 2014

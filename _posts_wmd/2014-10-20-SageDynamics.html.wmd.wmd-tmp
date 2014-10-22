@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Sage Dynamics Demo"
+date:   2014-10-20 19:00:01
+categories: jekyll update
+---
+<h2> Intro </h2>
+<p>
+[This is an adaptation of <a href="http://lalashan.mcmaster.ca/theobio/worden/index.php/SageDynamics/Demo">a page from my open lab notebook wiki</a>, as a demo of our Working Markup reproducible web-publishing system. -lw]
+<p>
+This post demonstrates a set of <a href="http://www.sagemath.org/">Sage</a> classes I wrote to work with continuous-time dynamical systems, the kind of system my colleagues and I use a lot as mathematical models.
+<p>
+The computations in this blog post are implemented in two parts.  The Sage class library is kept in a <a href="https://github.com/worden-lee/SageDynamics">GitHub repository by itself</a>, and the Sage scripts that use the library to implement a simple demo system on this page are stored as part of this page.
+<p>
+On this page I use those Sage classes to construct a <a href="http://www.tiem.utk.edu/~gross/bioed/bealsmodules/competition.html">simple population biology model</a> of two populations, and analyze and evaluate it.
+<p>
+The Sage code for this model is below.  Here's its output, in LaTeX format:
+<p>
+UNIQ-WW-979217201-QINU
+<p>
+Here's the state space plot that the program creates, showing a representative trajectory of the model's dynamics, with flow vector field and zero-net-growth isoclines:
+<p>
+UNIQ-WW-609804928-QINU
+<p>
+And a bifurcation diagram of total population vs. UNIQ-WW-97231417-QINU (black=stable, red=repelling point, blue=saddle):
+<p>
+UNIQ-WW-1595902677-QINU
+<p>
+<h2> Source code </h2>
+
+Here is the source code for this page's demo:
+<p>
+UNIQ-WW-79934068-QINU
+
+And a small makefile to get the above Sage code to connect with the libraries pulled from GitHub into a separate directory:
+UNIQ-WW-351113239-QINU
+
+<h2> Reproducibility </h2>
+<p>
+Here are instructions to run this Sage code yourself.  You will need <a href="http://www.sagemath.org/doc/installation/">Sage</a>, GNU make, git, perl, and maybe some other utilities installed.
+<ul>
+<li> Download and unpack the source code from this page: UNIQ-WW-1695146475-QINU
+<li> Clone the Sage library code from Git: <a href="https://github.com/worden-lee/SageDynamics">https://github.com/worden-lee/SageDynamics</a>
+<li> In the code directory from this page, edit the makefile "<tt>libraries.mk</tt>" so that it has the correct locations for the SageUtils and SageDynamics directories that you checked out from Git.
+<li> In the code directory, run "<tt>make ode-system-demo.sage.out.tex</tt>"
+</ul>
+<p>
+To see how this blog post is written, with source code embedded, see <a href="https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts_wmd/2014-10-20-SageDynamics.html.wmd">https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts_wmd/2014-10-20-SageDynamics.html.wmd</a>.

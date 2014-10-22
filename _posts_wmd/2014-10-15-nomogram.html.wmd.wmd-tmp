@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "Nomogram"
+date:   2014-10-15 20:00:00
+categories: jekyll update
+---
+<h2> Intro </h2>
+<p>
+[This is <a href="http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram">a page from Jonathan Dushoff's math wiki</a>, adapted for use as a test of my Working Markup blog-post system. -lw]
+<p>
+On this page, I use the free software environment <a href="http://www.r-project.org/">R</a> to construct a <a href="http://en.wikipedia.org/wiki/Nomogram">nomogram</a> that I read about in a recreational math book when I was a kid.  This nomogram solves quadratic equations.
+
+<h2> Nomogram </h2>
+
+You can print out UNIQ-WW-349106863-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-1870806032-QINU to UNIQ-WW-648626295-QINU intersects the scale.
+
+<p>UNIQ-WW-1195160724-QINU</p>
+
+The example above shows the solutions to the equation UNIQ-WW-2143350916-QINU.  The dashed line connecting UNIQ-WW-1838085001-QINU to UNIQ-WW-1567200595-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-1143247687-QINU to UNIQ-WW-675584994-QINU shows the negative solution (-1.2).
+
+<p>UNIQ-WW-943429551-QINU</p>
+
+In this example (UNIQ-WW-1125963249-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
+
+<h2> Math </h2> 
+<p>
+We want to draw lines from UNIQ-WW-121217270-QINU to UNIQ-WW-1633493001-QINU that will pass through a point labeled with UNIQ-WW-801398694-QINU, where UNIQ-WW-1132136987-QINU is a root, satisfying UNIQ-WW-1714136610-QINU.  The equation for our line is UNIQ-WW-1169458151-QINU.  Solve the quadratic to obtain UNIQ-WW-1471064199-QINU, and substitute into the line equation to get UNIQ-WW-1908515402-QINU.
+<p>
+If we want all lines corresponding to UNIQ-WW-418119878-QINU to go through our point, we must find one independent of UNIQ-WW-542916764-QINU.  We do this by setting UNIQ-WW-585470047-QINU, to yield UNIQ-WW-1384021665-QINU.
+
+<h2> Code </h2>
+<p>
+Define and call a nomogram function.
+
+UNIQ-WW-1619137537-QINU
+
+Use make to make the example code below depend on the R environment from above (using our <a href="http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules">custom R rules</a>).
+
+UNIQ-WW-1649011617-QINU
+
+Make a nomogram, then define and make example lines.
+
+UNIQ-WW-2009207846-QINU
+
+Here's another example.
+
+UNIQ-WW-100225533-QINU
+
+UNIQ-WW-902487766-QINU
+
+<h2> Printable </h2>
+
+UNIQ-WW-716673596-QINU
+
+UNIQ-WW-1828998938-QINU
+
+<h2> Export source code </h2>
+<p>
+This project is designed for reproducible research. 
+<ul>
+<li> This entire website (including the source text of this blog post, with all the source code included) is available for cloning at https://github.com/worden-lee/github-pages-sandbox.  I'm planning to write instructions for processing it soon.
+<li> To reproduce the full blog post you'll need to have the following installed: Jekyll, git, R, latexml, GNU make, perl (and maybe other things - bug reports welcome).
+<li> Here is an automatically-generated tar file of the source file contents: UNIQ-WW-998961239-QINU.  You should be able to unpack this directory and simply run 'make example.Rout.png' to build the first image above, and similar commands to build the other output files.
+<li> To reproduce these outputs you will need GNU make, perl, and R installed.
+</ul>
+<p>
+To see the source text of this blog post, with the R and makefile code embedded, see <a href="https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts_wmd/2014-10-15-nomogram.html.wmd">https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts_wmd/2014-10-15-nomogram.html.wmd</a>.
+<p>
+See also a discussion of how this is put together at <a href="http://leeworden.net/lw/node/148">http://leeworden.net/lw/node/148</a> and <a href="http://leeworden.net/lw/node/149">http://leeworden.net/lw/node/149</a>.

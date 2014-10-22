@@ -1,0 +1,213 @@
+---
+layout: post
+title:  "Nomogram"
+date:   2014-10-15 20:00:00
+categories: jekyll update
+---
+<h2> Intro </h2>
+<p>
+[This is <a href="http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram">a page from Jonathan Dushoff's math wiki</a>, adapted for use as a test of my Working Markup blog-post system. -lw]
+<p>
+On this page, I use the free software environment <a href="http://www.r-project.org/">R</a> to construct a <a href="http://en.wikipedia.org/wiki/Nomogram">nomogram</a> that I read about in a recreational math book when I was a kid.  This nomogram solves quadratic equations.
+
+<h2> Nomogram </h2>
+
+You can print out <a href="{{ site.baseurl }}/wmd_files/2014-10-15-nomogram/printable.Rout.pdf">the nomogram</a>, and use a ruler to read off the solutions to the quadratic equation, where the line from {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="\pm b" display="inline"><mrow><mo>±</mo><mi>b</mi></mrow></math></span>
+{% endraw %}
+ to {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="c" display="inline"><mi>c</mi></math></span>
+{% endraw %}
+ intersects the scale.
+
+<p><img src="{{ site.baseurl }}/wmd_files/2014-10-15-nomogram/example.Rout.png" alt="(example.Rout.png)"/></p>
+
+The example above shows the solutions to the equation {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="x^{2}-3x-5=0" display="inline"><mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mrow><mn>3</mn><mo>⁢</mo><mi>x</mi></mrow><mo>-</mo><mn>5</mn></mrow><mo>=</mo><mn>0</mn></mrow></math></span>
+{% endraw %}
+.  The dashed line connecting {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="b" display="inline"><mi>b</mi></math></span>
+{% endraw %}
+ to {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="c" display="inline"><mi>c</mi></math></span>
+{% endraw %}
+ shows the positive solution (4.2), and the dotted line connecting {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="-b" display="inline"><mrow><mo>-</mo><mi>b</mi></mrow></math></span>
+{% endraw %}
+ to {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="c" display="inline"><mi>c</mi></math></span>
+{% endraw %}
+ shows the negative solution (-1.2).
+
+<p><img src="{{ site.baseurl }}/wmd_files/2014-10-15-nomogram/another.Rout.png" alt="(another.Rout.png)"/></p>
+
+In this example ({% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="x^{2}-5x+1=0" display="inline"><mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mrow><mn>5</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mn>1</mn></mrow><mo>=</mo><mn>0</mn></mrow></math></span>
+{% endraw %}
+), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.
+
+<h2> Math </h2> 
+<p>
+We want to draw lines from {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="(0,b)" display="inline"><mrow><mo>(</mo><mrow><mn>0</mn><mo>,</mo><mi>b</mi></mrow><mo>)</mo></mrow></math></span>
+{% endraw %}
+ to {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="(1,c)" display="inline"><mrow><mo>(</mo><mrow><mn>1</mn><mo>,</mo><mi>c</mi></mrow><mo>)</mo></mrow></math></span>
+{% endraw %}
+ that will pass through a point labeled with {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="r" display="inline"><mi>r</mi></math></span>
+{% endraw %}
+, where {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="r" display="inline"><mi>r</mi></math></span>
+{% endraw %}
+ is a root, satisfying {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="r^{2}+br+c=0" display="inline"><mrow><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mrow><mi>b</mi><mo>⁢</mo><mi>r</mi></mrow><mo>+</mo><mi>c</mi></mrow><mo>=</mo><mn>0</mn></mrow></math></span>
+{% endraw %}
+.  The equation for our line is {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="y=b+(c-b)x" display="inline"><mrow><mi>y</mi><mo>=</mo><mrow><mi>b</mi><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mi>c</mi><mo>-</mo><mi>b</mi></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow></mrow></mrow></math></span>
+{% endraw %}
+.  Solve the quadratic to obtain {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="c=-r^{2}-br" display="inline"><mrow><mi>c</mi><mo>=</mo><mrow><mo>-</mo><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><mrow><mi>b</mi><mo>⁢</mo><mi>r</mi></mrow></mrow></mrow></math></span>
+{% endraw %}
+, and substitute into the line equation to get {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="y=b-(r^{2}+br+b)x" display="inline"><mrow><mi>y</mi><mo>=</mo><mrow><mi>b</mi><mo>-</mo><mrow><mrow><mo>(</mo><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mrow><mi>b</mi><mo>⁢</mo><mi>r</mi></mrow><mo>+</mo><mi>b</mi></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow></mrow></mrow></math></span>
+{% endraw %}
+.
+<p>
+If we want all lines corresponding to {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="r" display="inline"><mi>r</mi></math></span>
+{% endraw %}
+ to go through our point, we must find one independent of {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="b" display="inline"><mi>b</mi></math></span>
+{% endraw %}
+.  We do this by setting {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="x=1/(r+1)" display="inline"><mrow><mi>x</mi><mo>=</mo><mrow><mn>1</mn><mo>/</mo><mrow><mo>(</mo><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow><mo>)</mo></mrow></mrow></mrow></math></span>
+{% endraw %}
+, to yield {% raw %}
+<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="y=-r^{2}/(r+1)" display="inline"><mrow><mi>y</mi><mo>=</mo><mrow><mo>-</mo><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>/</mo><mrow><mo>(</mo><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow><mo>)</mo></mrow></mrow></mrow></mrow></math></span>
+{% endraw %}
+.
+
+<h2> Code </h2>
+<p>
+Define and call a nomogram function.
+
+{% raw %}
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>nomogram.R</span></legend><div class="ww-collapsible-content"><pre>dev.off()
+pdf(height=9.5, width=6.5)
+nomogram &lt;- function(xoff=0.1, asp=1/16){
+	plot(NULL, NULL, asp=asp,
+		main = expression(x**2 %+-% bx + c == 0),
+		xlim=c(-xoff, 1+xoff), ylim=c(-10,10), axes=FALSE,
+		xaxs=&quot;i&quot;, yaxs=&quot;i&quot;,
+		xlab=&quot;&quot;, ylab=&quot;&quot;
+	)
+
+	vertical_axis &lt;- function(pos, side=2){
+		axis(side, pos=pos, at=-10:10)
+		axis(side, pos=pos, at= seq(-10, 10, by=0.5), 
+			labels=FALSE, tcl=-0.4)
+		axis(side, pos=pos, at= seq(-10, 10, by=0.1), 
+			labels=FALSE, tcl=-0.2)
+	}
+
+	vertical_axis(0)
+	vertical_axis(1, 4)
+	text(0.05, 9, &quot;b&quot;)
+	text(0.95, 9, &quot;c&quot;)
+
+	r = seq(0, 10, length.out=1001)
+	lines(1/(r+1), -r^2/(r+1))
+
+	rticks &lt;- function(r, tcl, asp=1, labels=FALSE, ll=0.9){
+		x &lt;- 1/(r+1)
+		y &lt;- -r^2/(r+1)
+		yx &lt;- (r^2+2*r)*asp
+		rad &lt;- sqrt(1+yx^2)
+		xp &lt;- 1/(asp*rad)
+		yp &lt;- yx/rad
+		x0 &lt;- x+yp*tcl/2
+		x1 &lt;- x-yp*tcl/2
+		y0 &lt;- y-xp*tcl/2
+		y1 &lt;- y+xp*tcl/2
+		arrows(x0, y0, x1, y1, length=0)
+		if(labels){
+			text(x-ll*yp*tcl, y+ll*xp*tcl, r)
+		}
+	}
+
+	rticks(seq(1, 10, by=1), 0.08, asp, labels=TRUE)
+	rticks(seq(0, 10, by=0.5), 0.05, asp)
+	rticks(seq(0, 4, by=0.1), 0.03, asp)
+	rticks(seq(4, 10, by=0.25), 0.04, asp)
+}
+
+nomogram()
+</pre></div></fieldset>
+{% endraw %}
+
+
+Use make to make the example code below depend on the R environment from above (using our <a href="http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules">custom R rules</a>).
+
+{% raw %}
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>example.mk</span></legend><div class="ww-collapsible-content"><pre>example.Rout: nomogram.RData example.R
+</pre></div></fieldset>
+{% endraw %}
+
+
+Make a nomogram, then define and make example lines.
+
+{% raw %}
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>example.R</span></legend><div class="ww-collapsible-content"><pre>eqLines &lt;- function(a, b){
+	abline(a, b-a, lty=2, lwd=1.5)
+	abline(-a, b+a, lty=3, lwd=1.5)
+}
+nomogram()
+eqLines(-3, -5)
+</pre></div></fieldset>
+{% endraw %}
+
+
+Here's another example.
+
+{% raw %}
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>another.mk</span></legend><div class="ww-collapsible-content"><pre>another.Rout: example.RData
+</pre></div></fieldset>
+{% endraw %}
+
+
+{% raw %}
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>another.R</span></legend><div class="ww-collapsible-content"><pre>nomogram()
+eqLines(-5, 1)
+</pre></div></fieldset>
+{% endraw %}
+
+
+<h2> Printable </h2>
+
+{% raw %}
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>printable.mk</span></legend><div class="ww-collapsible-content"><pre>printable.Rout: nomogram.Rout
+</pre></div></fieldset>
+{% endraw %}
+
+
+{% raw %}
+<fieldset class="ww-project-file-source ww-collapsible"><legend><span>printable.R</span></legend><div class="ww-collapsible-content"><pre># setpdf(height=9.5, width=6.5) # This is a theobio/Rprep magic command
+nomogram()
+</pre></div></fieldset>
+{% endraw %}
+
+
+<h2> Export source code </h2>
+<p>
+This project is designed for reproducible research. 
+<ul>
+<li> This entire website (including the source text of this blog post, with all the source code included) is available for cloning at https://github.com/worden-lee/github-pages-sandbox.  I'm planning to write instructions for processing it soon.
+<li> To reproduce the full blog post you'll need to have the following installed: Jekyll, git, R, latexml, GNU make, perl (and maybe other things - bug reports welcome).
+<li> Here is an automatically-generated tar file of the source file contents: <a href="{{ site.baseurl }}/wmd_files/2014-10-15-nomogram/wmd_export.tgz">wmd_export.tgz</a>.  You should be able to unpack this directory and simply run 'make example.Rout.png' to build the first image above, and similar commands to build the other output files.
+<li> To reproduce these outputs you will need GNU make, perl, and R installed.
+</ul>
+<p>
+To see the source text of this blog post, with the R and makefile code embedded, see <a href="https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts_wmd/2014-10-15-nomogram.html.wmd">https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts_wmd/2014-10-15-nomogram.html.wmd</a>.
+<p>
+See also a discussion of how this is put together at <a href="http://leeworden.net/lw/node/148">http://leeworden.net/lw/node/148</a> and <a href="http://leeworden.net/lw/node/149">http://leeworden.net/lw/node/149</a>.

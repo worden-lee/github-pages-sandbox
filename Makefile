@@ -6,10 +6,6 @@ _posts/%.html : _posts_wmd/%.html.wmd $(WW_DIR)/wmd/wmd.php
 	php $(WW_DIR)/wmd/wmd.php --pre --process-inline-math --project-directory=wmd_files/$* $< $@
 	php $(WW_DIR)/wmd/wmd.php --post --project-directory=wmd_files/$* $< $@
 
-_posts/%.markdown : _posts_wmd/%.markdown.wmd $(WW_DIR)/wmd/wmd.php
-	php $(WW_DIR)/wmd/wmd.php --pre --process-inline-math --project-directory=wmd_files/$* $< $@
-	php $(WW_DIR)/wmd/wmd.php --post --project-directory=wmd_files/$* $< $@
-
 WW_CSS_TO_USE = $(patsubst %,$(WW_DIR)/resources/%,ext.workingwiki.latexml.css ext.workingwiki.latexml.customization.css)
 css/auto-generated-from-ww.css : $(WW_CSS_TO_USE)
 	cat $(WW_CSS_TO_USE) > $@

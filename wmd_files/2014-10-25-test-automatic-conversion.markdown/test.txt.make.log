@@ -1,0 +1,9 @@
+Mon Oct 27 21:31:52 2014
+/usr/bin/make -C wmd_files/2014-10-25-test-automatic-conversion.markdown test.txt
+Including .mk files:  
+Including tex.d files: 
+make[1]: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-25-test-automatic-conversion.markdown'
+make[1]: Nothing to be done for `test.txt'.
+make[1]: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-25-test-automatic-conversion.markdown'
+Make succeeded.
+Mon Oct 27 21:31:52 2014

@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?latexml searchpaths="/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown"?>
+<?latexml class="article"?>
+<?latexml package="amsmath"?>
+<?latexml package="amssymb"?>
+<?latexml package="amsfonts"?>
+<?latexml package="graphicx"?>
+<?latexml package="inputenc" options="utf8"?>
+<?latexml package="fontenc" options="T1"?>
+<?latexml package="amsmath"?>
+<!-- %****␣ode-system-demo.sage.out.tex␣Line␣25␣**** -->
+<?latexml RelaxNGSchema="LaTeXML"?>
+<document xmlns="http://dlmf.nist.gov/LaTeXML">
+  <resource src="LaTeXML.css" type="text/css"/>
+  <resource src="ltx-article.css" type="text/css"/>
+  <para xml:id="p1">
+    <p>The generic competition model:</p>
+    <equationgroup xml:id="S0.Ex1">
+      <equation xml:id="S0.Ex1X">
+        <MathFork>
+          <Math xml:id="S0.Ex1X.m1" tex="\displaystyle\frac{dN_{1}}{dt}=-\frac{{\left(N_{2}\alpha_{12}-K_{1}+N_{1}%&#10;\right)}N_{1}r_{1}}{K_{1}}" text="(d * N _ 1) / (d * t) = - (((N _ 2 * alpha _ 12 - K _ 1) + N _ 1) * N _ 1 * r _ 1) / K _ 1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMApp>
+                  <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                    <XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                      <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                      <XMTok meaning="1" role="NUMBER">1</XMTok>
+                    </XMApp>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">t</XMTok>
+                  </XMApp>
+                </XMApp>
+                <XMApp>
+                  <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                  <XMApp>
+                    <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                    <XMApp>
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMDual>
+                        <XMRef idref="XM1"/>
+                        <XMWrap>
+                          <XMTok role="OPEN">(</XMTok>
+                          <XMApp xml:id="XM1">
+                            <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                            <XMApp>
+                              <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                              <XMApp>
+                                <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                                <XMApp>
+                                  <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                  <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                  <XMTok meaning="2" role="NUMBER">2</XMTok>
+                                </XMApp>
+                                <XMApp>
+                                  <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                  <XMTok name="alpha" role="UNKNOWN" font="italic">α</XMTok>
+                                  <XMTok meaning="12" role="NUMBER">12</XMTok>
+                                </XMApp>
+                              </XMApp>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                              </XMApp>
+                            </XMApp>
+                            <XMApp>
+                              <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                              <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                              <XMTok meaning="1" role="NUMBER">1</XMTok>
+                            </XMApp>
+                          </XMApp>
+                          <XMTok role="CLOSE">)</XMTok>
+                        </XMWrap>
+                      </XMDual>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                        <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                        <XMTok meaning="1" role="NUMBER">1</XMTok>
+                      </XMApp>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                        <XMTok role="UNKNOWN" font="italic">r</XMTok>
+                        <XMTok meaning="1" role="NUMBER">1</XMTok>
+                      </XMApp>
+                    </XMApp>
+                    <XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                      <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                      <XMTok meaning="1" role="NUMBER">1</XMTok>
+                    </XMApp>
+                  </XMApp>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>
+          <MathBranch>
+            <td align="right">
+              <Math xml:id="S0.Ex1X.m2" tex="\displaystyle\frac{dN_{1}}{dt}" text="(d * N _ 1) / (d * t)">
+                <XMath>
+                  <XMApp>
+                    <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                    <XMApp>
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                        <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                        <XMTok meaning="1" role="NUMBER">1</XMTok>
+                      </XMApp>
+                    </XMApp>
+                    <XMApp>
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">t</XMTok>
+                    </XMApp>
+                  </XMApp>
+                </XMath>
+              </Math>
+            </td>
+            <td align="left">
+              <Math xml:id="S0.Ex1X.m3" tex="\displaystyle=-\frac{{\left(N_{2}\alpha_{12}-K_{1}+N_{1}\right)}N_{1}r_{1}}{K_%&#10;{1}}" text="absent = - (((N _ 2 * alpha _ 12 - K _ 1) + N _ 1) * N _ 1 * r _ 1) / K _ 1">
+                <XMath>
+                  <XMApp>
+                    <XMTok meaning="equals" role="RELOP">=</XMTok>
+                    <XMTok meaning="absent"/>
+                    <XMApp>
+                      <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                      <XMApp>
+                        <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                        <XMApp>
+                          <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                          <XMDual>
+                            <XMRef idref="XM2"/>
+                            <XMWrap>
+                              <XMTok role="OPEN">(</XMTok>
+                              <XMApp xml:id="XM2">
+                                <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                                <XMApp>
+                                  <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                                  <XMApp>
+                                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                                    <XMApp>
+                                      <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                      <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                      <XMTok meaning="2" role="NUMBER">2</XMTok>
+                                    </XMApp>
+                                    <XMApp>
+                                      <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                      <XMTok name="alpha" role="UNKNOWN" font="italic">α</XMTok>
+                                      <XMTok meaning="12" role="NUMBER">12</XMTok>
+                                    </XMApp>
+                                  </XMApp>
+                                  <XMApp>
+                                    <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                    <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                                    <XMTok meaning="1" role="NUMBER">1</XMTok>
+                                  </XMApp>
+                                </XMApp>
+                                <XMApp>
+                                  <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                  <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                  <XMTok meaning="1" role="NUMBER">1</XMTok>
+                                </XMApp>
+                              </XMApp>
+                              <XMTok role="CLOSE">)</XMTok>
+                            </XMWrap>
+                          </XMDual>
+                          <XMApp>
+                            <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                            <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                            <XMTok meaning="1" role="NUMBER">1</XMTok>
+                          </XMApp>
+                          <XMApp>
+                            <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                            <XMTok role="UNKNOWN" font="italic">r</XMTok>
+                            <XMTok meaning="1" role="NUMBER">1</XMTok>
+                          </XMApp>
+                        </XMApp>
+                        <XMApp>
+                          <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                          <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                          <XMTok meaning="1" role="NUMBER">1</XMTok>
+                        </XMApp>
+                      </XMApp>
+                    </XMApp>
+                  </XMApp>
+                </XMath>
+              </Math>
+            </td>
+          </MathBranch>
+        </MathFork>
+      </equation>
+      <equation xml:id="S0.Ex1Xa">
+        <MathFork>
+          <Math xml:id="S0.Ex1Xa.m1" tex="\displaystyle\frac{dN_{2}}{dt}=-\frac{{\left(N_{1}\alpha_{21}-K_{2}+N_{2}%&#10;\right)}N_{2}r_{2}}{K_{2}}" text="(d * N _ 2) / (d * t) = - (((N _ 1 * alpha _ 21 - K _ 2) + N _ 2) * N _ 2 * r _ 2) / K _ 2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMApp>
+                  <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                    <XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                      <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                      <XMTok meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">t</XMTok>
+                  </XMApp>
+                </XMApp>
+                <XMApp>
+                  <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                  <XMApp>
+                    <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                    <XMApp>
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMDual>
+                        <XMRef idref="XM3"/>
+                        <XMWrap>
+                          <XMTok role="OPEN">(</XMTok>
+                          <XMApp xml:id="XM3">
+                            <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                            <XMApp>
+                              <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                              <XMApp>
+                                <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                                <XMApp>
+                                  <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                  <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                  <XMTok meaning="1" role="NUMBER">1</XMTok>
+                                </XMApp>
+                                <XMApp>
+                                  <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                  <XMTok name="alpha" role="UNKNOWN" font="italic">α</XMTok>
+                                  <XMTok meaning="21" role="NUMBER">21</XMTok>
+                                </XMApp>
+                              </XMApp>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                                <XMTok meaning="2" role="NUMBER">2</XMTok>
+                              </XMApp>
+                            </XMApp>
+                            <XMApp>
+                              <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                              <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                              <XMTok meaning="2" role="NUMBER">2</XMTok>
+                            </XMApp>
+                          </XMApp>
+                          <XMTok role="CLOSE">)</XMTok>
+                        </XMWrap>
+                      </XMDual>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                        <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                        <XMTok meaning="2" role="NUMBER">2</XMTok>
+                      </XMApp>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                        <XMTok role="UNKNOWN" font="italic">r</XMTok>
+                        <XMTok meaning="2" role="NUMBER">2</XMTok>
+                      </XMApp>
+                    </XMApp>
+                    <XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                      <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                      <XMTok meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                  </XMApp>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>
+          <MathBranch>
+            <td align="right">
+              <Math xml:id="S0.Ex1Xa.m2" tex="\displaystyle\frac{dN_{2}}{dt}" text="(d * N _ 2) / (d * t)">
+                <XMath>
+                  <XMApp>
+                    <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                    <XMApp>
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                        <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                        <XMTok meaning="2" role="NUMBER">2</XMTok>
+                      </XMApp>
+                    </XMApp>
+                    <XMApp>
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">t</XMTok>
+                    </XMApp>
+                  </XMApp>
+                </XMath>
+              </Math>
+            </td>
+            <td align="left">
+              <Math xml:id="S0.Ex1Xa.m3" tex="\displaystyle=-\frac{{\left(N_{1}\alpha_{21}-K_{2}+N_{2}\right)}N_{2}r_{2}}{K_%&#10;{2}}" text="absent = - (((N _ 1 * alpha _ 21 - K _ 2) + N _ 2) * N _ 2 * r _ 2) / K _ 2">
+                <XMath>
+                  <XMApp>
+                    <XMTok meaning="equals" role="RELOP">=</XMTok>
+                    <XMTok meaning="absent"/>
+                    <XMApp>
+                      <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                      <XMApp>
+                        <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                        <XMApp>
+                          <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                          <XMDual>
+                            <XMRef idref="XM4"/>
+                            <XMWrap>
+                              <XMTok role="OPEN">(</XMTok>
+                              <XMApp xml:id="XM4">
+                                <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                                <XMApp>
+                                  <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                                  <XMApp>
+                                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                                    <XMApp>
+                                      <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                      <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                      <XMTok meaning="1" role="NUMBER">1</XMTok>
+                                    </XMApp>
+                                    <XMApp>
+                                      <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                      <XMTok name="alpha" role="UNKNOWN" font="italic">α</XMTok>
+                                      <XMTok meaning="21" role="NUMBER">21</XMTok>
+                                    </XMApp>
+                                  </XMApp>
+                                  <XMApp>
+                                    <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                    <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                                    <XMTok meaning="2" role="NUMBER">2</XMTok>
+                                  </XMApp>
+                                </XMApp>
+                                <XMApp>
+                                  <XMTok role="SUBSCRIPTOP" scriptpos="post10"/>
+                                  <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                  <XMTok meaning="2" role="NUMBER">2</XMTok>
+                                </XMApp>
+                              </XMApp>
+                              <XMTok role="CLOSE">)</XMTok>
+                            </XMWrap>
+                          </XMDual>
+                          <XMApp>
+                            <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                            <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                            <XMTok meaning="2" role="NUMBER">2</XMTok>
+                          </XMApp>
+                          <XMApp>
+                            <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                            <XMTok role="UNKNOWN" font="italic">r</XMTok>
+                            <XMTok meaning="2" role="NUMBER">2</XMTok>
+                          </XMApp>
+                        </XMApp>
+                        <XMApp>
+                          <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                          <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                          <XMTok meaning="2" role="NUMBER">2</XMTok>
+                        </XMApp>
+                      </XMApp>
+                    </XMApp>
+                  </XMApp>
+                </XMath>
+              </Math>
+            </td>
+          </MathBranch>
+        </MathFork>
+      </equation>
+    </equationgroup>
+    <p>The competition model with parameters bound to specific values:</p>
+    <equationgroup xml:id="S0.Ex2">
+      <equation xml:id="S0.Ex2X">
+        <MathFork>
+          <Math xml:id="S0.Ex2X.m1" tex="\displaystyle\frac{dN_{1}}{dt}=-\frac{1}{2}\,{\left(2\,N_{1}+N_{2}-2\right)}N_%&#10;{1}" text="(d * N _ 1) / (d * t) = - (1 / 2) * ((2 * N _ 1 + N _ 2) - 2) * N _ 1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMApp>
+                  <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                    <XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                      <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                      <XMTok meaning="1" role="NUMBER">1</XMTok>
+                    </XMApp>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">t</XMTok>
+                  </XMApp>
+                </XMApp>
+                <XMApp>
+                  <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMApp rpadding="1.7pt">
+                      <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                      <XMTok meaning="1" role="NUMBER">1</XMTok>
+                      <XMTok meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                    <XMDual>
+                      <XMRef idref="XM5"/>
+                      <XMWrap>
+                        <XMTok role="OPEN">(</XMTok>
+                        <XMApp xml:id="XM5">
+                          <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                          <XMApp>
+                            <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                            <XMApp>
+                              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                              <XMTok meaning="2" role="NUMBER" rpadding="1.7pt">2</XMTok>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                              </XMApp>
+                            </XMApp>
+                            <XMApp>
+                              <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                              <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                              <XMTok meaning="2" role="NUMBER">2</XMTok>
+                            </XMApp>
+                          </XMApp>
+                          <XMTok meaning="2" role="NUMBER">2</XMTok>
+                        </XMApp>
+                        <XMTok role="CLOSE">)</XMTok>
+                      </XMWrap>
+                    </XMDual>
+                    <XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post7"/>
+                      <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                      <XMTok meaning="1" role="NUMBER">1</XMTok>
+                    </XMApp>
+                  </XMApp>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>
+          <MathBranch>
+            <td align="right">
+              <Math xml:id="S0.Ex2X.m2" tex="\displaystyle\frac{dN_{1}}{dt}" text="(d * N _ 1) / (d * t)">
+                <XMath>
+                  <XMApp>
+                    <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                    <XMApp>
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                        <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                        <XMTok meaning="1" role="NUMBER">1</XMTok>
+                      </XMApp>
+                    </XMApp>
+                    <XMApp>
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">t</XMTok>
+                    </XMApp>
+                  </XMApp>
+                </XMath>
+              </Math>
+            </td>
+            <td align="left">
+              <Math xml:id="S0.Ex2X.m3" tex="\displaystyle=-\frac{1}{2}\,{\left(2\,N_{1}+N_{2}-2\right)}N_{1}" text="absent = - (1 / 2) * ((2 * N _ 1 + N _ 2) - 2) * N _ 1">
+                <XMath>
+                  <XMApp>
+                    <XMTok meaning="equals" role="RELOP">=</XMTok>
+                    <XMTok meaning="absent"/>
+                    <XMApp>
+                      <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                      <XMApp>
+                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                        <XMApp rpadding="1.7pt">
+                          <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                          <XMTok meaning="1" role="NUMBER">1</XMTok>
+                          <XMTok meaning="2" role="NUMBER">2</XMTok>
+                        </XMApp>
+                        <XMDual>
+                          <XMRef idref="XM6"/>
+                          <XMWrap>
+                            <XMTok role="OPEN">(</XMTok>
+                            <XMApp xml:id="XM6">
+                              <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                              <XMApp>
+                                <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                                <XMApp>
+                                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                                  <XMTok meaning="2" role="NUMBER" rpadding="1.7pt">2</XMTok>
+                                  <XMApp>
+                                    <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                    <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                    <XMTok meaning="1" role="NUMBER">1</XMTok>
+                                  </XMApp>
+                                </XMApp>
+                                <XMApp>
+                                  <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                  <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                  <XMTok meaning="2" role="NUMBER">2</XMTok>
+                                </XMApp>
+                              </XMApp>
+                              <XMTok meaning="2" role="NUMBER">2</XMTok>
+                            </XMApp>
+                            <XMTok role="CLOSE">)</XMTok>
+                          </XMWrap>
+                        </XMDual>
+                        <XMApp>
+                          <XMTok role="SUBSCRIPTOP" scriptpos="post7"/>
+                          <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                          <XMTok meaning="1" role="NUMBER">1</XMTok>
+                        </XMApp>
+                      </XMApp>
+                    </XMApp>
+                  </XMApp>
+                </XMath>
+              </Math>
+            </td>
+          </MathBranch>
+        </MathFork>
+      </equation>
+      <equation xml:id="S0.Ex2Xa">
+        <MathFork>
+          <Math xml:id="S0.Ex2Xa.m1" tex="\displaystyle\frac{dN_{2}}{dt}=-\frac{1}{5}\,{\left(2\,N_{1}+4\,N_{2}-5\right)%&#10;}N_{2}" text="(d * N _ 2) / (d * t) = - (1 / 5) * ((2 * N _ 1 + 4 * N _ 2) - 5) * N _ 2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMApp>
+                  <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                    <XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                      <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                      <XMTok meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                    <XMTok role="UNKNOWN" font="italic">t</XMTok>
+                  </XMApp>
+                </XMApp>
+                <XMApp>
+                  <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMApp rpadding="1.7pt">
+                      <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                      <XMTok meaning="1" role="NUMBER">1</XMTok>
+                      <XMTok meaning="5" role="NUMBER">5</XMTok>
+                    </XMApp>
+                    <XMDual>
+                      <XMRef idref="XM7"/>
+                      <XMWrap>
+                        <XMTok role="OPEN">(</XMTok>
+                        <XMApp xml:id="XM7">
+                          <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                          <XMApp>
+                            <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                            <XMApp>
+                              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                              <XMTok meaning="2" role="NUMBER" rpadding="1.7pt">2</XMTok>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                              </XMApp>
+                            </XMApp>
+                            <XMApp>
+                              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                              <XMTok meaning="4" role="NUMBER" rpadding="1.7pt">4</XMTok>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                <XMTok meaning="2" role="NUMBER">2</XMTok>
+                              </XMApp>
+                            </XMApp>
+                          </XMApp>
+                          <XMTok meaning="5" role="NUMBER">5</XMTok>
+                        </XMApp>
+                        <XMTok role="CLOSE">)</XMTok>
+                      </XMWrap>
+                    </XMDual>
+                    <XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post7"/>
+                      <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                      <XMTok meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                  </XMApp>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>
+          <MathBranch>
+            <td align="right">
+              <Math xml:id="S0.Ex2Xa.m2" tex="\displaystyle\frac{dN_{2}}{dt}" text="(d * N _ 2) / (d * t)">
+                <XMath>
+                  <XMApp>
+                    <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                    <XMApp>
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                        <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                        <XMTok meaning="2" role="NUMBER">2</XMTok>
+                      </XMApp>
+                    </XMApp>
+                    <XMApp>
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">d</XMTok>
+                      <XMTok role="UNKNOWN" font="italic">t</XMTok>
+                    </XMApp>
+                  </XMApp>
+                </XMath>
+              </Math>
+            </td>
+            <td align="left">
+              <Math xml:id="S0.Ex2Xa.m3" tex="\displaystyle=-\frac{1}{5}\,{\left(2\,N_{1}+4\,N_{2}-5\right)}N_{2}" text="absent = - (1 / 5) * ((2 * N _ 1 + 4 * N _ 2) - 5) * N _ 2">
+                <XMath>
+                  <XMApp>
+                    <XMTok meaning="equals" role="RELOP">=</XMTok>
+                    <XMTok meaning="absent"/>
+                    <XMApp>
+                      <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                      <XMApp>
+                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                        <XMApp rpadding="1.7pt">
+                          <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                          <XMTok meaning="1" role="NUMBER">1</XMTok>
+                          <XMTok meaning="5" role="NUMBER">5</XMTok>
+                        </XMApp>
+                        <XMDual>
+                          <XMRef idref="XM8"/>
+                          <XMWrap>
+                            <XMTok role="OPEN">(</XMTok>
+                            <XMApp xml:id="XM8">
+                              <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                              <XMApp>
+                                <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                                <XMApp>
+                                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                                  <XMTok meaning="2" role="NUMBER" rpadding="1.7pt">2</XMTok>
+                                  <XMApp>
+                                    <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                    <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                    <XMTok meaning="1" role="NUMBER">1</XMTok>
+                                  </XMApp>
+                                </XMApp>
+                                <XMApp>
+                                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                                  <XMTok meaning="4" role="NUMBER" rpadding="1.7pt">4</XMTok>
+                                  <XMApp>
+                                    <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                    <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                                    <XMTok meaning="2" role="NUMBER">2</XMTok>
+                                  </XMApp>
+                                </XMApp>
+                              </XMApp>
+                              <XMTok meaning="5" role="NUMBER">5</XMTok>
+                            </XMApp>
+                            <XMTok role="CLOSE">)</XMTok>
+                          </XMWrap>
+                        </XMDual>
+                        <XMApp>
+                          <XMTok role="SUBSCRIPTOP" scriptpos="post7"/>
+                          <XMTok role="UNKNOWN" font="italic">N</XMTok>
+                          <XMTok meaning="2" role="NUMBER">2</XMTok>
+                        </XMApp>
+                      </XMApp>
+                    </XMApp>
+                  </XMApp>
+                </XMath>
+              </Math>
+            </td>
+          </MathBranch>
+        </MathFork>
+      </equation>
+    </equationgroup>
+    <p>Equilibria of the generic model:</p>
+    <equation xml:id="S0.Ex3">
+      <Math mode="display" xml:id="S0.Ex3.m1" tex="\left(\begin{array}[]{c}0\\&#10;0\end{array}\right),\left(\begin{array}[]{c}K_{1}\\&#10;0\end{array}\right),\left(\begin{array}[]{c}0\\&#10;K_{2}\end{array}\right),\left(\begin{array}[]{c}\frac{K_{2}\alpha_{12}-K_{1}}{%&#10;\alpha_{12}\alpha_{21}-1}\\&#10;\frac{K_{1}\alpha_{21}-K_{2}}{\alpha_{12}\alpha_{21}-1}\end{array}\right)" text="list@(Array[[0], [0]], Array[[K _ 1], [0]], Array[[0], [K _ 2]], Array[[(K _ 2 * alpha _ 12 - K _ 1) / (alpha _ 12 * alpha _ 21 - 1)], [(K _ 1 * alpha _ 21 - K _ 2) / (alpha _ 12 * alpha _ 21 - 1)]])">
+        <XMath>
+          <XMDual>
+            <XMApp>
+              <XMTok meaning="list"/>
+              <XMRef idref="XM13"/>
+              <XMRef idref="XM14"/>
+              <XMRef idref="XM15"/>
+              <XMRef idref="XM16"/>
+            </XMApp>
+            <XMWrap>
+              <XMDual xml:id="XM13">
+                <XMRef idref="XM9"/>
+                <XMWrap>
+                  <XMTok role="OPEN">(</XMTok>
+                  <XMArray role="ARRAY" vattach="middle" xml:id="XM9">
+                    <XMRow>
+                      <XMCell align="center">
+                        <XMTok meaning="0" role="NUMBER">0</XMTok>
+                      </XMCell>
+                    </XMRow>
+                    <XMRow>
+                      <XMCell align="center">
+                        <XMTok meaning="0" role="NUMBER">0</XMTok>
+                      </XMCell>
+                    </XMRow>
+                  </XMArray>
+                  <XMTok role="CLOSE">)</XMTok>
+                </XMWrap>
+              </XMDual>
+              <XMTok role="PUNCT">,</XMTok>
+              <XMDual xml:id="XM14">
+                <XMRef idref="XM10"/>
+                <XMWrap>
+                  <XMTok role="OPEN">(</XMTok>
+                  <XMArray role="ARRAY" vattach="middle" xml:id="XM10">
+                    <XMRow>
+                      <XMCell align="center">
+                        <XMApp>
+                          <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                          <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                          <XMTok meaning="1" role="NUMBER">1</XMTok>
+                        </XMApp>
+                      </XMCell>
+                    </XMRow>
+                    <XMRow>
+                      <XMCell align="center">
+                        <XMTok meaning="0" role="NUMBER">0</XMTok>
+                      </XMCell>
+                    </XMRow>
+                  </XMArray>
+                  <XMTok role="CLOSE">)</XMTok>
+                </XMWrap>
+              </XMDual>
+              <XMTok role="PUNCT">,</XMTok>
+              <XMDual xml:id="XM15">
+                <XMRef idref="XM11"/>
+                <XMWrap>
+                  <XMTok role="OPEN">(</XMTok>
+                  <XMArray role="ARRAY" vattach="middle" xml:id="XM11">
+                    <XMRow>
+                      <XMCell align="center">
+                        <XMTok meaning="0" role="NUMBER">0</XMTok>
+                      </XMCell>
+                    </XMRow>
+                    <XMRow>
+                      <XMCell align="center">
+                        <XMApp>
+                          <XMTok role="SUBSCRIPTOP" scriptpos="post8"/>
+                          <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                          <XMTok meaning="2" role="NUMBER">2</XMTok>
+                        </XMApp>
+                      </XMCell>
+                    </XMRow>
+                  </XMArray>
+                  <XMTok role="CLOSE">)</XMTok>
+                </XMWrap>
+              </XMDual>
+              <XMTok role="PUNCT">,</XMTok>
+              <XMDual xml:id="XM16">
+                <XMRef idref="XM12"/>
+                <XMWrap>
+                  <XMTok role="OPEN">(</XMTok>
+                  <XMArray role="ARRAY" vattach="middle" xml:id="XM12">
+                    <XMRow>
+                      <XMCell align="center">
+                        <XMApp>
+                          <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                          <XMApp>
+                            <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                            <XMApp>
+                              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                                <XMTok meaning="2" role="NUMBER">2</XMTok>
+                              </XMApp>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok name="alpha" role="UNKNOWN" font="italic">α</XMTok>
+                                <XMTok meaning="12" role="NUMBER">12</XMTok>
+                              </XMApp>
+                            </XMApp>
+                            <XMApp>
+                              <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                              <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                              <XMTok meaning="1" role="NUMBER">1</XMTok>
+                            </XMApp>
+                          </XMApp>
+                          <XMApp>
+                            <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                            <XMApp>
+                              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok name="alpha" role="UNKNOWN" font="italic">α</XMTok>
+                                <XMTok meaning="12" role="NUMBER">12</XMTok>
+                              </XMApp>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok name="alpha" role="UNKNOWN" font="italic">α</XMTok>
+                                <XMTok meaning="21" role="NUMBER">21</XMTok>
+                              </XMApp>
+                            </XMApp>
+                            <XMTok meaning="1" role="NUMBER">1</XMTok>
+                          </XMApp>
+                        </XMApp>
+                      </XMCell>
+                    </XMRow>
+                    <XMRow>
+                      <XMCell align="center">
+                        <XMApp>
+                          <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                          <XMApp>
+                            <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                            <XMApp>
+                              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                              </XMApp>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok name="alpha" role="UNKNOWN" font="italic">α</XMTok>
+                                <XMTok meaning="21" role="NUMBER">21</XMTok>
+                              </XMApp>
+                            </XMApp>
+                            <XMApp>
+                              <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                              <XMTok role="UNKNOWN" font="italic">K</XMTok>
+                              <XMTok meaning="2" role="NUMBER">2</XMTok>
+                            </XMApp>
+                          </XMApp>
+                          <XMApp>
+                            <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                            <XMApp>
+                              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok name="alpha" role="UNKNOWN" font="italic">α</XMTok>
+                                <XMTok meaning="12" role="NUMBER">12</XMTok>
+                              </XMApp>
+                              <XMApp>
+                                <XMTok role="SUBSCRIPTOP" scriptpos="post9"/>
+                                <XMTok name="alpha" role="UNKNOWN" font="italic">α</XMTok>
+                                <XMTok meaning="21" role="NUMBER">21</XMTok>
+                              </XMApp>
+                            </XMApp>
+                            <XMTok meaning="1" role="NUMBER">1</XMTok>
+                          </XMApp>
+                        </XMApp>
+                      </XMCell>
+                    </XMRow>
+                  </XMArray>
+                  <XMTok role="CLOSE">)</XMTok>
+                </XMWrap>
+              </XMDual>
+            </XMWrap>
+          </XMDual>
+        </XMath>
+      </Math>
+    </equation>
+    <p>Stable equilibria of the bound model:</p>
+    <equation xml:id="S0.Ex4">
+      <Math mode="display" xml:id="S0.Ex4.m1" tex="\left(\begin{array}[]{c}\frac{1}{2}\\&#10;1\end{array}\right)" text="Array[[1 / 2], [1]]">
+        <XMath>
+          <XMDual>
+            <XMRef idref="XM17"/>
+            <XMWrap>
+              <XMTok role="OPEN">(</XMTok>
+              <XMArray role="ARRAY" vattach="middle" xml:id="XM17">
+                <XMRow>
+                  <XMCell align="center">
+                    <XMApp>
+                      <XMTok mathstyle="display" meaning="divide" role="MULOP"/>
+                      <XMTok meaning="1" role="NUMBER">1</XMTok>
+                      <XMTok meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                  </XMCell>
+                </XMRow>
+                <XMRow>
+                  <XMCell align="center">
+                    <XMTok meaning="1" role="NUMBER">1</XMTok>
+                  </XMCell>
+                </XMRow>
+              </XMArray>
+              <XMTok role="CLOSE">)</XMTok>
+            </XMWrap>
+          </XMDual>
+        </XMath>
+      </Math>
+    </equation>
+  </para>
+</document>

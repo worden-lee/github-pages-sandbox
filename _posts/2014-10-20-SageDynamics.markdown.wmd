@@ -139,5 +139,5 @@ Here are instructions to run this Sage code yourself.  You will need [Sage](http
 * In the code directory from this page, edit the makefile `libraries.mk` so that it has the correct locations for the SageUtils and SageDynamics directories that you checked out from Git.
 * In the code directory, run `make ode-system-demo.sage.out.tex`
 
-To see how this blog post is written, with source code embedded, see [https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts_wmd/2014-10-20-SageDynamics.html.wmd](https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts_wmd/2014-10-20-SageDynamics.html.wmd).
+To see how this blog post is written, with source code embedded, see [https://github.com/worden-lee/github-pages-sandbox/blob/master/_posts/2014-10-20-SageDynamics.markdown.wmd](https://github.com/worden-lee/github-pages-sandbox/blob/master/_posts/2014-10-20-SageDynamics.markdown.wmd).
 

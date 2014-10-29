@@ -133,6 +133,6 @@ This project is designed for reproducible research.
 * Here is an automatically-generated tar file of the source file contents: <project-file filename="wmd_export.tgz"/>.  You should be able to unpack this directory and simply run 'make example.Rout.png' to build the first image above, and similar commands to build the other output files.
 * To reproduce these outputs you will need GNU make, perl, and R installed.
 
-To see the source text of this blog post, with the R and makefile code embedded, see [https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts/2014-10-15-nomogram.md.wmd](https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts/2014-10-15-nomogram.md.wmd).
+To see the source text of this blog post, with the R and makefile code embedded, see [https://github.com/worden-lee/github-pages-sandbox/blob/master/_posts/2014-10-15-nomogram.md.wmd](https://github.com/worden-lee/github-pages-sandbox/blob/master/_posts/2014-10-15-nomogram.md.wmd).
 
 See also a discussion of how this is put together at [http://leeworden.net/lw/node/148](http://leeworden.net/lw/node/148) and [http://leeworden.net/lw/node/149](http://leeworden.net/lw/node/149).

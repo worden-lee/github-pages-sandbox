@@ -1,4 +1,4 @@
-Tue Oct 28 22:28:08 2014
+Tue Oct 28 22:35:42 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown \
     ode-system-demo.sage.out.latexml.html
@@ -6,74 +6,7 @@ Including .mk files: libraries.mk
 Including .mk files from .step files: ode-system-demo.sage.mk
 Including tex.d files: ode-system-demo.sage.out.tex.d
 make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
-perl -f ../SageDynamics/SageUtils/step.pl ode-system-demo.sage '#'
-make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
-Including .mk files: libraries.mk 
-Including .mk files from .step files: ode-system-demo.sage.mk
-Including tex.d files: ode-system-demo.sage.out.tex.d
-make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
-(sage ode-system-demo.sage | tee ode-system-demo.sage.dmp) && mv ode-system-demo.sage.dmp ode-system-demo.sage.out
-Updating .workingwiki/ode-system-demo.sage.out.tex.d
-rm -f ode-system-demo.sage.out.latexml.html5
-bibxmls=`perl -ne '($_)=/^[^%]*\\\bibliography\{([^\\\\#]*?)\}/;@_=split /,/;foreach $b (@_) { $b =~ s/\.bib$//; print "$b.bib.xml "}' ode-system-demo.sage.out.tex`; bibxargs=`perl -ne '($_)=/^[^%]*\\\bibliography\{([^\\\\#]*?)\}/;@_=split /,/;foreach $b (@_) { $b =~ s/\.bib$//; print "--bibliography=$b.bib.xml "}' ode-system-demo.sage.out.tex` && \
-	/usr/bin/make -f /usr/local/src/workingwiki-trunk/ProjectEngine/resources/makefile ode-system-demo.sage.out.latexml.xml $bibxmls && \
-	lxpost="latexmlpost --noplane1 --novalidate --destination=ode-system-demo.sage.out.intermediate.latexml.html5 --format=html5 $bibxargs ode-system-demo.sage.out.latexml.xml" && echo $lxpost && $lxpost
-Including .mk files: libraries.mk 
-Including .mk files from .step files: ode-system-demo.sage.mk
-Including tex.d files: ode-system-demo.sage.out.tex.d
-make[1]: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
-latexml  --destination=ode-system-demo.sage.out.latexml.xml ode-system-demo.sage.out.tex
-latexml (LaTeXML version v0.8.0; revision 8829930)
-processing started Tue Oct 28 22:29:01 2014
-
-(Digesting TeX ode-system-demo.sage.out...
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/TeX.pool.ltxml...
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/eTeX.pool.ltxml... 0.02 sec)
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/pdfTeX.pool.ltxml... 0.02 sec) 0.41 sec)
-(Processing content /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown/ode-system-demo.sage.out.tex...
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/LaTeX.pool.ltxml... 0.29 sec)
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/article.cls.ltxml... 0.03 sec)
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/amsmath.sty.ltxml...
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/amsbsy.sty.ltxml... 0.00 sec)
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/amstext.sty.ltxml... 0.00 sec)
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/amsopn.sty.ltxml... 0.01 sec) 0.12 sec)
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/amssymb.sty.ltxml...
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/amsfonts.sty.ltxml... 0.01 sec) 0.05 sec)
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/graphicx.sty.ltxml...
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/graphics.sty.ltxml... 0.01 sec) 0.12 sec)
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/inputenc.sty.ltxml...
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/utf8.def.ltxml... 0.00 sec) 0.02 sec)
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/fontenc.sty.ltxml...
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/t1enc.def.ltxml...
-(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def...
-(Loading /usr/local/share/perl/5.18.2/LaTeXML/Package/t1.fontmap.ltxml... 0.01 sec) 0.15 sec) 0.50 sec) 0.51 sec) 1.47 sec) 2.00 sec)
-(Building...
-(Loading compiled schema /usr/local/share/perl/5.18.2/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.04 sec).............. 0.55 sec)
-(Rewriting... 0.03 sec)
-(Math Parsing...14 formulae ...[1][2][3][4][5][6][7][8][9][10][11][12][13][14]
-Math parsing succeeded:
-   ltx:XMArg: 108/108
-   ltx:XMath: 14/14
-Symbols assumed as simple identifiers (with # of occurences):
-   'K{italic}' (14), 'N{italic}' (32), 'alpha' (10), 'd{italic}' (16), 'r{italic}' (4), 't{italic}' (8)
- 0.95 sec)
-(Finalizing... 0.12 sec)
-Conversion complete: No obvious problems.
-processing finished Tue Oct 28 22:29:05 2014
-make[1]: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
-latexmlpost --noplane1 --novalidate --destination=ode-system-demo.sage.out.intermediate.latexml.html5 --format=html5 ode-system-demo.sage.out.latexml.xml
-latexmlpost (LaTeXML version v0.8.0; revision 8829930)
-processing started Tue Oct 28 22:29:06 2014
-(ode-system-demo.sage.out.intermediate.latexml.html5 post-processing...
-(Scan ode-system-demo.sage.out.intermediate.latexml.html5 processing...
-(CrossRef ode-system-demo.sage.out.intermediate.latexml.html5 processing...
-(MathML::Presentation ode-system-demo.sage.out.intermediate.latexml.html5 14 to process...
-(XSLT ode-system-demo.sage.out.intermediate.latexml.html5 processing...
-(Writer ode-system-demo.sage.out.intermediate.latexml.html5 processing... 0.23 sec)
-Postprocessing complete: No obvious problems
-processing finished Tue Oct 28 22:29:07 2014
-/usr/local/src/workingwiki-trunk/ProjectEngine/resources/wiki-inclusion.latexml.pl ode-system-demo.sage.out.intermediate.latexml.html5 >ode-system-demo.sage.out.latexml.html5
-ln -f ode-system-demo.sage.out.latexml.html5 ode-system-demo.sage.out.latexml.html
+make: `ode-system-demo.sage.out.latexml.html' is up to date.
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
 Make succeeded.
-Tue Oct 28 22:29:07 2014
+Tue Oct 28 22:35:42 2014

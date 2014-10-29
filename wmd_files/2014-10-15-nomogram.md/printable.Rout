@@ -1,0 +1,10 @@
+> # Global Environment: nomogram.RData
+> 
+> # Scripts: printable.R
+> 
+> dev.off(); pdf("printable.Rout.pdf", height=9.5, width=6.5) # This is a theobio/Rprep magic command
+null device 
+          1 
+> nomogram()
+> 
+> 

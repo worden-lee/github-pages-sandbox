@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LW Jekyll/GitHub Pages Sandbox</title>
+    <description>This is a sandbox test site for Lee Worden's experiments with Jekyll and GitHub Pages
+</description>
+    <link>/github-pages-sandbox/</link>
+    <atom:link href="/github-pages-sandbox/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 28 Oct 2014 22:27:53 -0700</pubDate>
+    <lastBuildDate>Tue, 28 Oct 2014 22:27:53 -0700</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Sage Dynamics Demo</title>
+        <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;[This is an adaptation of &lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/worden/index.php/SageDynamics/Demo&quot;&gt;a page from my open lab notebook wiki&lt;/a&gt;, as a demo of our Working Markup reproducible web-publishing system. -lw]&lt;/p&gt;
+
+&lt;p&gt;This post demonstrates a set of &lt;a href=&quot;http://www.sagemath.org/&quot;&gt;Sage&lt;/a&gt; classes I wrote to work with continuous-time dynamical systems, the kind of system my colleagues and I use a lot as mathematical models.&lt;/p&gt;
+
+&lt;p&gt;The computations in this blog post are implemented in two parts.  The Sage class library is kept in a &lt;a href=&quot;https://github.com/worden-lee/SageDynamics&quot;&gt;GitHub repository by itself&lt;/a&gt;, and the Sage scripts that use the library to implement a simple demo system on this page are stored as part of this page.&lt;/p&gt;
+
+&lt;p&gt;On this page I use those Sage classes to construct a &lt;a href=&quot;http://www.tiem.utk.edu/~gross/bioed/bealsmodules/competition.html&quot;&gt;simple population biology model&lt;/a&gt; of two populations, and analyze and evaluate it.&lt;/p&gt;
+
+&lt;p&gt;The Sage code for this model is below.  Here’s its output, in LaTeX format:&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-291960989-QINU&lt;/p&gt;
+
+&lt;p&gt;Here’s the state space plot that the program creates, showing a representative trajectory of the model’s dynamics, with flow vector field and zero-net-growth isoclines:&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-1001912423-QINU&lt;/p&gt;
+
+&lt;p&gt;And a bifurcation diagram of total population vs. UNIQ-WW-1788451857-QINU (black=stable, red=repelling point, blue=saddle):&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-206353051-QINU&lt;/p&gt;
+
+&lt;h2 id=&quot;source-code&quot;&gt;Source code&lt;/h2&gt;
+
+&lt;p&gt;Here is the source code for this page’s demo:&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-1110753295-QINU&lt;/p&gt;
+
+&lt;p&gt;And a small makefile to get the above Sage code to connect with the libraries pulled from GitHub into a separate directory:
+UNIQ-WW-488934836-QINU&lt;/p&gt;
+
+&lt;h2 id=&quot;reproducibility&quot;&gt;Reproducibility&lt;/h2&gt;
+
+&lt;p&gt;Here are instructions to run this Sage code yourself.  You will need &lt;a href=&quot;http://www.sagemath.org/doc/installation&quot;&gt;Sage&lt;/a&gt;, GNU make, git, perl, and maybe some other utilities installed.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download and unpack the source code from this page: UNIQ-WW-892658231-QINU&lt;/li&gt;
+  &lt;li&gt;Clone the Sage library code from Git: &lt;a href=&quot;https://github.com/worden-lee/SageDynamics&quot;&gt;https://github.com/worden-lee/SageDynamics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;In the code directory from this page, edit the makefile &lt;code&gt;libraries.mk&lt;/code&gt; so that it has the correct locations for the SageUtils and SageDynamics directories that you checked out from Git.&lt;/li&gt;
+  &lt;li&gt;In the code directory, run &lt;code&gt;make ode-system-demo.sage.out.tex&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To see how this blog post is written, with source code embedded, see &lt;a href=&quot;https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts_wmd/2014-10-20-SageDynamics.html.wmd&quot;&gt;https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts_wmd/2014-10-20-SageDynamics.html.wmd&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 Oct 2014 12:00:01 -0700</pubDate>
+        <link>/github-pages-sandbox/jekyll/update/2014/10/20/SageDynamics.html</link>
+        <guid isPermaLink="true">/github-pages-sandbox/jekyll/update/2014/10/20/SageDynamics.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Nomogram</title>
+        <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram&quot;&gt;This is a page from Jonathan Dushoff’s math wiki&lt;/a&gt;, adapted for use as a test of my Working Markup blog-post system. -lw]&lt;/p&gt;
+
+&lt;p&gt;On this page, I use the free software environment &lt;a href=&quot;http://www.r-project.org/&quot;&gt;R&lt;/a&gt; to construct a &lt;a href=&quot;http://en.wikipedia.org/wiki/Nomogram&quot;&gt;nomogram&lt;/a&gt; that I read about in a recreational math book when I was a kid.  This nomogram solves quadratic equations.&lt;/p&gt;
+
+&lt;h2 id=&quot;nomogram&quot;&gt;Nomogram&lt;/h2&gt;
+
+&lt;p&gt;You can print out UNIQ-WW-873614809-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-975406838-QINU to UNIQ-WW-166260859-QINU intersects the scale.&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-697299319-QINU&lt;/p&gt;
+
+&lt;p&gt;The example above shows the solutions to the equation UNIQ-WW-1086468093-QINU.  The dashed line connecting UNIQ-WW-144469992-QINU to UNIQ-WW-1958861004-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-1448342382-QINU to UNIQ-WW-1227123725-QINU shows the negative solution (-1.2).&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-476440701-QINU&lt;/p&gt;
+
+&lt;p&gt;In this example (UNIQ-WW-492906787-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.&lt;/p&gt;
+
+&lt;h2 id=&quot;math&quot;&gt;Math&lt;/h2&gt;
+
+&lt;p&gt;We want to draw lines from UNIQ-WW-1356403278-QINU to UNIQ-WW-2003945319-QINU that will pass through a point labeled with UNIQ-WW-237733769-QINU, where UNIQ-WW-833687374-QINU is a root, satisfying UNIQ-WW-941057926-QINU.  The equation for our line is UNIQ-WW-1500902991-QINU.  Solve the quadratic to obtain UNIQ-WW-1198755460-QINU, and substitute into the line equation to get UNIQ-WW-119447555-QINU.&lt;/p&gt;
+
+&lt;p&gt;If we want all lines corresponding to UNIQ-WW-54289678-QINU to go through our point, we must find one independent of UNIQ-WW-1008516510-QINU.  We do this by setting UNIQ-WW-369451664-QINU, to yield UNIQ-WW-186151727-QINU.&lt;/p&gt;
+
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;Define and call a nomogram function.&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-1834311295-QINU&lt;/p&gt;
+
+&lt;p&gt;Use make to make the example code below depend on the R environment from above (using our &lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules&amp;quot;&quot;&gt;custom R rules&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-3129729-QINU&lt;/p&gt;
+
+&lt;p&gt;Make a nomogram, then define and make example lines.&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-1748721166-QINU&lt;/p&gt;
+
+&lt;p&gt;Here’s another example.&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-54324969-QINU&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-1794415318-QINU&lt;/p&gt;
+
+&lt;h2 id=&quot;printable&quot;&gt;Printable&lt;/h2&gt;
+
+&lt;p&gt;UNIQ-WW-2044012747-QINU&lt;/p&gt;
+
+&lt;p&gt;UNIQ-WW-139752321-QINU&lt;/p&gt;
+
+&lt;h2 id=&quot;export-source-code&quot;&gt;Export source code&lt;/h2&gt;
+
+&lt;p&gt;This project is designed for reproducible research. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This entire website (including the source text of this blog post, with all the source code included) is available for cloning at https://github.com/worden-lee/github-pages-sandbox.  I’m planning to write instructions for processing it soon.&lt;/li&gt;
+  &lt;li&gt;To reproduce the full blog post you’ll need to have the following installed: Jekyll, git, R, latexml, GNU make, perl (and maybe other things - bug reports welcome).&lt;/li&gt;
+  &lt;li&gt;Here is an automatically-generated tar file of the source file contents: UNIQ-WW-2002850808-QINU.  You should be able to unpack this directory and simply run ‘make example.Rout.png’ to build the first image above, and similar commands to build the other output files.&lt;/li&gt;
+  &lt;li&gt;To reproduce these outputs you will need GNU make, perl, and R installed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To see the source text of this blog post, with the R and makefile code embedded, see &lt;a href=&quot;https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts/2014-10-15-nomogram.md.wmd&quot;&gt;https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts/2014-10-15-nomogram.md.wmd&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;See also a discussion of how this is put together at &lt;a href=&quot;http://leeworden.net/lw/node/148&quot;&gt;http://leeworden.net/lw/node/148&lt;/a&gt; and &lt;a href=&quot;http://leeworden.net/lw/node/149&quot;&gt;http://leeworden.net/lw/node/149&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Oct 2014 13:00:00 -0700</pubDate>
+        <link>/github-pages-sandbox/jekyll/update/2014/10/15/nomogram.html</link>
+        <guid isPermaLink="true">/github-pages-sandbox/jekyll/update/2014/10/15/nomogram.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 15 Oct 2014 11:33:50 -0700</pubDate>
+        <link>/github-pages-sandbox/jekyll/update/2014/10/15/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/github-pages-sandbox/jekyll/update/2014/10/15/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

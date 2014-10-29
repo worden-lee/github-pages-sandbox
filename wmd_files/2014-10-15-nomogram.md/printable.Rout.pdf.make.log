@@ -1,0 +1,11 @@
+Tue Oct 28 22:27:59 2014
+/usr/bin/make -C \
+    /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md \
+    printable.Rout.pdf
+Including .mk files: example.mk another.mk printable.mk 
+Including tex.d files: 
+make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
+make: `printable.Rout.pdf' is up to date.
+make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
+Make succeeded.
+Tue Oct 28 22:27:59 2014

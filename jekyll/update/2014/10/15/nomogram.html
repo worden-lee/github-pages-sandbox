@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Nomogram</title>
+    <meta name="description" content="This is a sandbox test site for Lee Worden's experiments with Jekyll and GitHub Pages
+">
+
+    <link rel="stylesheet" href="/github-pages-sandbox/css/main.css">
+    <link rel="stylesheet" href="/github-pages-sandbox/css/auto-generated-from-ww.css">
+    <link rel="stylesheet" href="/github-pages-sandbox/css/wmd.css">
+    <link rel="canonical" href="/github-pages-sandbox/jekyll/update/2014/10/15/nomogram.html">
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({ jax: ["input/MathML", "output/HTML-CSS"] });</script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/github-pages-sandbox/">LW Jekyll/GitHub Pages Sandbox</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/github-pages-sandbox/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Nomogram</h1>
+    <p class="post-meta">Oct 15, 2014</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="intro">Intro</h2>
+
+<p><a href="http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram">This is a page from Jonathan Dushoff’s math wiki</a>, adapted for use as a test of my Working Markup blog-post system. -lw]</p>
+
+<p>On this page, I use the free software environment <a href="http://www.r-project.org/">R</a> to construct a <a href="http://en.wikipedia.org/wiki/Nomogram">nomogram</a> that I read about in a recreational math book when I was a kid.  This nomogram solves quadratic equations.</p>
+
+<h2 id="nomogram">Nomogram</h2>
+
+<p>You can print out <a href="/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/printable.Rout.pdf">the nomogram</a>, and use a ruler to read off the solutions to the quadratic equation, where the line from <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="\pm b" display="inline"><mrow><mo>±</mo><mi>b</mi></mrow></math></span> to <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="c" display="inline"><mi>c</mi></math></span> intersects the scale.</p>
+
+<p><img src="/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/example.Rout.png" alt="(example.Rout.png)"/></p>
+
+<p>The example above shows the solutions to the equation <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="x^{2}-3x-5=0" display="inline"><mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mrow><mn>3</mn><mo>⁢</mo><mi>x</mi></mrow><mo>-</mo><mn>5</mn></mrow><mo>=</mo><mn>0</mn></mrow></math></span>.  The dashed line connecting <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="b" display="inline"><mi>b</mi></math></span> to <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="c" display="inline"><mi>c</mi></math></span> shows the positive solution (4.2), and the dotted line connecting <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="-b" display="inline"><mrow><mo>-</mo><mi>b</mi></mrow></math></span> to <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="c" display="inline"><mi>c</mi></math></span> shows the negative solution (-1.2).</p>
+
+<p><img src="/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/another.Rout.png" alt="(another.Rout.png)"/></p>
+
+<p>In this example (<span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="x^{2}-5x+1=0" display="inline"><mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mrow><mn>5</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mn>1</mn></mrow><mo>=</mo><mn>0</mn></mrow></math></span>), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.</p>
+
+<h2 id="math">Math</h2>
+
+<p>We want to draw lines from <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="(0,b)" display="inline"><mrow><mo stretchy="false">(</mo><mn xml:id="XM1">0</mn><mo>,</mo><mi xml:id="XM2">b</mi><mo stretchy="false">)</mo></mrow></math></span> to <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="(1,c)" display="inline"><mrow><mo stretchy="false">(</mo><mn xml:id="XM1">1</mn><mo>,</mo><mi xml:id="XM2">c</mi><mo stretchy="false">)</mo></mrow></math></span> that will pass through a point labeled with <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="r" display="inline"><mi>r</mi></math></span>, where <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="r" display="inline"><mi>r</mi></math></span> is a root, satisfying <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="r^{2}+br+c=0" display="inline"><mrow><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mrow><mi>b</mi><mo>⁢</mo><mi>r</mi></mrow><mo>+</mo><mi>c</mi></mrow><mo>=</mo><mn>0</mn></mrow></math></span>.  The equation for our line is <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="y=b+(c-b)x" display="inline"><mrow><mi>y</mi><mo>=</mo><mrow><mi>b</mi><mo>+</mo><mrow><mrow><mo stretchy="false">(</mo><mrow xml:id="XM1c"><mi xml:id="XM1">c</mi><mo xml:id="XM1a">-</mo><mi xml:id="XM1b">b</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow></mrow></mrow></math></span>.  Solve the quadratic to obtain <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="c=-r^{2}-br" display="inline"><mrow><mi>c</mi><mo>=</mo><mrow><mo>-</mo><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><mrow><mi>b</mi><mo>⁢</mo><mi>r</mi></mrow></mrow></mrow></math></span>, and substitute into the line equation to get <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="y=b-(r^{2}+br+b)x" display="inline"><mrow><mi>y</mi><mo>=</mo><mrow><mi>b</mi><mo>-</mo><mrow><mrow><mo stretchy="false">(</mo><mrow xml:id="XM1j"><msup xml:id="XM1b"><mi xml:id="XM1">r</mi><mn xml:id="XM1a">2</mn></msup><mo xml:id="XM1c">+</mo><mrow xml:id="XM1g"><mi xml:id="XM1d">b</mi><mo xml:id="XM1e">⁢</mo><mi xml:id="XM1f">r</mi></mrow><mo xml:id="XM1h">+</mo><mi xml:id="XM1i">b</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow></mrow></mrow></math></span>.</p>
+
+<p>If we want all lines corresponding to <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="r" display="inline"><mi>r</mi></math></span> to go through our point, we must find one independent of <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="b" display="inline"><mi>b</mi></math></span>.  We do this by setting <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="x=1/(r+1)" display="inline"><mrow><mi>x</mi><mo>=</mo><mrow><mn>1</mn><mo>/</mo><mrow><mo stretchy="false">(</mo><mrow xml:id="XM1c"><mi xml:id="XM1">r</mi><mo xml:id="XM1a">+</mo><mn xml:id="XM1b">1</mn></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></span>, to yield <span class="latexml"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="y=-r^{2}/(r+1)" display="inline"><mrow><mi>y</mi><mo>=</mo><mrow><mo>-</mo><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>/</mo><mrow><mo stretchy="false">(</mo><mrow xml:id="XM1c"><mi xml:id="XM1">r</mi><mo xml:id="XM1a">+</mo><mn xml:id="XM1b">1</mn></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math></span>.</p>
+
+<h2 id="code">Code</h2>
+
+<p>Define and call a nomogram function.</p>
+
+<p><fieldset class="ww-project-file-source ww-collapsible"><legend><span>nomogram.R</span></legend><div class="ww-collapsible-content"><pre>dev.off()
+pdf(height=9.5, width=6.5)
+nomogram &lt;- function(xoff=0.1, asp=1/16){
+	plot(NULL, NULL, asp=asp,
+		main = expression(x**2 %+-% bx + c == 0),
+		xlim=c(-xoff, 1+xoff), ylim=c(-10,10), axes=FALSE,
+		xaxs=&quot;i&quot;, yaxs=&quot;i&quot;,
+		xlab=&quot;&quot;, ylab=&quot;&quot;
+	)
+
+	vertical_axis &lt;- function(pos, side=2){
+		axis(side, pos=pos, at=-10:10)
+		axis(side, pos=pos, at= seq(-10, 10, by=0.5), 
+			labels=FALSE, tcl=-0.4)
+		axis(side, pos=pos, at= seq(-10, 10, by=0.1), 
+			labels=FALSE, tcl=-0.2)
+	}
+
+	vertical_axis(0)
+	vertical_axis(1, 4)
+	text(0.05, 9, &quot;b&quot;)
+	text(0.95, 9, &quot;c&quot;)
+
+	r = seq(0, 10, length.out=1001)
+	lines(1/(r+1), -r^2/(r+1))
+
+	rticks &lt;- function(r, tcl, asp=1, labels=FALSE, ll=0.9){
+		x &lt;- 1/(r+1)
+		y &lt;- -r^2/(r+1)
+		yx &lt;- (r^2+2*r)*asp
+		rad &lt;- sqrt(1+yx^2)
+		xp &lt;- 1/(asp*rad)
+		yp &lt;- yx/rad
+		x0 &lt;- x+yp*tcl/2
+		x1 &lt;- x-yp*tcl/2
+		y0 &lt;- y-xp*tcl/2
+		y1 &lt;- y+xp*tcl/2
+		arrows(x0, y0, x1, y1, length=0)
+		if(labels){
+			text(x-ll*yp*tcl, y+ll*xp*tcl, r)
+		}
+	}
+
+	rticks(seq(1, 10, by=1), 0.08, asp, labels=TRUE)
+	rticks(seq(0, 10, by=0.5), 0.05, asp)
+	rticks(seq(0, 4, by=0.1), 0.03, asp)
+	rticks(seq(4, 10, by=0.25), 0.04, asp)
+}
+
+nomogram()
+</pre></div></fieldset></p>
+
+<p>Use make to make the example code below depend on the R environment from above (using our <a href="http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules&quot;">custom R rules</a>).</p>
+
+<p><fieldset class="ww-project-file-source ww-collapsible"><legend><span>example.mk</span></legend><div class="ww-collapsible-content"><pre>example.Rout: nomogram.RData example.R
+</pre></div></fieldset></p>
+
+<p>Make a nomogram, then define and make example lines.</p>
+
+<p><fieldset class="ww-project-file-source ww-collapsible"><legend><span>example.R</span></legend><div class="ww-collapsible-content"><pre>eqLines &lt;- function(a, b){
+	abline(a, b-a, lty=2, lwd=1.5)
+	abline(-a, b+a, lty=3, lwd=1.5)
+}
+nomogram()
+eqLines(-3, -5)
+</pre></div></fieldset></p>
+
+<p>Here’s another example.</p>
+
+<p><fieldset class="ww-project-file-source ww-collapsible"><legend><span>another.mk</span></legend><div class="ww-collapsible-content"><pre>another.Rout: example.RData
+</pre></div></fieldset></p>
+
+<p><fieldset class="ww-project-file-source ww-collapsible"><legend><span>another.R</span></legend><div class="ww-collapsible-content"><pre>nomogram()
+eqLines(-5, 1)
+</pre></div></fieldset></p>
+
+<h2 id="printable">Printable</h2>
+
+<p><fieldset class="ww-project-file-source ww-collapsible"><legend><span>printable.mk</span></legend><div class="ww-collapsible-content"><pre>printable.Rout: nomogram.Rout
+</pre></div></fieldset></p>
+
+<p><fieldset class="ww-project-file-source ww-collapsible"><legend><span>printable.R</span></legend><div class="ww-collapsible-content"><pre># setpdf(height=9.5, width=6.5) # This is a theobio/Rprep magic command
+nomogram()
+</pre></div></fieldset></p>
+
+<h2 id="export-source-code">Export source code</h2>
+
+<p>This project is designed for reproducible research. </p>
+
+<ul>
+  <li>This entire website (including the source text of this blog post, with all the source code included) is available for cloning at https://github.com/worden-lee/github-pages-sandbox.  I’m planning to write instructions for processing it soon.</li>
+  <li>To reproduce the full blog post you’ll need to have the following installed: Jekyll, git, R, latexml, GNU make, perl (and maybe other things - bug reports welcome).</li>
+  <li>Here is an automatically-generated tar file of the source file contents: <a href="/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/wmd_export.tgz">wmd_export.tgz</a>.  You should be able to unpack this directory and simply run ‘make example.Rout.png’ to build the first image above, and similar commands to build the other output files.</li>
+  <li>To reproduce these outputs you will need GNU make, perl, and R installed.</li>
+</ul>
+
+<p>To see the source text of this blog post, with the R and makefile code embedded, see <a href="https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts/2014-10-15-nomogram.md.wmd">https://github.com/worden-lee/github-pages-sandbox/blob/gh-pages/_posts/2014-10-15-nomogram.md.wmd</a>.</p>
+
+<p>See also a discussion of how this is put together at <a href="http://leeworden.net/lw/node/148">http://leeworden.net/lw/node/148</a> and <a href="http://leeworden.net/lw/node/149">http://leeworden.net/lw/node/149</a>.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">LW Jekyll/GitHub Pages Sandbox</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>LW Jekyll/GitHub Pages Sandbox</li>
+          <li><a href="mailto:worden.lee@gmail.com">worden.lee@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/worden-lee">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">worden-lee</span>
+            </a>
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">This is a sandbox test site for Lee Worden's experiments with Jekyll and GitHub Pages
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

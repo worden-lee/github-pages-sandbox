@@ -1,0 +1,12 @@
+Tue Oct 28 22:29:41 2014
+/usr/bin/make -C \
+    /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown \
+    wmd_export.tgz
+Including .mk files: libraries.mk 
+Including .mk files from .step files: ode-system-demo.sage.mk
+Including tex.d files: ode-system-demo.sage.out.tex.d
+make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
+make: `wmd_export.tgz' is up to date.
+make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
+Make succeeded.
+Tue Oct 28 22:29:41 2014

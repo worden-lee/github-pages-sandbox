@@ -1,8 +1,0 @@
-> # Global Environment: example.RData
-> 
-> # Scripts: another.R
-> 
-> nomogram()
-> eqLines(-5, 1)
-> 
-> 

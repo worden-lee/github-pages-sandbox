@@ -1,22 +1,33 @@
 module Jekyll
-	class WMDConverter < Converter
+	class WMDGenerator < Jekyll::Generator
 		safe true
 		priority :low
 		
-		def matches(ext)
-			@ext1 = ext
-			ext =~ /.wmd$/i
+		def initialize(config)
+			config['convert_wmd'] ||= true
 		end
 
-		def output_ext(ext)
-			@ext2 = ext
-			#ext.sub( /\.wmd$/i, '.html' )
-			''
+		def generate(site)
+			@site = site
+			site.posts.each do |post|
+				if post.name.match(/\.wmd$/)
+					convertWmd post
+				end
+			end
 		end
 
-		def convert(content)
-			puts "ruby debug statement #{@ext1} #{@ext2}\n"
-			'WMD Converted Content [link here](http://google.com)'
+		def convertWmd(post)
+			post.content = "WMD Converted Content [link here](http://google.com)\n\n" + post.content
+			puts "name is #{post.name}"
+			post.name.gsub!(/\.wmd$/, '')
+			post.name.gsub!(/\.markdown/, '.foo.markdown')
+			puts "name becomes #{post.name}"
+			puts "slug is #{post.slug}"
+			post.slug.gsub!(/\.wmd$/, '')
+			post.slug.gsub!(/\.markdown/, '.foo')
+			puts "slug becomes #{post.slug}"
+			puts "ext is #{post.ext}"
+			post.ext = '.markdown'
 		end
 	end
 end

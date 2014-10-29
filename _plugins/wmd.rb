@@ -54,7 +54,9 @@ module Jekyll
 			puts "Calling wmd.php --post on #{name}"
 			baseurl = @context.registers[:site].baseurl
 			text = pipe_text_through( text, "php /usr/local/src/workingwiki/wmd/wmd.php --post --default-project-name=#{name} --cache-dir=/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files --project-file-base-url=#{baseurl}/wmd_files" )
-			@context.registers[:site].read_directories( "wmd_files/#{name}" )
+			if Dir.exists?( "wmd_files/#{name}" )
+				@context.registers[:site].read_directories( "wmd_files/#{name}" )
+			end
 			return text
 		end
 	end

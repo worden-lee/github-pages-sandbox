@@ -1,4 +1,4 @@
-Tue Oct 28 21:56:38 2014
+Tue Oct 28 22:27:59 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/.workingwiki/standalone/bf0656720ab83fcb04a5415a2b35a14d.tex-math \
     bf0656720ab83fcb04a5415a2b35a14d.tex-math.latexml.html
@@ -8,4 +8,4 @@ make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_fi
 make: `bf0656720ab83fcb04a5415a2b35a14d.tex-math.latexml.html' is up to date.
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/.workingwiki/standalone/bf0656720ab83fcb04a5415a2b35a14d.tex-math'
 Make succeeded.
-Tue Oct 28 21:56:38 2014
+Tue Oct 28 22:27:59 2014

@@ -1,4 +1,4 @@
-Mon Nov  3 13:42:47 2014
+Mon Nov  3 13:52:04 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md \
     printable.Rout.pdf
@@ -11,4 +11,4 @@ PDF file has no pages
 make: *** [printable.Rout.pdf] Error 2
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
 Make failed with exit code 2.
-Mon Nov  3 13:42:47 2014
+Mon Nov  3 13:52:04 2014

@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>LW Jekyll/GitHub Pages Sandbox</title>
+    <title>Simple R Demo</title>
     <meta name="description" content="This is a sandbox test site for Lee Worden's experiments with Jekyll and GitHub Pages
 ">
 
     <link rel="stylesheet" href="/github-pages-sandbox/css/main.css">
     <link rel="stylesheet" href="/github-pages-sandbox/css/auto-generated-from-ww.css">
     <link rel="stylesheet" href="/github-pages-sandbox/css/wmd.css">
-    <link rel="canonical" href="/github-pages-sandbox/">
+    <link rel="canonical" href="/github-pages-sandbox/jekyll/update/2014/11/03/simple-R-demo.html">
     <script type="text/x-mathjax-config">MathJax.Hub.Config({ jax: ["input/MathML", "output/HTML-CSS"] });</script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML"></script>
 </head>
@@ -58,47 +58,52 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Simple R Demo</h1>
+    <p class="post-meta">Nov 3, 2014</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Nov 3, 2014</span>
+  <article class="post-content">
+    <p>[This demo blog post accompanies a post on leeworden.net: <a href="http://leeworden.net/lw/node/152">Working Markup: makefile-driven literate programming for reproducible web publishing</a>.]</p>
 
-        <h2>
-          <a class="post-link" href="/github-pages-sandbox/jekyll/update/2014/11/03/simple-R-demo.html">Simple R Demo</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 20, 2014</span>
+<p>Announcing Working Markup, a text-processing tool that supports reproducible research by providing a streamlined way to develop and document the various computations you do in your research as steps embedded in web pages and blog posts, written in arbitrary markup languages.</p>
 
-        <h2>
-          <a class="post-link" href="/github-pages-sandbox/jekyll/update/2014/10/20/SageDynamics.html">Sage Dynamics Demo</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 15, 2014</span>
+<p>For example, you can embed some R code in your markup source by inserting a “source-file” tag:</p>
 
-        <h2>
-          <a class="post-link" href="/github-pages-sandbox/jekyll/update/2014/10/15/nomogram.html">Nomogram</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 15, 2014</span>
+<pre>
+&lt;source-file filename="demo.R"&gt;
+print( 5 * 7 );
+curve( x * exp(-x), 0, 5 );
+&lt;/source-file&gt;
+</pre>
 
-        <h2>
-          <a class="post-link" href="/github-pages-sandbox/jekyll/update/2014/10/15/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p></p>
 
-  <p class="rss-subscribe">subscribe <a href="/github-pages-sandbox/feed.xml">via RSS</a></p>
+<p>And then run the code and display the output by inserting “project-file” tags:</p>
+
+<pre>
+&lt;project-file filename="demo.Rout"/&gt;
+
+&lt;project-file filename="demo.Rout.png"/&gt;
+</pre>
+
+<p>Those project-file tags come out looking like this:</p>
+
+<p><fieldset class="ww-project-file-source ww-collapsible"><legend><span>demo.Rout</span></legend><div class="ww-collapsible-content"><pre>&gt; # Scripts: demo.R
+&gt; 
+&gt; print( 5 * 7 );
+[1] 35
+&gt; curve( x * exp(-x), 0, 5 );
+&gt; 
+&gt; 
+</pre></div></fieldset></p>
+
+<p><img src="/github-pages-sandbox/wmd_files/2014-11-03-simple-R-demo.md/demo.Rout.png" alt="(demo.Rout.png)"/></p>
+
+
+  </article>
 
 </div>
 

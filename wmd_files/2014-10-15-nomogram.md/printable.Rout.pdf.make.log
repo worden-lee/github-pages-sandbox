@@ -1,11 +1,14 @@
-Tue Oct 28 23:04:08 2014
+Mon Nov  3 13:42:47 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md \
     printable.Rout.pdf
 Including .mk files: example.mk another.mk printable.mk 
 Including tex.d files: 
 make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
-make: `printable.Rout.pdf' is up to date.
+perl -wf /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/pdfcheck.pl printable.Rout.pdf 
+Can't open printable.Rout.pdf: No such file or directory at /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/pdfcheck.pl line 1.
+PDF file has no pages
+make: *** [printable.Rout.pdf] Error 2
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
-Make succeeded.
-Tue Oct 28 23:04:08 2014
+Make failed with exit code 2.
+Mon Nov  3 13:42:47 2014

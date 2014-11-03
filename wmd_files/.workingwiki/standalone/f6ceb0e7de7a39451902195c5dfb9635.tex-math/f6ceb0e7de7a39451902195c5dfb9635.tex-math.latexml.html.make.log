@@ -1,11 +1,15 @@
-Tue Oct 28 23:04:08 2014
+Sun Nov  2 15:27:46 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/.workingwiki/standalone/f6ceb0e7de7a39451902195c5dfb9635.tex-math \
     f6ceb0e7de7a39451902195c5dfb9635.tex-math.latexml.html
 Including .mk files:  
 Including tex.d files: 
 make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/.workingwiki/standalone/f6ceb0e7de7a39451902195c5dfb9635.tex-math'
-make: `f6ceb0e7de7a39451902195c5dfb9635.tex-math.latexml.html' is up to date.
+rm -f f6ceb0e7de7a39451902195c5dfb9635.tex-math.latexml.html5
+latexmlmath --preload=amsmath.sty --preload=amssymb.sty --preload=color.sty --preload=latexml.sty --noplane1 - --pmml=f6ceb0e7de7a39451902195c5dfb9635.tex-math.latexml.intermediate.html5 <f6ceb0e7de7a39451902195c5dfb9635.tex-math
+/usr/local/src/workingwiki-trunk/ProjectEngine/resources/wiki-math.latexml.pl <f6ceb0e7de7a39451902195c5dfb9635.tex-math.latexml.intermediate.html5 >f6ceb0e7de7a39451902195c5dfb9635.tex-math.latexml.html5
+ln -f f6ceb0e7de7a39451902195c5dfb9635.tex-math.latexml.html5 f6ceb0e7de7a39451902195c5dfb9635.tex-math.latexml.html
+rm f6ceb0e7de7a39451902195c5dfb9635.tex-math.latexml.html5
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/.workingwiki/standalone/f6ceb0e7de7a39451902195c5dfb9635.tex-math'
 Make succeeded.
-Tue Oct 28 23:04:08 2014
+Sun Nov  2 15:27:48 2014

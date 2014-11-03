@@ -1,11 +1,17 @@
-Tue Oct 28 23:04:08 2014
+Sun Nov  2 15:28:08 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md \
     wmd_export.tgz
 Including .mk files: example.mk another.mk printable.mk 
 Including tex.d files: 
 make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
-make: `wmd_export.tgz' is up to date.
+echo '--transform=s|'`echo /usr/local/src/workingwiki-trunk/ProjectEngine/resources | perl -pe 's|^/||'`'|wmd_export/.workingwiki/resources|' > wmd_export.tar_args
+echo /usr/local/src/workingwiki-trunk/ProjectEngine/resources/ >> wmd_export.tar_args
+echo '--transform=s|.|wmd_export|' >> wmd_export.tar_args
+for sf in GNUmakefile nomogram.R example.mk example.R another.mk another.R printable.mk printable.R; do echo ./$sf >> wmd_export.tar_args; done
+tar -cz -T wmd_export.tar_args -f wmd_export.tgz --ignore-failed-read
+tar: Removing leading `/' from member names
+rm -f wmd_export.tar_args
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
 Make succeeded.
-Tue Oct 28 23:04:08 2014
+Sun Nov  2 15:28:08 2014

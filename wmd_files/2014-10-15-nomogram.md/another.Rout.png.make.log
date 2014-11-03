@@ -1,27 +1,11 @@
-Sun Nov  2 15:27:45 2014
+Mon Nov  3 13:42:47 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md \
     another.Rout.png
 Including .mk files: example.mk another.mk printable.mk 
 Including tex.d files: 
 make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
-perl -f /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/Rprep.pl another.Rout another.R example.RData > another.RR
-/bin/mv -f another.RData another.old.RData
-/bin/mv: cannot stat ‘another.RData’: No such file or directory
-make: [another.Rout] Error 1 (ignored)
-( (R --vanilla --args  < another.RR > another.dmp) 2> another.Rlog && cat another.Rlog ) || ! cat another.Rlog
-perl -wf /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/Rtrim.pl another.dmp > another.Rout
-# /bin/mv -f Rplots.pdf another.Rout.pdf
-rm -f another.dmp
-rm -f another.old.RData
-/usr/bin/make another.Rout.pdf
-Including .mk files: example.mk another.mk printable.mk 
-Including tex.d files: 
-make[1]: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
-perl -wf /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/pdfcheck.pl another.Rout.pdf 
-make[1]: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
-/bin/rm -f another.Rout.png
-convert another.Rout.pdf[0] another.Rout.png
+make: `another.Rout.png' is up to date.
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
 Make succeeded.
-Sun Nov  2 15:27:46 2014
+Mon Nov  3 13:42:47 2014

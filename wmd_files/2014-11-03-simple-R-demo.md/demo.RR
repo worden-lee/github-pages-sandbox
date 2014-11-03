@@ -1,0 +1,10 @@
+pdf("demo.Rout.pdf")
+# End RR preface
+# Scripts: demo.R
+
+print( 5 * 7 );
+curve( x * exp(-x), 0, 5 );
+
+# Begin RR postscript
+# If you see this in an R log, your R script did not close properly
+save.image(file="demo.RData")

@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Simple R Demo"
+date:   2014-11-03 14:00:00
+categories: jekyll update
+---
+
+[This demo blog post accompanies a post on leeworden.net: [Working Markup: makefile-driven literate programming for reproducible web publishing](http://leeworden.net/lw/node/152).]
+
+Announcing Working Markup, a text-processing tool that supports reproducible research by providing a streamlined way to develop and document the various computations you do in your research as steps embedded in web pages and blog posts, written in arbitrary markup languages.
+
+For example, you can embed some R code in your markup source by inserting a "source-file" tag:
+
+<pre>
+&lt;source-file filename="demo.R">
+print( 5 * 7 );
+curve( x * exp(-x), 0, 5 );
+&lt;/source-file>
+</pre>
+
+<source-file filename="demo.R" display="none">
+print( 5 * 7 );
+curve( x * exp(-x), 0, 5 );
+</source-file>
+
+And then run the code and display the output by inserting "project-file" tags:
+
+<pre>
+&lt;project-file filename="demo.Rout"/>
+
+&lt;project-file filename="demo.Rout.png"/>
+</pre>
+
+Those project-file tags come out looking like this:
+
+<project-file filename="demo.Rout"/>
+
+<project-file filename="demo.Rout.png"/>
+

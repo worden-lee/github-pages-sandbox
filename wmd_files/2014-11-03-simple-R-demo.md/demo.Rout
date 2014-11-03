@@ -1,0 +1,7 @@
+> # Scripts: demo.R
+> 
+> print( 5 * 7 );
+[1] 35
+> curve( x * exp(-x), 0, 5 );
+> 
+> 

@@ -1,4 +1,4 @@
-Sun Nov  2 15:29:43 2014
+Mon Nov  3 13:42:47 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown \
     wmd_export.tgz
@@ -6,13 +6,7 @@ Including .mk files: libraries.mk
 Including .mk files from .step files: ode-system-demo.sage.mk
 Including tex.d files: ode-system-demo.sage.out.tex.d
 make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
-echo '--transform=s|'`echo /usr/local/src/workingwiki-trunk/ProjectEngine/resources | perl -pe 's|^/||'`'|wmd_export/.workingwiki/resources|' > wmd_export.tar_args
-echo /usr/local/src/workingwiki-trunk/ProjectEngine/resources/ >> wmd_export.tar_args
-echo '--transform=s|.|wmd_export|' >> wmd_export.tar_args
-for sf in GNUmakefile ode-system-demo.sage.step libraries.mk; do echo ./$sf >> wmd_export.tar_args; done
-tar -cz -T wmd_export.tar_args -f wmd_export.tgz --ignore-failed-read
-tar: Removing leading `/' from member names
-rm -f wmd_export.tar_args
+make: `wmd_export.tgz' is up to date.
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
 Make succeeded.
-Sun Nov  2 15:29:44 2014
+Mon Nov  3 13:42:47 2014

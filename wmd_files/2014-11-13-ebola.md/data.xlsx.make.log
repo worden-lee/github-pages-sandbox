@@ -1,4 +1,4 @@
-Thu Nov 13 12:45:35 2014
+Thu Nov 13 14:36:15 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-11-13-ebola.md data.xlsx
 Including .mk files: download.mk explore.mk 
@@ -7,4 +7,4 @@ make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_fi
 make: `data.xlsx' is up to date.
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-11-13-ebola.md'
 Make succeeded.
-Thu Nov 13 12:45:35 2014
+Thu Nov 13 14:36:15 2014

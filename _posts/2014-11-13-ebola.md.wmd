@@ -5,7 +5,7 @@ date:   2014-11-13 14:00:00
 categories: jekyll update
 ---
 
-[This is a [Working Markup]() adaptation of a [WorkingWiki]() page that downloads and plots [recent data on Ebola cases](https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases).]
+[This is a [Working Markup](http://lalashan.mcmaster.ca/theobio/projects/index.php/Working_Markup) adaptation of [a WorkingWiki page](http://lalashan.mcmaster.ca/theobio/math/index.php/Ebola_data) that downloads and plots [recent data on Ebola cases](https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases).]
 
 ## The data file
 

@@ -1,0 +1,22 @@
+load('clean.RData')
+pdf("clean.summary.Rout.pdf")
+# End RR preface
+# Global Environment: clean.RData
+
+# Scripts: /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/summary.R
+
+print("########  clean.summary  ########")
+
+rm("input_files")
+ 
+for(n in sort(objects())){
+	o <- get(n)
+	c <- class(o)
+	cat(n, " (", c, ")", "\n", sep="")
+	print(summary(o))
+}
+# rdnosave
+
+# Begin RR postscript
+# If you see this in an R log, your R script did not close properly
+

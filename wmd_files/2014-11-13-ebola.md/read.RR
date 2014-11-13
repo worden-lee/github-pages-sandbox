@@ -1,0 +1,15 @@
+input_files <- c("data.xlsx")
+pdf("read.Rout.pdf")
+# End RR preface
+# Input: "data.xlsx"
+
+# Scripts: read.R
+
+library(gdata)
+
+data <- read.xls(xls=input_files[[1]], sheet=2)
+print(summary(data))
+
+# Begin RR postscript
+# If you see this in an R log, your R script did not close properly
+save.image(file="read.RData")

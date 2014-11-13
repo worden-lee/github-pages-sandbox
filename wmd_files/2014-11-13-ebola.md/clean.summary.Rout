@@ -1,0 +1,68 @@
+> # Global Environment: clean.RData
+> 
+> # Scripts: /usr/local/src/workingwiki-trunk/ProjectEngine/resources/site/summary.R
+> 
+> print("########  clean.summary  ########")
+[1] "########  clean.summary  ########"
+> 
+> rm("input_files")
+>  
+> for(n in sort(objects())){
++ 	o <- get(n)
++ 	c <- class(o)
++ 	cat(n, " (", c, ")", "\n", sep="")
++ 	print(summary(o))
++ }
+data (data.frame)
+         Country            Localite                Category   
+ Guinea      :6826   National   : 1457   Cases          :3241  
+ Liberia     :4730   Conakry    :  346   Confirmed cases:2770  
+ Mali        :  60   Gueckedou  :  346   Deaths         :3207  
+ Nigeria     : 364   Kissidougou:  346   New cases      :2735  
+ Senegal     : 189   Macenta    :  346   Probable cases :2741  
+ Sierra Leone:4750   Telimele   :  325   Suspected cases:2225  
+                     (Other)    :13753                         
+     Value              Date                             Sources     
+ Min.   :   0.00   Min.   :2014-03-24   ECHO                 :    6  
+ 1st Qu.:   1.00   1st Qu.:2014-09-05   Gvt                  :15579  
+ Median :   5.00   Median :2014-09-22   GVT                  :  150  
+ Mean   :  66.88   Mean   :2014-09-18   Ministere de la Sante:  224  
+ 3rd Qu.:  34.00   3rd Qu.:2014-10-11   UNICEF               :   46  
+ Max.   :3272.00   Max.   :2014-10-27   WHO                  :  893  
+ NA's   :382                            WHO; Gvt             :   21  
+              Link      
+                :  184  
+ Sitrep181 13Oct:  156  
+ Sitrep182 14Oct:  156  
+ Sitrep183 15Oct:  156  
+ Sitrep184 16Oct:  156  
+ Sitrep185 17Oct:  156  
+ (Other)        :15955  
+national (data.frame)
+         Country        Localite               Category       Value       
+ Guinea      :450   National:1457   Cases          :310   Min.   :   0.0  
+ Liberia     :387   Beyla   :   0   Confirmed cases:285   1st Qu.:  19.0  
+ Mali        : 16   Bo      :   0   Deaths         :311   Median :  84.5  
+ Nigeria     :141   Bo      :   0   New cases      :205   Mean   : 263.6  
+ Senegal     : 86   Boffa   :   0   Probable cases :194   3rd Qu.: 413.0  
+ Sierra Leone:377   Boffa   :   0   Suspected cases:152   Max.   :3272.0  
+                    (Other) :   0                         NA's   :271     
+      Date                             Sources    
+ Min.   :2014-03-31   ECHO                 :   0  
+ 1st Qu.:2014-08-20   Gvt                  :1118  
+ Median :2014-09-12   GVT                  :  10  
+ Mean   :2014-08-30   Ministere de la Sante:  54  
+ 3rd Qu.:2014-09-30   UNICEF               :  21  
+ Max.   :2014-10-27   WHO                  : 251  
+                      WHO; Gvt             :   3  
+                                                                                      Link     
+                                                                                        :  16  
+ http://reliefweb.int/report/guinea/ebola-virus-disease-west-africa-update-4-august-2014:  12  
+ http://reliefweb.int/report/guinea/ebola-virus-disease-west-africa-update-6-august-2014:  12  
+ http://reliefweb.int/report/guinea/ebola-virus-disease-west-africa-update-8-august-2014:  12  
+ http://reliefweb.int/sites/reliefweb.int/files/resources/Ebola%20virus%20disease_1.pdf :  12  
+ Sitrep 12 Sept 2014                                                                    :  12  
+ (Other)                                                                                :1381  
+> # rdnosave
+> 
+> 

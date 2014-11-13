@@ -1,0 +1,40 @@
+> # Global Environment: read.RData
+> 
+> # Scripts: clean.R
+> 
+> class(data$Date)
+[1] "factor"
+> data <- within(data, {
++ 	Date <- as.Date(Date, format="%Y-%m-%d")
++ 	Value <- as.numeric(as.character(Value))
++ })
+> 
+> national <- subset(data, Localite=="National")
+> 
+> print(summary(data))
+         Country            Localite                Category   
+ Guinea      :6826   National   : 1457   Cases          :3241  
+ Liberia     :4730   Conakry    :  346   Confirmed cases:2770  
+ Mali        :  60   Gueckedou  :  346   Deaths         :3207  
+ Nigeria     : 364   Kissidougou:  346   New cases      :2735  
+ Senegal     : 189   Macenta    :  346   Probable cases :2741  
+ Sierra Leone:4750   Telimele   :  325   Suspected cases:2225  
+                     (Other)    :13753                         
+     Value              Date                             Sources     
+ Min.   :   0.00   Min.   :2014-03-24   ECHO                 :    6  
+ 1st Qu.:   1.00   1st Qu.:2014-09-05   Gvt                  :15579  
+ Median :   5.00   Median :2014-09-22   GVT                  :  150  
+ Mean   :  66.88   Mean   :2014-09-18   Ministere de la Sante:  224  
+ 3rd Qu.:  34.00   3rd Qu.:2014-10-11   UNICEF               :   46  
+ Max.   :3272.00   Max.   :2014-10-27   WHO                  :  893  
+ NA's   :382                            WHO; Gvt             :   21  
+              Link      
+                :  184  
+ Sitrep181 13Oct:  156  
+ Sitrep182 14Oct:  156  
+ Sitrep183 15Oct:  156  
+ Sitrep184 16Oct:  156  
+ Sitrep185 17Oct:  156  
+ (Other)        :15955  
+> 
+> 

@@ -1,11 +1,11 @@
-Mon Nov  3 13:52:04 2014
+Thu Nov 13 12:45:34 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md \
     example.Rout.png
 Including .mk files: example.mk another.mk printable.mk 
-Including tex.d files: 
+Including .tex.d files: 
 make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
 make: `example.Rout.png' is up to date.
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
 Make succeeded.
-Mon Nov  3 13:52:04 2014
+Thu Nov 13 12:45:34 2014

@@ -1,12 +1,12 @@
-Mon Nov  3 13:52:05 2014
+Thu Nov 13 12:45:35 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown \
     bifurcation-diagram.png
 Including .mk files: libraries.mk 
 Including .mk files from .step files: ode-system-demo.sage.mk
-Including tex.d files: ode-system-demo.sage.out.tex.d
+Including .tex.d files: ode-system-demo.sage.out.tex.d
 make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
 make: `bifurcation-diagram.png' is up to date.
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
 Make succeeded.
-Mon Nov  3 13:52:05 2014
+Thu Nov 13 12:45:35 2014

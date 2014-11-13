@@ -4,7 +4,7 @@ PREREQUISITE_PROJECTS =
 ifndef RESOURCES
   # ProjectEngine provides RESOURCES and the prerequisite project
   # locations.  If they aren't provided, we're in an exported directory.
-  export RESOURCES = .workingwiki/resources
+  export RESOURCES = /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/.workingwiki/resources
 endif
 include $(RESOURCES)/makefile-before
 ifeq ($(filter makefile, $(wildcard makefile)),makefile)

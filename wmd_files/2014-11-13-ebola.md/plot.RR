@@ -1,0 +1,19 @@
+load('clean.RData')
+pdf("plot.Rout.pdf")
+# End RR preface
+# Global Environment: clean.RData
+
+# Scripts: plot.R
+
+library(ggplot2)
+theme_set(theme_bw())
+
+print(
+	ggplot(national, aes(x=Date, y=Value))
+	+ geom_line(aes(color=Country, shape=Category))
+	+ geom_point(aes(color=Country, shape=Category))
+)
+
+# Begin RR postscript
+# If you see this in an R log, your R script did not close properly
+save.image(file="plot.RData")

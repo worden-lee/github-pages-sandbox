@@ -1,0 +1,26 @@
+> # Input: "data.xlsx"
+> 
+> # Scripts: read.R
+> 
+> library(gdata)
+> 
+> data <- read.xls(xls=input_files[[1]], sheet=2)
+> print(summary(data))
+         Country            Localite                Category        Value     
+ Guinea      :6826   National   : 1457   Cases          :3241   0      :4059  
+ Liberia     :4730   Conakry    :  346   Confirmed cases:2770   1      :1688  
+ Mali        :  60   Gueckedou  :  346   Deaths         :3207   2      : 742  
+ Nigeria     : 364   Kissidougou:  346   New cases      :2735   3      : 737  
+ Senegal     : 189   Macenta    :  346   Probable cases :2741   4      : 597  
+ Sierra Leone:4750   Telimele   :  325   Suspected cases:2225   5      : 531  
+                     (Other)    :13753                          (Other):8565  
+         Date                        Sources                   Link      
+ 2014-09-16:  414   ECHO                 :    6                  :  184  
+ 2014-10-25:  358   Gvt                  :15579   Sitrep181 13Oct:  156  
+ 2014-10-24:  354   GVT                  :  150   Sitrep182 14Oct:  156  
+ 2014-09-30:  348   Ministere de la Sante:  224   Sitrep183 15Oct:  156  
+ 2014-09-25:  342   UNICEF               :   46   Sitrep184 16Oct:  156  
+ 2014-09-29:  342   WHO                  :  893   Sitrep185 17Oct:  156  
+ (Other)   :14761   WHO; Gvt             :   21   (Other)        :15955  
+> 
+> 

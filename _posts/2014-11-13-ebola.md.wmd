@@ -1,0 +1,77 @@
+---
+layout: post
+title:  Ebola Data
+date:   2014-11-13 14:00:00
+categories: jekyll update
+---
+
+[This is a [Working Markup]() adaptation of a [WorkingWiki]() page that downloads and plots [recent data on Ebola cases](https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases).]
+
+## The data file
+
+<project-file filename="data.xlsx" display=download/> is downloaded from [HDX](https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases).
+
+`wget` by default keeps the timestamp from the download server. This will be useful in some cases, but right now we don't want it, because HDX changes the location for each new update, and we are tracking manually. So for now, we are using "touch" when we download, and the project will automatically update after you manually change the file location.
+
+<source-file filename="download.mk" display="source">
+data.xlsx: download.mk
+	wget -O $@ "http://data.hdx.rwlabs.org/storage/f/2014-10-28T12%3A23%3A19.044Z/data-ebola-public.xlsx"
+	touch $@
+</source-file>
+
+## Exploration
+
+<project-file filename="clean.summary.Rout"/>
+
+<project-file filename="plot.Rout.png"/>
+
+<source-file filename="explore.mk" display="source">
+read.Rout: data.xlsx read.R
+	$(run-R)
+
+clean.Rout: read.Rout clean.R
+	$(run-R)
+
+plot.Rout: clean.Rout plot.R
+	$(run-R)
+
+</source-file>
+
+<source-file filename="read.R" display="source">
+library(gdata)
+
+data <- read.xls(xls=input_files[[1]], sheet=2)
+print(summary(data))
+</source-file>
+
+<project-file filename="read.Rout"/>
+
+<source-file filename="clean.R" display="source">
+class(data$Date)
+data <- within(data, {
+	Date <- as.Date(Date, format="%Y-%m-%d")
+	Value <- as.numeric(as.character(Value))
+})
+
+national <- subset(data, Localite=="National")
+
+print(summary(data))
+</source-file>
+
+<source-file filename="plot.R" display="source">
+library(ggplot2)
+theme_set(theme_bw())
+
+print(
+	ggplot(national, aes(x=Date, y=Value))
+	+ geom_line(aes(color=Country, shape=Category))
+	+ geom_point(aes(color=Country, shape=Category))
+)
+</source-file>
+
+## Helper code
+
+<source-file filename="Makefile" display="source">
+SUPPRESS_EMPTY_ROUT_RULE=1
+</source-file>
+

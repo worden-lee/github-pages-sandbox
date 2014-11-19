@@ -5,7 +5,7 @@ date:   2014-11-03 14:00:00
 categories: jekyll update
 ---
 
-[This demo blog post accompanies a post on leeworden.net: [Working Markup: makefile-driven literate programming for reproducible web publishing](http://leeworden.net/lw/node/152).]
+[This demo blog post accompanies a post on leeworden.net: [Working Markup: makefile-driven literate programming for reproducible web publishing](http://leeworden.net/lw/node/152). [Scroll down](#reproduce) to see the source text for this post.]
 
 Announcing Working Markup, a text-processing tool that supports reproducible research by providing a streamlined way to develop and document the various computations you do in your research as steps embedded in web pages and blog posts, written in arbitrary markup languages.
 
@@ -36,6 +36,8 @@ Those project-file tags come out looking like this:
 <project-file filename="demo.Rout"/>
 
 <project-file filename="demo.Rout.png"/>
+
+## <a name="reproduce">Reproducibility</a>
 
 * Click through to see [the source text of this post](https://github.com/worden-lee/github-pages-sandbox/blob/master/_posts/2014-11-03-simple-R-demo.md.wmd)
 

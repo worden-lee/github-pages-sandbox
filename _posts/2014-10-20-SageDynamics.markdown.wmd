@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 ## Intro
 
-[This is an adaptation of [a page from my open lab notebook wiki](http://lalashan.mcmaster.ca/theobio/worden/index.php/SageDynamics/Demo), as a demo of our Working Markup reproducible web-publishing system. -lw]
+[This is an adaptation of [a page from my open lab notebook wiki](http://lalashan.mcmaster.ca/theobio/worden/index.php/SageDynamics/Demo), as a demo of our Working Markup reproducible web-publishing system. [Scroll down to the final section](#reproduce) for info on how this post is made, including source code.  -lw]
 
 This post demonstrates a set of [Sage](http://www.sagemath.org/) classes I wrote to work with continuous-time dynamical systems, the kind of system my colleagues and I use a lot as mathematical models.
 
@@ -130,7 +130,7 @@ $(SageUtils)/% :
 -include $(SageUtils)/step.mk
 </source-file>
 
-## Reproducibility
+## <a name="reproduce">Reproducibility</a>
 
 Here are instructions to run this Sage code yourself.  You will need [Sage](http://www.sagemath.org/doc/installation), GNU make, git, perl, and maybe some other utilities installed.
 

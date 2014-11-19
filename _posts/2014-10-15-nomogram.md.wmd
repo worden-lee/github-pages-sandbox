@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 ## Intro 
 
-[This is a page from Jonathan Dushoff's math wiki](http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram), adapted for use as a test of my Working Markup blog-post system. -lw]
+[[This is a page from Jonathan Dushoff's math wiki](http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram), adapted for use as a test of my Working Markup blog-post system. [Scroll down](#reproduce) for info about how this post is made, including source code. -lw]
 
 On this page, I use the free software environment [R](http://www.r-project.org/) to construct a [nomogram](http://en.wikipedia.org/wiki/Nomogram) that I read about in a recreational math book when I was a kid.  This nomogram solves quadratic equations.
 
@@ -124,7 +124,7 @@ printable.Rout: nomogram.Rout
 nomogram()
 </source-file>
 
-## Export source code
+## <a name="reproduce">Export source code</a>
 
 This project is designed for reproducible research. 
 

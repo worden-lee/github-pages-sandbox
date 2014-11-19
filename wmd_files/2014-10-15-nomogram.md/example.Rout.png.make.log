@@ -1,4 +1,4 @@
-Thu Nov 13 14:36:14 2014
+Wed Nov 19 15:22:44 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md \
     example.Rout.png
@@ -8,4 +8,4 @@ make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_fi
 make: `example.Rout.png' is up to date.
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md'
 Make succeeded.
-Thu Nov 13 14:36:14 2014
+Wed Nov 19 15:22:44 2014

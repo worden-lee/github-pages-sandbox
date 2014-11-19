@@ -6,8 +6,8 @@
 </description>
     <link>/github-pages-sandbox/</link>
     <atom:link href="/github-pages-sandbox/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 13 Nov 2014 14:36:07 -0800</pubDate>
-    <lastBuildDate>Thu, 13 Nov 2014 14:36:07 -0800</lastBuildDate>
+    <pubDate>Wed, 19 Nov 2014 15:22:38 -0800</pubDate>
+    <lastBuildDate>Wed, 19 Nov 2014 15:22:38 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -16,31 +16,31 @@
 
 &lt;h2 id=&quot;the-data-file&quot;&gt;The data file&lt;/h2&gt;
 
-&lt;p&gt;UNIQ-WW-538743121-QINU is downloaded from &lt;a href=&quot;https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases&quot;&gt;HDX&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1411661745-QINU is downloaded from &lt;a href=&quot;https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases&quot;&gt;HDX&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;wget&lt;/code&gt; by default keeps the timestamp from the download server. This will be useful in some cases, but right now we don’t want it, because HDX changes the location for each new update, and we are tracking manually. So for now, we are using “touch” when we download, and the project will automatically update after you manually change the file location.&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1090675473-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-23253309-QINU&lt;/p&gt;
 
 &lt;h2 id=&quot;exploration&quot;&gt;Exploration&lt;/h2&gt;
 
-&lt;p&gt;UNIQ-WW-1629969480-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1386583188-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1324310024-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-296728375-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1435193938-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-671185309-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-367870115-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1497345580-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-583054712-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1553095413-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1025573670-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-574780956-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1975341289-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1908967395-QINU&lt;/p&gt;
 
 &lt;h2 id=&quot;helper-code&quot;&gt;Helper code&lt;/h2&gt;
 
-&lt;p&gt;UNIQ-WW-1986691563-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1679490483-QINU&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 13 Nov 2014 06:00:00 -0800</pubDate>
@@ -56,7 +56,7 @@
     
       <item>
         <title>Simple R Demo</title>
-        <description>&lt;p&gt;[This demo blog post accompanies a post on leeworden.net: &lt;a href=&quot;http://leeworden.net/lw/node/152&quot;&gt;Working Markup: makefile-driven literate programming for reproducible web publishing&lt;/a&gt;.]&lt;/p&gt;
+        <description>&lt;p&gt;[This demo blog post accompanies a post on leeworden.net: &lt;a href=&quot;http://leeworden.net/lw/node/152&quot;&gt;Working Markup: makefile-driven literate programming for reproducible web publishing&lt;/a&gt;. &lt;a href=&quot;#reproduce&quot;&gt;Scroll down&lt;/a&gt; to see the source text for this post.]&lt;/p&gt;
 
 &lt;p&gt;Announcing Working Markup, a text-processing tool that supports reproducible research by providing a streamlined way to develop and document the various computations you do in your research as steps embedded in web pages and blog posts, written in arbitrary markup languages.&lt;/p&gt;
 
@@ -69,7 +69,7 @@ curve( x * exp(-x), 0, 5 );
 &amp;lt;/source-file&amp;gt;
 &lt;/pre&gt;
 
-&lt;p&gt;UNIQ-WW-1864162609-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1234395074-QINU&lt;/p&gt;
 
 &lt;p&gt;And then run the code and display the output by inserting “project-file” tags:&lt;/p&gt;
 
@@ -81,9 +81,11 @@ curve( x * exp(-x), 0, 5 );
 
 &lt;p&gt;Those project-file tags come out looking like this:&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-311747992-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-983322058-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-73968903-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1274320633-QINU&lt;/p&gt;
+
+&lt;h2 id=&quot;a-namereproducereproducibilitya&quot;&gt;&lt;a name=&quot;reproduce&quot;&gt;Reproducibility&lt;/a&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Click through to see &lt;a href=&quot;https://github.com/worden-lee/github-pages-sandbox/blob/master/_posts/2014-11-03-simple-R-demo.md.wmd&quot;&gt;the source text of this post&lt;/a&gt;&lt;/li&gt;
@@ -105,7 +107,7 @@ curve( x * exp(-x), 0, 5 );
         <title>Sage Dynamics Demo</title>
         <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
 
-&lt;p&gt;[This is an adaptation of &lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/worden/index.php/SageDynamics/Demo&quot;&gt;a page from my open lab notebook wiki&lt;/a&gt;, as a demo of our Working Markup reproducible web-publishing system. -lw]&lt;/p&gt;
+&lt;p&gt;[This is an adaptation of &lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/worden/index.php/SageDynamics/Demo&quot;&gt;a page from my open lab notebook wiki&lt;/a&gt;, as a demo of our Working Markup reproducible web-publishing system. &lt;a href=&quot;#reproduce&quot;&gt;Scroll down to the final section&lt;/a&gt; for info on how this post is made, including source code.  -lw]&lt;/p&gt;
 
 &lt;p&gt;This post demonstrates a set of &lt;a href=&quot;http://www.sagemath.org/&quot;&gt;Sage&lt;/a&gt; classes I wrote to work with continuous-time dynamical systems, the kind of system my colleagues and I use a lot as mathematical models.&lt;/p&gt;
 
@@ -115,31 +117,31 @@ curve( x * exp(-x), 0, 5 );
 
 &lt;p&gt;The Sage code for this model is below.  Here’s its output, in LaTeX format:&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-908590666-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-2023198534-QINU&lt;/p&gt;
 
 &lt;p&gt;Here’s the state space plot that the program creates, showing a representative trajectory of the model’s dynamics, with flow vector field and zero-net-growth isoclines:&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1270984367-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1935564090-QINU&lt;/p&gt;
 
-&lt;p&gt;And a bifurcation diagram of total population vs. UNIQ-WW-104260825-QINU (black=stable, red=repelling point, blue=saddle):&lt;/p&gt;
+&lt;p&gt;And a bifurcation diagram of total population vs. UNIQ-WW-873343858-QINU (black=stable, red=repelling point, blue=saddle):&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-428556434-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-750105041-QINU&lt;/p&gt;
 
 &lt;h2 id=&quot;source-code&quot;&gt;Source code&lt;/h2&gt;
 
 &lt;p&gt;Here is the source code for this page’s demo:&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-691415172-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-2145130711-QINU&lt;/p&gt;
 
 &lt;p&gt;And a small makefile to get the above Sage code to connect with the libraries pulled from GitHub into a separate directory:
-UNIQ-WW-1595216767-QINU&lt;/p&gt;
+UNIQ-WW-126941183-QINU&lt;/p&gt;
 
-&lt;h2 id=&quot;reproducibility&quot;&gt;Reproducibility&lt;/h2&gt;
+&lt;h2 id=&quot;a-namereproducereproducibilitya&quot;&gt;&lt;a name=&quot;reproduce&quot;&gt;Reproducibility&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Here are instructions to run this Sage code yourself.  You will need &lt;a href=&quot;http://www.sagemath.org/doc/installation&quot;&gt;Sage&lt;/a&gt;, GNU make, git, perl, and maybe some other utilities installed.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Download and unpack the source code from this page: UNIQ-WW-935643205-QINU&lt;/li&gt;
+  &lt;li&gt;Download and unpack the source code from this page: UNIQ-WW-1826417759-QINU&lt;/li&gt;
   &lt;li&gt;Clone the Sage library code from Git: &lt;a href=&quot;https://github.com/worden-lee/SageDynamics&quot;&gt;https://github.com/worden-lee/SageDynamics&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;In the code directory from this page, edit the makefile &lt;code&gt;libraries.mk&lt;/code&gt; so that it has the correct locations for the SageUtils and SageDynamics directories that you checked out from Git.&lt;/li&gt;
   &lt;li&gt;In the code directory, run &lt;code&gt;make ode-system-demo.sage.out.tex&lt;/code&gt;&lt;/li&gt;
@@ -163,62 +165,62 @@ UNIQ-WW-1595216767-QINU&lt;/p&gt;
         <title>Nomogram</title>
         <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram&quot;&gt;This is a page from Jonathan Dushoff’s math wiki&lt;/a&gt;, adapted for use as a test of my Working Markup blog-post system. -lw]&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/math/index.php/Nomogram&quot;&gt;This is a page from Jonathan Dushoff’s math wiki&lt;/a&gt;, adapted for use as a test of my Working Markup blog-post system. &lt;a href=&quot;#reproduce&quot;&gt;Scroll down&lt;/a&gt; for info about how this post is made, including source code. -lw]&lt;/p&gt;
 
 &lt;p&gt;On this page, I use the free software environment &lt;a href=&quot;http://www.r-project.org/&quot;&gt;R&lt;/a&gt; to construct a &lt;a href=&quot;http://en.wikipedia.org/wiki/Nomogram&quot;&gt;nomogram&lt;/a&gt; that I read about in a recreational math book when I was a kid.  This nomogram solves quadratic equations.&lt;/p&gt;
 
 &lt;h2 id=&quot;nomogram&quot;&gt;Nomogram&lt;/h2&gt;
 
-&lt;p&gt;You can print out UNIQ-WW-247114575-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-1924726246-QINU to UNIQ-WW-799081533-QINU intersects the scale.&lt;/p&gt;
+&lt;p&gt;You can print out UNIQ-WW-251818622-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-1959282585-QINU to UNIQ-WW-1902393481-QINU intersects the scale.&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-582741409-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1140804496-QINU&lt;/p&gt;
 
-&lt;p&gt;The example above shows the solutions to the equation UNIQ-WW-1850087347-QINU.  The dashed line connecting UNIQ-WW-854406579-QINU to UNIQ-WW-798550239-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-1846672203-QINU to UNIQ-WW-1880375237-QINU shows the negative solution (-1.2).&lt;/p&gt;
+&lt;p&gt;The example above shows the solutions to the equation UNIQ-WW-498295741-QINU.  The dashed line connecting UNIQ-WW-1404057582-QINU to UNIQ-WW-336267023-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-2014415327-QINU to UNIQ-WW-1863926687-QINU shows the negative solution (-1.2).&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1027948948-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1653069291-QINU&lt;/p&gt;
 
-&lt;p&gt;In this example (UNIQ-WW-1273355856-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.&lt;/p&gt;
+&lt;p&gt;In this example (UNIQ-WW-168755276-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.&lt;/p&gt;
 
 &lt;h2 id=&quot;math&quot;&gt;Math&lt;/h2&gt;
 
-&lt;p&gt;We want to draw lines from UNIQ-WW-1641421815-QINU to UNIQ-WW-2119262486-QINU that will pass through a point labeled with UNIQ-WW-512454877-QINU, where UNIQ-WW-2026515238-QINU is a root, satisfying UNIQ-WW-777523174-QINU.  The equation for our line is UNIQ-WW-301472913-QINU.  Solve the quadratic to obtain UNIQ-WW-381812826-QINU, and substitute into the line equation to get UNIQ-WW-884797008-QINU.&lt;/p&gt;
+&lt;p&gt;We want to draw lines from UNIQ-WW-1533945609-QINU to UNIQ-WW-1958265301-QINU that will pass through a point labeled with UNIQ-WW-1610947634-QINU, where UNIQ-WW-85294990-QINU is a root, satisfying UNIQ-WW-1523487311-QINU.  The equation for our line is UNIQ-WW-877723358-QINU.  Solve the quadratic to obtain UNIQ-WW-1222250902-QINU, and substitute into the line equation to get UNIQ-WW-857654375-QINU.&lt;/p&gt;
 
-&lt;p&gt;If we want all lines corresponding to UNIQ-WW-1749959016-QINU to go through our point, we must find one independent of UNIQ-WW-1186025427-QINU.  We do this by setting UNIQ-WW-2087444862-QINU, to yield UNIQ-WW-2007767940-QINU.&lt;/p&gt;
+&lt;p&gt;If we want all lines corresponding to UNIQ-WW-539452393-QINU to go through our point, we must find one independent of UNIQ-WW-1431024765-QINU.  We do this by setting UNIQ-WW-165221135-QINU, to yield UNIQ-WW-105222743-QINU.&lt;/p&gt;
 
 &lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
 
 &lt;p&gt;Define and call a nomogram function.&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-2033302834-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1536487850-QINU&lt;/p&gt;
 
 &lt;p&gt;Use make to make the example code below depend on the R environment from above (using our &lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules&amp;quot;&quot;&gt;custom R rules&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1789297980-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-750675945-QINU&lt;/p&gt;
 
 &lt;p&gt;Make a nomogram, then define and make example lines.&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-836307829-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-708823983-QINU&lt;/p&gt;
 
 &lt;p&gt;Here’s another example.&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1139623607-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1940005233-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1747594586-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-945449287-QINU&lt;/p&gt;
 
 &lt;h2 id=&quot;printable&quot;&gt;Printable&lt;/h2&gt;
 
-&lt;p&gt;UNIQ-WW-1284754814-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1841082951-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1742912311-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1332893874-QINU&lt;/p&gt;
 
-&lt;h2 id=&quot;export-source-code&quot;&gt;Export source code&lt;/h2&gt;
+&lt;h2 id=&quot;a-namereproduceexport-source-codea&quot;&gt;&lt;a name=&quot;reproduce&quot;&gt;Export source code&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;This project is designed for reproducible research. &lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;This entire website (including the source text of this blog post, with all the source code included) is available for cloning at https://github.com/worden-lee/github-pages-sandbox.  I’m planning to write instructions for processing it soon.&lt;/li&gt;
   &lt;li&gt;To reproduce the full blog post you’ll need to have the following installed: Jekyll, git, R, latexml, GNU make, perl (and maybe other things - bug reports welcome).&lt;/li&gt;
-  &lt;li&gt;Here is an automatically-generated tar file of the source file contents: UNIQ-WW-1197935036-QINU.  You should be able to unpack this directory and simply run ‘make example.Rout.png’ to build the first image above, and similar commands to build the other output files.&lt;/li&gt;
+  &lt;li&gt;Here is an automatically-generated tar file of the source file contents: UNIQ-WW-2110949773-QINU.  You should be able to unpack this directory and simply run ‘make example.Rout.png’ to build the first image above, and similar commands to build the other output files.&lt;/li&gt;
   &lt;li&gt;To reproduce these outputs you will need GNU make, perl, and R installed.&lt;/li&gt;
 &lt;/ul&gt;
 

@@ -1,4 +1,4 @@
-Thu Nov 13 14:36:15 2014
+Wed Nov 19 15:22:45 2014
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown \
     ode-system-demo.png
@@ -9,4 +9,4 @@ make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_fi
 make: `ode-system-demo.png' is up to date.
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-10-20-SageDynamics.markdown'
 Make succeeded.
-Thu Nov 13 14:36:15 2014
+Wed Nov 19 15:22:45 2014

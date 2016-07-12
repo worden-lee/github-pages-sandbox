@@ -7,6 +7,8 @@ categories: jekyll update
 
 [This is a [Working Markup](http://lalashan.mcmaster.ca/theobio/projects/index.php/Working_Markup) adaptation of [a WorkingWiki page](http://lalashan.mcmaster.ca/theobio/math/index.php/Ebola_data) that downloads and plots [recent data on Ebola cases](https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases).]
 
+[Update: looks like the data file isn't published at the website any more :(]
+
 ## The data file
 
 <project-file filename="data.xlsx" display=download/> is downloaded from [HDX](https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases).

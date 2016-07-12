@@ -6,6 +6,7 @@
 \pagestyle{empty}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{latexml}
 \oddsidemargin 0.0in
 \evensidemargin 0.0in
 \textwidth 6.45in
@@ -34,28 +35,50 @@
 \newcommand{\Bold}[1]{\mathbf{#1}}
 \begin{document}
 The generic competition model:
-\[\begin{align*}
-\frac{dN_{1}}{dt} &= -\frac{{\left(N_{2} \alpha_{12} - K_{1} + N_{1}\right)} N_{1} r_{1}}{K_{1}}\\
-\frac{dN_{2}}{dt} &= -\frac{{\left(N_{1} \alpha_{21} - K_{2} + N_{2}\right)} N_{2} r_{2}}{K_{2}}
-\end{align*}\]
+\[\iflatexml
+\begin{align*}
+\frac{dN_{1}}{dt} &= -\frac{{\left(N_{2} {\alpha_{12}} - K_{1} + N_{1}\right)} N_{1} r_{1}}{K_{1}}\\
+\frac{dN_{2}}{dt} &= -\frac{{\left(N_{1} {\alpha_{21}} - K_{2} + N_{2}\right)} N_{2} r_{2}}{K_{2}}
+\end{align*}
+\else
+\begin{dgroup*}
+\begin{dmath*}
+\frac{dN_{1}}{dt} = -\frac{{\left(N_{2} {\alpha_{12}} - K_{1} + N_{1}\right)} N_{1} r_{1}}{K_{1}}\end{dmath*}
+\begin{dmath*}
+\frac{dN_{2}}{dt} = -\frac{{\left(N_{1} {\alpha_{21}} - K_{2} + N_{2}\right)} N_{2} r_{2}}{K_{2}}
+\end{dmath*}
+\end{dgroup*}
+\fi
+\]
 The competition model with parameters bound to specific values:
-\[\begin{align*}
+\[\iflatexml
+\begin{align*}
 \frac{dN_{1}}{dt} &= -\frac{1}{2} \, {\left(2 \, N_{1} + N_{2} - 2\right)} N_{1}\\
 \frac{dN_{2}}{dt} &= -\frac{1}{5} \, {\left(2 \, N_{1} + 4 \, N_{2} - 5\right)} N_{2}
-\end{align*}\]
+\end{align*}
+\else
+\begin{dgroup*}
+\begin{dmath*}
+\frac{dN_{1}}{dt} = -\frac{1}{2} \, {\left(2 \, N_{1} + N_{2} - 2\right)} N_{1}\end{dmath*}
+\begin{dmath*}
+\frac{dN_{2}}{dt} = -\frac{1}{5} \, {\left(2 \, N_{1} + 4 \, N_{2} - 5\right)} N_{2}
+\end{dmath*}
+\end{dgroup*}
+\fi
+\]
 Equilibria of the generic model: 
 \[ \left(\begin{array}{c}
   0\\
   0
 \end{array}\right), \left(\begin{array}{c}
-  K_{1}\\
-  0
-\end{array}\right), \left(\begin{array}{c}
   0\\
   K_{2}
 \end{array}\right), \left(\begin{array}{c}
-  \frac{K_{2} \alpha_{12} - K_{1}}{\alpha_{12} \alpha_{21} - 1}\\
-  \frac{K_{1} \alpha_{21} - K_{2}}{\alpha_{12} \alpha_{21} - 1}
+  K_{1}\\
+  0
+\end{array}\right), \left(\begin{array}{c}
+  \frac{K_{2} {\alpha_{12}} - K_{1}}{{\alpha_{12}} {\alpha_{21}} - 1}\\
+  \frac{K_{1} {\alpha_{21}} - K_{2}}{{\alpha_{12}} {\alpha_{21}} - 1}
 \end{array}\right)
 \]Stable equilibria of the bound model: 
 \[\left(\begin{array}{c}

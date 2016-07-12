@@ -148,7 +148,7 @@ nomogram()
 
 <p>Use make to make the example code below depend on the R environment from above (using our <a href="http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules&quot;">custom R rules</a>).</p>
 
-<p><!-- example.mk --><fieldset class="ww-project-file-source ww-collapsible"><legend><span>example.mk</span></legend><div class="ww-collapsible-content"><pre>example.Rout: nomogram.RData example.R
+<p><!-- example.mk --><fieldset class="ww-project-file-source ww-collapsible"><legend><span>example.mk</span></legend><div class="ww-collapsible-content"><pre><a href='/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/example.Rout'>example.Rout</a>: <a href='/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/nomogram.RData'>nomogram.RData</a> <a href='/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/example.R'>example.R</a>
 </pre></div></fieldset></p>
 
 <p>Make a nomogram, then define and make example lines.</p>
@@ -163,7 +163,7 @@ eqLines(-3, -5)
 
 <p>Here’s another example.</p>
 
-<p><!-- another.mk --><fieldset class="ww-project-file-source ww-collapsible"><legend><span>another.mk</span></legend><div class="ww-collapsible-content"><pre>another.Rout: example.RData
+<p><!-- another.mk --><fieldset class="ww-project-file-source ww-collapsible"><legend><span>another.mk</span></legend><div class="ww-collapsible-content"><pre><a href='/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/another.Rout'>another.Rout</a>: <a href='/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/example.RData'>example.RData</a>
 </pre></div></fieldset></p>
 
 <p><!-- another.R --><fieldset class="ww-project-file-source ww-collapsible"><legend><span>another.R</span></legend><div class="ww-collapsible-content"><pre>nomogram()
@@ -172,7 +172,7 @@ eqLines(-5, 1)
 
 <h2 id="printable">Printable</h2>
 
-<p><!-- printable.mk --><fieldset class="ww-project-file-source ww-collapsible"><legend><span>printable.mk</span></legend><div class="ww-collapsible-content"><pre>printable.Rout: nomogram.Rout
+<p><!-- printable.mk --><fieldset class="ww-project-file-source ww-collapsible"><legend><span>printable.mk</span></legend><div class="ww-collapsible-content"><pre><a href='/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/printable.Rout'>printable.Rout</a>: <a href='/github-pages-sandbox/wmd_files/2014-10-15-nomogram.md/nomogram.Rout'>nomogram.Rout</a>
 </pre></div></fieldset></p>
 
 <p><!-- printable.R --><fieldset class="ww-project-file-source ww-collapsible"><legend><span>printable.R</span></legend><div class="ww-collapsible-content"><pre># setpdf(height=9.5, width=6.5) # This is a theobio/Rprep magic command
@@ -181,7 +181,7 @@ nomogram()
 
 <h2 id="a-namereproduceexport-source-codea"><a name="reproduce">Export source code</a></h2>
 
-<p>This project is designed for reproducible research. </p>
+<p>This project is designed for reproducible research.</p>
 
 <ul>
   <li>This entire website (including the source text of this blog post, with all the source code included) is available for cloning at https://github.com/worden-lee/github-pages-sandbox.  I’m planning to write instructions for processing it soon.</li>

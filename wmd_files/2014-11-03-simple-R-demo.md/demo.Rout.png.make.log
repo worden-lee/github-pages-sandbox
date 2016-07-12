@@ -1,11 +1,12 @@
-Wed Nov 19 15:22:45 2014
+Mon Jul 11 18:19:47 2016
 /usr/bin/make -C \
     /usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-11-03-simple-R-demo.md \
     demo.Rout.png
 Including .mk files:  
+Including .mk files from .step files: 
 Including .tex.d files: 
 make: Entering directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-11-03-simple-R-demo.md'
 make: `demo.Rout.png' is up to date.
 make: Leaving directory `/usr/local/src/jekyll-test/github-pages-sandbox/wmd_files/2014-11-03-simple-R-demo.md'
 Make succeeded.
-Wed Nov 19 15:22:45 2014
+Mon Jul 11 18:19:47 2016

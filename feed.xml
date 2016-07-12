@@ -2,57 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LW Jekyll/GitHub Pages Sandbox</title>
-    <description>This is a sandbox test site for Lee Worden's experiments with Jekyll and GitHub Pages
+    <description>This is a sandbox test site for Lee Worden&#39;s experiments with Jekyll and GitHub Pages
 </description>
     <link>/github-pages-sandbox/</link>
     <atom:link href="/github-pages-sandbox/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Nov 2014 15:22:38 -0800</pubDate>
-    <lastBuildDate>Wed, 19 Nov 2014 15:22:38 -0800</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Ebola Data</title>
-        <description>&lt;p&gt;[This is a &lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/projects/index.php/Working_Markup&quot;&gt;Working Markup&lt;/a&gt; adaptation of &lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/math/index.php/Ebola_data&quot;&gt;a WorkingWiki page&lt;/a&gt; that downloads and plots &lt;a href=&quot;https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases&quot;&gt;recent data on Ebola cases&lt;/a&gt;.]&lt;/p&gt;
-
-&lt;h2 id=&quot;the-data-file&quot;&gt;The data file&lt;/h2&gt;
-
-&lt;p&gt;UNIQ-WW-1411661745-QINU is downloaded from &lt;a href=&quot;https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases&quot;&gt;HDX&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;wget&lt;/code&gt; by default keeps the timestamp from the download server. This will be useful in some cases, but right now we don’t want it, because HDX changes the location for each new update, and we are tracking manually. So for now, we are using “touch” when we download, and the project will automatically update after you manually change the file location.&lt;/p&gt;
-
-&lt;p&gt;UNIQ-WW-23253309-QINU&lt;/p&gt;
-
-&lt;h2 id=&quot;exploration&quot;&gt;Exploration&lt;/h2&gt;
-
-&lt;p&gt;UNIQ-WW-1386583188-QINU&lt;/p&gt;
-
-&lt;p&gt;UNIQ-WW-296728375-QINU&lt;/p&gt;
-
-&lt;p&gt;UNIQ-WW-671185309-QINU&lt;/p&gt;
-
-&lt;p&gt;UNIQ-WW-1497345580-QINU&lt;/p&gt;
-
-&lt;p&gt;UNIQ-WW-1553095413-QINU&lt;/p&gt;
-
-&lt;p&gt;UNIQ-WW-574780956-QINU&lt;/p&gt;
-
-&lt;p&gt;UNIQ-WW-1908967395-QINU&lt;/p&gt;
-
-&lt;h2 id=&quot;helper-code&quot;&gt;Helper code&lt;/h2&gt;
-
-&lt;p&gt;UNIQ-WW-1679490483-QINU&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 13 Nov 2014 06:00:00 -0800</pubDate>
-        <link>/github-pages-sandbox/jekyll/update/2014/11/13/ebola.html</link>
-        <guid isPermaLink="true">/github-pages-sandbox/jekyll/update/2014/11/13/ebola.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
+    <pubDate>Mon, 11 Jul 2016 18:19:30 -0700</pubDate>
+    <lastBuildDate>Mon, 11 Jul 2016 18:19:30 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Simple R Demo</title>
@@ -69,7 +25,7 @@ curve( x * exp(-x), 0, 5 );
 &amp;lt;/source-file&amp;gt;
 &lt;/pre&gt;
 
-&lt;p&gt;UNIQ-WW-1234395074-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1749775896-QINU&lt;/p&gt;
 
 &lt;p&gt;And then run the code and display the output by inserting “project-file” tags:&lt;/p&gt;
 
@@ -81,9 +37,9 @@ curve( x * exp(-x), 0, 5 );
 
 &lt;p&gt;Those project-file tags come out looking like this:&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-983322058-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-466067353-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1274320633-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-356820270-QINU&lt;/p&gt;
 
 &lt;h2 id=&quot;a-namereproducereproducibilitya&quot;&gt;&lt;a name=&quot;reproduce&quot;&gt;Reproducibility&lt;/a&gt;&lt;/h2&gt;
 
@@ -117,34 +73,32 @@ curve( x * exp(-x), 0, 5 );
 
 &lt;p&gt;The Sage code for this model is below.  Here’s its output, in LaTeX format:&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-2023198534-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-692657839-QINU&lt;/p&gt;
 
 &lt;p&gt;Here’s the state space plot that the program creates, showing a representative trajectory of the model’s dynamics, with flow vector field and zero-net-growth isoclines:&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1935564090-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1838361368-QINU&lt;/p&gt;
 
-&lt;p&gt;And a bifurcation diagram of total population vs. UNIQ-WW-873343858-QINU (black=stable, red=repelling point, blue=saddle):&lt;/p&gt;
+&lt;p&gt;And a bifurcation diagram of total population vs. UNIQ-WW-784432652-QINU (black=stable, red=repelling point, blue=saddle):&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-750105041-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-862507503-QINU&lt;/p&gt;
 
 &lt;h2 id=&quot;source-code&quot;&gt;Source code&lt;/h2&gt;
 
 &lt;p&gt;Here is the source code for this page’s demo:&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-2145130711-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1906968615-QINU&lt;/p&gt;
 
-&lt;p&gt;And a small makefile to get the above Sage code to connect with the libraries pulled from GitHub into a separate directory:
-UNIQ-WW-126941183-QINU&lt;/p&gt;
+&lt;p&gt;And a small makefile to get the above Sage code to connect with the libraries pulled from GitHub into a separate directory:&lt;/p&gt;
 
 &lt;h2 id=&quot;a-namereproducereproducibilitya&quot;&gt;&lt;a name=&quot;reproduce&quot;&gt;Reproducibility&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Here are instructions to run this Sage code yourself.  You will need &lt;a href=&quot;http://www.sagemath.org/doc/installation&quot;&gt;Sage&lt;/a&gt;, GNU make, git, perl, and maybe some other utilities installed.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Download and unpack the source code from this page: UNIQ-WW-1826417759-QINU&lt;/li&gt;
-  &lt;li&gt;Clone the Sage library code from Git: &lt;a href=&quot;https://github.com/worden-lee/SageDynamics&quot;&gt;https://github.com/worden-lee/SageDynamics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;In the code directory from this page, edit the makefile &lt;code&gt;libraries.mk&lt;/code&gt; so that it has the correct locations for the SageUtils and SageDynamics directories that you checked out from Git.&lt;/li&gt;
-  &lt;li&gt;In the code directory, run &lt;code&gt;make ode-system-demo.sage.out.tex&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Download and unpack the source code from this page: UNIQ-WW-1971646170-QINU&lt;/li&gt;
+  &lt;li&gt;Install &lt;a href=&quot;https://help.ubuntu.com/community/SAGE&quot;&gt;Sage&lt;/a&gt; and the Sage library code from &lt;a href=&quot;https://github.com/worden-lee/SageDynamics&quot;&gt;https://github.com/worden-lee/SageDynamics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;In the code directory, run &lt;code class=&quot;highlighter-rouge&quot;&gt;make ode-system-demo.sage.out.tex&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;To see how this blog post is written, with source code embedded, see &lt;a href=&quot;https://github.com/worden-lee/github-pages-sandbox/blob/master/_posts/2014-10-20-SageDynamics.markdown.wmd&quot;&gt;https://github.com/worden-lee/github-pages-sandbox/blob/master/_posts/2014-10-20-SageDynamics.markdown.wmd&lt;/a&gt;.&lt;/p&gt;
@@ -171,56 +125,56 @@ UNIQ-WW-126941183-QINU&lt;/p&gt;
 
 &lt;h2 id=&quot;nomogram&quot;&gt;Nomogram&lt;/h2&gt;
 
-&lt;p&gt;You can print out UNIQ-WW-251818622-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-1959282585-QINU to UNIQ-WW-1902393481-QINU intersects the scale.&lt;/p&gt;
+&lt;p&gt;You can print out UNIQ-WW-1869505799-QINU, and use a ruler to read off the solutions to the quadratic equation, where the line from UNIQ-WW-849405285-QINU to UNIQ-WW-1236091656-QINU intersects the scale.&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1140804496-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-1716411437-QINU&lt;/p&gt;
 
-&lt;p&gt;The example above shows the solutions to the equation UNIQ-WW-498295741-QINU.  The dashed line connecting UNIQ-WW-1404057582-QINU to UNIQ-WW-336267023-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-2014415327-QINU to UNIQ-WW-1863926687-QINU shows the negative solution (-1.2).&lt;/p&gt;
+&lt;p&gt;The example above shows the solutions to the equation UNIQ-WW-1116923895-QINU.  The dashed line connecting UNIQ-WW-585856651-QINU to UNIQ-WW-1367663550-QINU shows the positive solution (4.2), and the dotted line connecting UNIQ-WW-1917315200-QINU to UNIQ-WW-723336960-QINU shows the negative solution (-1.2).&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1653069291-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-613381644-QINU&lt;/p&gt;
 
-&lt;p&gt;In this example (UNIQ-WW-168755276-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.&lt;/p&gt;
+&lt;p&gt;In this example (UNIQ-WW-1451035520-QINU), both solutions are positive (0.2 and 4.8), thus only the dashed line intersects the scale.&lt;/p&gt;
 
 &lt;h2 id=&quot;math&quot;&gt;Math&lt;/h2&gt;
 
-&lt;p&gt;We want to draw lines from UNIQ-WW-1533945609-QINU to UNIQ-WW-1958265301-QINU that will pass through a point labeled with UNIQ-WW-1610947634-QINU, where UNIQ-WW-85294990-QINU is a root, satisfying UNIQ-WW-1523487311-QINU.  The equation for our line is UNIQ-WW-877723358-QINU.  Solve the quadratic to obtain UNIQ-WW-1222250902-QINU, and substitute into the line equation to get UNIQ-WW-857654375-QINU.&lt;/p&gt;
+&lt;p&gt;We want to draw lines from UNIQ-WW-1936769273-QINU to UNIQ-WW-1034353926-QINU that will pass through a point labeled with UNIQ-WW-811958925-QINU, where UNIQ-WW-1938316046-QINU is a root, satisfying UNIQ-WW-560021023-QINU.  The equation for our line is UNIQ-WW-1728906519-QINU.  Solve the quadratic to obtain UNIQ-WW-1150550478-QINU, and substitute into the line equation to get UNIQ-WW-356311202-QINU.&lt;/p&gt;
 
-&lt;p&gt;If we want all lines corresponding to UNIQ-WW-539452393-QINU to go through our point, we must find one independent of UNIQ-WW-1431024765-QINU.  We do this by setting UNIQ-WW-165221135-QINU, to yield UNIQ-WW-105222743-QINU.&lt;/p&gt;
+&lt;p&gt;If we want all lines corresponding to UNIQ-WW-2034928877-QINU to go through our point, we must find one independent of UNIQ-WW-1185293238-QINU.  We do this by setting UNIQ-WW-452785710-QINU, to yield UNIQ-WW-1842555564-QINU.&lt;/p&gt;
 
 &lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
 
 &lt;p&gt;Define and call a nomogram function.&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1536487850-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-579359119-QINU&lt;/p&gt;
 
 &lt;p&gt;Use make to make the example code below depend on the R environment from above (using our &lt;a href=&quot;http://lalashan.mcmaster.ca/theobio/projects/index.php/Theobio/R_rules&amp;quot;&quot;&gt;custom R rules&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-750675945-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-351378337-QINU&lt;/p&gt;
 
 &lt;p&gt;Make a nomogram, then define and make example lines.&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-708823983-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-243686015-QINU&lt;/p&gt;
 
 &lt;p&gt;Here’s another example.&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1940005233-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-674733479-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-945449287-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-2084830521-QINU&lt;/p&gt;
 
 &lt;h2 id=&quot;printable&quot;&gt;Printable&lt;/h2&gt;
 
-&lt;p&gt;UNIQ-WW-1841082951-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-425630233-QINU&lt;/p&gt;
 
-&lt;p&gt;UNIQ-WW-1332893874-QINU&lt;/p&gt;
+&lt;p&gt;UNIQ-WW-443304121-QINU&lt;/p&gt;
 
 &lt;h2 id=&quot;a-namereproduceexport-source-codea&quot;&gt;&lt;a name=&quot;reproduce&quot;&gt;Export source code&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;This project is designed for reproducible research. &lt;/p&gt;
+&lt;p&gt;This project is designed for reproducible research.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;This entire website (including the source text of this blog post, with all the source code included) is available for cloning at https://github.com/worden-lee/github-pages-sandbox.  I’m planning to write instructions for processing it soon.&lt;/li&gt;
   &lt;li&gt;To reproduce the full blog post you’ll need to have the following installed: Jekyll, git, R, latexml, GNU make, perl (and maybe other things - bug reports welcome).&lt;/li&gt;
-  &lt;li&gt;Here is an automatically-generated tar file of the source file contents: UNIQ-WW-2110949773-QINU.  You should be able to unpack this directory and simply run ‘make example.Rout.png’ to build the first image above, and similar commands to build the other output files.&lt;/li&gt;
+  &lt;li&gt;Here is an automatically-generated tar file of the source file contents: UNIQ-WW-1294154787-QINU.  You should be able to unpack this directory and simply run ‘make example.Rout.png’ to build the first image above, and similar commands to build the other output files.&lt;/li&gt;
   &lt;li&gt;To reproduce these outputs you will need GNU make, perl, and R installed.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -241,17 +195,17 @@ UNIQ-WW-126941183-QINU&lt;/p&gt;
     
       <item>
         <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
